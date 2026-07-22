@@ -13,5 +13,5 @@ Search subject plasmids:
 
 From TableS2_plasmids_curated_for_publication_310823.xlsx
 
-## 
+## Extract plasmid accessions
 
