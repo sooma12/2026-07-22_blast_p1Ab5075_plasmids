@@ -11,6 +11,8 @@ SHEET_NAME = "Final_plasmid_set"
 ACCESSION_COLUMN = "Plasmid accession"
 OUTPUT_FILE = "input/accessions.txt"
 
+print('script is working, starting to read excel file')
+
 df = pd.read_excel(INPUT_XLSX, sheet_name=SHEET_NAME)
 
 print(f"Loaded sheet '{SHEET_NAME}' with {len(df)} rows and columns:")
