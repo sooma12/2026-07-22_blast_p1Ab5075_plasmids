@@ -15,3 +15,14 @@ From TableS2_plasmids_curated_for_publication_310823.xlsx
 
 ## Extract plasmid accessions
 
+use `1_extract_plasmid_accessions.py`
+
+## Download sequences
+
+For the plasmid subject sequences... start with nucleic acid fastas.
+
+Activate conda env: `conda activate /projects/geisingerlab/conda_env/blast_corr/`
+
+
+
+For the query genes (above), get both nucleic acid and protein sequences
