@@ -7,7 +7,7 @@
 # is annotated in Gene but the direct protein-db field search misses it).
 #
 # Usage:
-#   bash scripts/4_fetch_genes_by_locus_tag.sh input/locus_tags.txt data/genes_protein.fasta
+#   ./fetch_genes_by_locus_tag.sh locus_tags.txt genes_protein.fasta
 
 LOCUS_TAG_FILE="${1:-locus_tags.txt}"
 OUTPUT_FASTA="${2:-genes_protein.fasta}"
@@ -37,18 +37,18 @@ total=$(wc -l < "$LOCUS_TAG_FILE")
 echo "Fetching $total locus tags..."
 
 count=0
-while IFS= read -r tag; do
+while IFS= read -r tag <&3; do
     [ -z "$tag" ] && continue
     count=$((count + 1))
     echo "[$count/$total] $tag"
 
     # --- Primary: direct protein-db search by Locus Tag field ---
-    n_hits=$(esearch -db protein -query "${tag}[Locus Tag]" 2>"$WORK_DIR/err.log" \
+    n_hits=$(esearch -db protein -query "${tag}[Locus Tag]" </dev/null 2>"$WORK_DIR/err.log" \
              | xtract -pattern ENTREZ_DIRECT -element Count)
     n_hits=${n_hits:-0}
 
     if [ "$n_hits" -eq 1 ]; then
-        result=$(esearch -db protein -query "${tag}[Locus Tag]" 2>>"$WORK_DIR/err.log" \
+        result=$(esearch -db protein -query "${tag}[Locus Tag]" </dev/null 2>>"$WORK_DIR/err.log" \
                  | efetch -format fasta 2>>"$WORK_DIR/err.log")
         acc=$(echo "$result" | head -1 | sed 's/^>//' | awk '{print $1}')
         echo "$result" >> "$OUTPUT_FASTA"
@@ -57,7 +57,7 @@ while IFS= read -r tag; do
 
     elif [ "$n_hits" -gt 1 ]; then
         echo "  WARNING: $n_hits protein hits for this locus tag -- fetching all, please review"
-        result=$(esearch -db protein -query "${tag}[Locus Tag]" 2>>"$WORK_DIR/err.log" \
+        result=$(esearch -db protein -query "${tag}[Locus Tag]" </dev/null 2>>"$WORK_DIR/err.log" \
                  | efetch -format fasta 2>>"$WORK_DIR/err.log")
         echo "$result" >> "$OUTPUT_FASTA"
         echo -e "${tag}\tprotein_locus_tag\tMULTIPLE_HITS(${n_hits})\tsee_fasta" >> "$REPORT_LOG"
@@ -65,11 +65,11 @@ while IFS= read -r tag; do
     else
         # --- Fallback: Gene db -> elink -> protein ---
         echo "  No direct protein hit -- trying Gene db fallback..."
-        gene_uid=$(esearch -db gene -query "${tag}[Locus Tag]" 2>"$WORK_DIR/err.log" \
+        gene_uid=$(esearch -db gene -query "${tag}[Locus Tag]" </dev/null 2>"$WORK_DIR/err.log" \
                    | efetch -format uid 2>>"$WORK_DIR/err.log" | head -1)
 
         if [ -n "$gene_uid" ]; then
-            result=$(esearch -db gene -query "${tag}[Locus Tag]" 2>>"$WORK_DIR/err.log" \
+            result=$(esearch -db gene -query "${tag}[Locus Tag]" </dev/null 2>>"$WORK_DIR/err.log" \
                      | elink -target protein 2>>"$WORK_DIR/err.log" \
                      | efetch -format fasta 2>>"$WORK_DIR/err.log")
 
@@ -91,7 +91,7 @@ while IFS= read -r tag; do
     fi
 
     sleep 0.34
-done < "$LOCUS_TAG_FILE"
+done 3< "$LOCUS_TAG_FILE"
 
 n_seqs=$(grep -c "^>" "$OUTPUT_FASTA" || echo 0)
 echo ""
