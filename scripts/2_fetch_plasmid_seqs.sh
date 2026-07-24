@@ -1,23 +1,22 @@
 #!/bin/bash
 # Fetch plasmid nucleotide sequences from NCBI by accession, using EDirect.
 #
-# v3 changes:
-#   - Uses a local working directory (./fetch_work by default) instead of
-#     /tmp, created explicitly with mkdir -p. Some environments have a
-#     read-only, non-persistent, or restricted /tmp, which can cause
-#     silent failures.
-#   - Errors are printed directly to the terminal (not just logged to a
-#     file), so failures are visible immediately.
-#   - set -e is intentionally NOT used (we handle per-batch failures
-#     ourselves); but every step now checks its own exit status explicitly
-#     so failures can't pass silently.
+# v4 changes (see v3 for the working-directory / visible-error fixes,
+# both kept here):
+#   - Switched from `epost -format acc | efetch` to `efetch -id acc1,acc2,...`
+#     directly. The epost/esearch pipeline translates accessions to UIDs
+#     via NCBI's [ACCN] field search, which was silently dropping a
+#     consistent subset of accessions per batch (visible as retmax being
+#     smaller than the batch size, before any fetch even happened) --
+#     particularly affecting WGS-contig-style accessions. Calling
+#     `efetch -id` directly fetches by accession with no translation step,
+#     avoiding that failure mode and cutting out a network round-trip.
 #
 # Usage:
-#   bash scripts/2_fetch_plasmid_seqs.sh input/accessions.txt data/all_plasmids.fasta [work_dir]
+#   ./fetch_plasmids_edirect_v4.sh accessions.txt all_plasmids.fasta [work_dir]
 #
 # Safe to re-run: appends to the output file, so you can run this against
-# a "missing_accessions.txt" or "failed_accessions.txt" file to top up an
-# existing FASTA.
+# a "failed_accessions.txt" file to top up an existing FASTA.
 
 ACCESSION_FILE="${1:-accessions.txt}"
 OUTPUT_FASTA="${2:-all_plasmids.fasta}"
@@ -31,7 +30,6 @@ if [ ! -f "$ACCESSION_FILE" ]; then
     exit 1
 fi
 
-# --- Set up working directory explicitly, and confirm it's actually writable ---
 mkdir -p "$WORK_DIR"
 if [ $? -ne 0 ]; then
     echo "ERROR: could not create working directory: $WORK_DIR"
@@ -43,10 +41,8 @@ if [ ! -w "$WORK_DIR" ]; then
 fi
 echo "Using working directory: $WORK_DIR"
 
-# Check that epost/efetch are actually on PATH before we start
-if ! command -v epost >/dev/null 2>&1 || ! command -v efetch >/dev/null 2>&1; then
-    echo "ERROR: epost/efetch not found on PATH. Is EDirect installed and sourced?"
-    echo "  (e.g. run: source ~/.bashrc  -- or re-check the EDirect install instructions)"
+if ! command -v efetch >/dev/null 2>&1; then
+    echo "ERROR: efetch not found on PATH. Is EDirect installed and sourced?"
     exit 1
 fi
 
@@ -77,6 +73,9 @@ for batch_file in "$WORK_DIR"/acc_batch_*; do
     batch_num=$((batch_num + 1))
     n_expected=$(wc -l < "$batch_file")
 
+    # Build comma-separated accession list for this batch
+    id_list=$(paste -sd, "$batch_file")
+
     attempt=1
     success=0
     result_file="$WORK_DIR/batch_result.fasta"
@@ -85,14 +84,9 @@ for batch_file in "$WORK_DIR"/acc_batch_*; do
     while [ "$attempt" -le "$MAX_RETRIES" ]; do
         echo "Batch $batch_num/$n_batches, attempt $attempt..."
 
-        epost -db nuccore -input "$batch_file" -format acc 2>"$WORK_DIR/epost_err.log" \
-            | efetch -format fasta > "$result_file" 2>"$err_file"
+        efetch -db nuccore -id "$id_list" -format fasta > "$result_file" 2>"$err_file"
         exit_code=$?
 
-        if [ -s "$WORK_DIR/epost_err.log" ]; then
-            echo "  epost stderr:"
-            sed 's/^/    /' "$WORK_DIR/epost_err.log"
-        fi
         if [ -s "$err_file" ]; then
             echo "  efetch stderr:"
             sed 's/^/    /' "$err_file"
@@ -120,12 +114,26 @@ for batch_file in "$WORK_DIR"/acc_batch_*; do
     done
 
     if [ "$success" -ne 1 ]; then
-        echo "  Batch $batch_num FAILED after $MAX_RETRIES attempts -- logging accessions"
-        cat "$batch_file" >> "$FAILED_LOG"
-        # Keep any partial result from the last attempt rather than discard it
-        if [ -s "$result_file" ]; then
-            cat "$result_file" >> "$OUTPUT_FASTA"
-        fi
+        echo "  Batch $batch_num FAILED after $MAX_RETRIES attempts."
+        echo "  Falling back to fetching this batch one accession at a time..."
+
+        # Per-accession fallback: identifies exactly which accession(s)
+        # in the batch are the problem, and still recovers the good ones.
+        while IFS= read -r single_acc; do
+            [ -z "$single_acc" ] && continue
+            single_out="$WORK_DIR/single_result.fasta"
+            efetch -db nuccore -id "$single_acc" -format fasta > "$single_out" 2>"$WORK_DIR/single_err.log"
+            n_single=$(grep -c "^>" "$single_out" 2>/dev/null || echo 0)
+
+            if [ "$n_single" -ge 1 ]; then
+                cat "$single_out" >> "$OUTPUT_FASTA"
+            else
+                echo "    FAILED: $single_acc"
+                sed 's/^/      /' "$WORK_DIR/single_err.log"
+                echo "$single_acc" >> "$FAILED_LOG"
+            fi
+            sleep 0.34
+        done < "$batch_file"
     fi
 
     rm -f "$batch_file"
@@ -138,6 +146,7 @@ echo "Total sequences now in $OUTPUT_FASTA: $n_seqs (requested $total unique acc
 
 if [ -s "$FAILED_LOG" ]; then
     n_failed_lines=$(wc -l < "$FAILED_LOG")
-    echo "$n_failed_lines accessions in failed batches -- see $FAILED_LOG"
-    echo "Re-run this script pointed at $FAILED_LOG to retry just those."
+    echo "$n_failed_lines accessions genuinely failed -- see $FAILED_LOG"
+    echo "These are true problem accessions (not batch artifacts) -- worth checking individually,"
+    echo "e.g. searching the accession directly at https://www.ncbi.nlm.nih.gov/nuccore/"
 fi
