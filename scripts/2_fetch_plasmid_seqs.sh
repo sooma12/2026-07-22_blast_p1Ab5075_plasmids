@@ -13,7 +13,7 @@
 #     avoiding that failure mode and cutting out a network round-trip.
 #
 # Usage:
-#   ./fetch_plasmids_edirect_v4.sh accessions.txt all_plasmids.fasta [work_dir]
+#   ./2_fetch_plasmids_seqs.sh [accessions.txt] data/all_plasmids.fasta [work_dir]
 #
 # Safe to re-run: appends to the output file, so you can run this against
 # a "failed_accessions.txt" file to top up an existing FASTA.
