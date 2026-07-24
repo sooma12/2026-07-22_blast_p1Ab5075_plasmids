@@ -4,7 +4,7 @@
 # (dropped SSL connections, timeouts, etc).
 #
 # Usage:
-#   ./fetch_plasmids_edirect_v2.sh accessions.txt all_plasmids.fasta
+#   bash scripts/2_fetch_plasmid_seqs.sh input/accessions.txt data/all_plasmids.fasta
 #
 # Safe to re-run: appends to the output file, so you can run this against
 # a "missing_accessions.txt" file to top up an existing FASTA.
