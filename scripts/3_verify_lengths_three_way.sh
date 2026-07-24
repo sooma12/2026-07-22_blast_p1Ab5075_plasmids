@@ -49,19 +49,70 @@ echo "Querying NCBI for expected lengths..."
 rm -f "$WORK_DIR"/lc_batch_*
 split -l "$BATCH_SIZE" "$ACCESSION_FILE" "$WORK_DIR/lc_batch_"
 
+# --- Step 2: expected lengths from NCBI esummary, in batches, with retries ---
+echo "Querying NCBI for expected lengths..."
+> "$WORK_DIR/expected_lengths.tsv"
+rm -f "$WORK_DIR"/lc_batch_*
+split -l "$BATCH_SIZE" "$ACCESSION_FILE" "$WORK_DIR/lc_batch_"
+
+MAX_RETRIES=4
+SLEEP_BASE=2
+
 batch_num=0
 n_batches=$(ls "$WORK_DIR"/lc_batch_* 2>/dev/null | wc -l)
 for batch_file in "$WORK_DIR"/lc_batch_*; do
     batch_num=$((batch_num + 1))
+    n_expected_in_batch=$(wc -l < "$batch_file")
     id_list=$(paste -sd, "$batch_file")
-    echo "  Batch $batch_num/$n_batches..."
-    esummary -db nuccore -id "$id_list" 2>"$WORK_DIR/esummary_err.log" \
-        | xtract -pattern DocumentSummary -element Caption,Slen \
-        >> "$WORK_DIR/expected_lengths.tsv"
-    if [ -s "$WORK_DIR/esummary_err.log" ]; then
-        echo "    esummary stderr:"
-        sed 's/^/      /' "$WORK_DIR/esummary_err.log"
+
+    attempt=1
+    success=0
+    batch_out="$WORK_DIR/esummary_batch_result.tsv"
+
+    while [ "$attempt" -le "$MAX_RETRIES" ]; do
+        echo "  Batch $batch_num/$n_batches, attempt $attempt..."
+        esummary -db nuccore -id "$id_list" 2>"$WORK_DIR/esummary_err.log" \
+            | xtract -pattern DocumentSummary -element Caption,Slen \
+            > "$batch_out"
+
+        if [ -s "$WORK_DIR/esummary_err.log" ]; then
+            echo "    esummary stderr:"
+            sed 's/^/      /' "$WORK_DIR/esummary_err.log"
+        fi
+
+        n_got=$(wc -l < "$batch_out")
+        if [ "$n_got" -eq "$n_expected_in_batch" ]; then
+            cat "$batch_out" >> "$WORK_DIR/expected_lengths.tsv"
+            echo "    OK: got $n_got/$n_expected_in_batch summaries"
+            success=1
+            break
+        else
+            echo "    Partial/failed: got $n_got/$n_expected_in_batch -- retrying"
+        fi
+
+        sleep_time=$((SLEEP_BASE * (2 ** (attempt - 1))))
+        sleep "$sleep_time"
+        attempt=$((attempt + 1))
+    done
+
+    if [ "$success" -ne 1 ]; then
+        echo "  Batch $batch_num failed after $MAX_RETRIES attempts -- falling back to one-at-a-time"
+        while IFS= read -r single_acc; do
+            [ -z "$single_acc" ] && continue
+            single_out="$WORK_DIR/esummary_single.tsv"
+            esummary -db nuccore -id "$single_acc" 2>"$WORK_DIR/esummary_single_err.log" \
+                | xtract -pattern DocumentSummary -element Caption,Slen \
+                > "$single_out"
+            if [ -s "$single_out" ]; then
+                cat "$single_out" >> "$WORK_DIR/expected_lengths.tsv"
+            else
+                echo "    STILL FAILED for accession: $single_acc"
+                sed 's/^/      /' "$WORK_DIR/esummary_single_err.log"
+            fi
+            sleep 0.34
+        done < "$batch_file"
     fi
+
     rm -f "$batch_file"
     sleep 0.4
 done
