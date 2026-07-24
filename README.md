@@ -27,6 +27,6 @@ For the plasmid subject sequences... start with nucleic acid fastas.
 
 Activate conda env: `conda activate /projects/geisingerlab/conda_env/blast_corr/`
 
-Request a compute node... then, command to fetch plasmid fastas: `bash scripts/fetch_plasmids_edirect.sh input/accessions.txt data/all_plasmids.fasta`
+Request a compute node... then, command to fetch plasmid fastas: `bash scripts/2_fetch_plasmid_seqs.sh input/accessions.txt data/all_plasmids.fasta`
 
 For the query genes (above), get both nucleic acid and protein sequences
