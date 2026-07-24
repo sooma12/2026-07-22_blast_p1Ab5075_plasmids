@@ -13,7 +13,7 @@
 #     avoiding that failure mode and cutting out a network round-trip.
 #
 # Usage:
-#   ./2_fetch_plasmids_seqs.sh [accessions.txt] data/all_plasmids.fasta [work_dir]
+#   ./fetch_plasmids_edirect_v4.sh accessions.txt all_plasmids.fasta [work_dir]
 #
 # Safe to re-run: appends to the output file, so you can run this against
 # a "failed_accessions.txt" file to top up an existing FASTA.
@@ -47,6 +47,19 @@ if ! command -v efetch >/dev/null 2>&1; then
 fi
 
 # Optional: export NCBI_API_KEY="your_key_here"
+
+# IMPORTANT: copy the input accession list into the working directory FIRST,
+# before touching/truncating any output files. This avoids silently wiping
+# the input if the accession file happens to live at the same path as an
+# output file (e.g. re-running against a previous failed_accessions.txt
+# that lives inside the default work dir).
+INPUT_COPY="$WORK_DIR/input_accessions_snapshot.txt"
+cp "$ACCESSION_FILE" "$INPUT_COPY"
+if [ $? -ne 0 ] || [ ! -s "$INPUT_COPY" ]; then
+    echo "ERROR: failed to snapshot input accession file, or it was empty: $ACCESSION_FILE"
+    exit 1
+fi
+ACCESSION_FILE="$INPUT_COPY"
 
 touch "$OUTPUT_FASTA"
 FAILED_LOG="$WORK_DIR/failed_accessions.txt"
