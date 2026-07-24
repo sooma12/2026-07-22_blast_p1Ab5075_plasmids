@@ -61,6 +61,9 @@ if [ $? -ne 0 ] || [ ! -s "$INPUT_COPY" ]; then
 fi
 ACCESSION_FILE="$INPUT_COPY"
 
+# mws - disable openssl dirty shutdown error messages
+export OPENSSL_ENABLE_DIRTY_SHUTDOWN=1
+
 touch "$OUTPUT_FASTA"
 FAILED_LOG="$WORK_DIR/failed_accessions.txt"
 > "$FAILED_LOG"

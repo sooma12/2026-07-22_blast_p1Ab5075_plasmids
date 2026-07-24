@@ -17,6 +17,9 @@ WORK_DIR="./length_check_work"
 BATCH_SIZE=25
 REPORT_FILE="three_way_length_report.tsv"
 
+# mws - disable openssl dirty shutdown error messages
+export OPENSSL_ENABLE_DIRTY_SHUTDOWN=1
+
 mkdir -p "$WORK_DIR"
 
 if ! command -v esummary >/dev/null 2>&1; then
