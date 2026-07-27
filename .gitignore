@@ -2,3 +2,6 @@ data/*
 fetch_work/*
 length_check_work/*
 gene_fetch_work/*
+logs/*
+output/*
+plasmid_db*
