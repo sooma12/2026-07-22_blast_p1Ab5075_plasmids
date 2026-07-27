@@ -49,3 +49,82 @@ CU468232
 Two had unambiguous length mismatches: CM009085 and CP058731 both had the downloaded FASTA length match the NCBI metadata, but they were shorter than the length given in the input Excel table.  Possible version differences?
 
 For the query genes (above), get both nucleic acid and protein sequences
+
+Fetched protein queries with script 4
+
+## BLAST
+
+Ran scripts 5 and 6 to make blast database and run tblastn
+
+Generated presence/absence matrix with script 7_build_presence_matrix.py  (Parses raw `tblastn` results into a best-hit table and a gene x plasmid presence/absence matrix.)
+
+### What it does
+
+1. **Loads raw BLAST output** (`results/tblastn_results.tsv`, tab-separated,
+   no header), using the column order matching the `-outfmt` string from
+   `run_tblastn.sbatch`.
+
+2. **Cleans up subject IDs.** The BLAST database was built with
+   `-parse_seqids`, so subject IDs look like `gb|CP012345.1|` — these are
+   parsed down to a plain accession (`CP012345.1`) for matching against
+   the plasmid table.
+
+3. **Collapses multiple HSPs to one best hit per (gene, plasmid) pair.**
+   A single gene can align to a single plasmid in more than one local
+   alignment (HSP). For each `(qseqid, accession)` pair, only the
+   highest-`bitscore` HSP is kept — this is the standard convention for
+   "best hit" in BLAST-based presence/absence calls.
+
+4. **Writes `best_hits.tsv`** — one row per gene x plasmid pair,
+   **completely unfiltered** (only constrained by the e-value cutoff
+   already applied during the BLAST search itself). This is meant for
+   manual inspection: sort by `pident` or `qcovs` to see where real hits
+   drop off into noise, before committing to thresholds.
+
+5. **Prints summary statistics** (min / 25% / median / 75% / max) of
+   `%identity` and `%query coverage (qcovs)` per gene, so you can eyeball
+   the distribution directly in the terminal.
+
+6. **Applies thresholds and builds two matrices:**
+   - `presence_absence.csv` — binary (1 = present, 0 = absent) gene x
+     plasmid matrix, using a hit as "present" only if it passes **both**
+     `PIDENT_THRESHOLD` and `QCOV_THRESHOLD` (set as plain variables near
+     the top of the script — no need to touch the logic below to adjust
+     them).
+   - `identity_matrix.csv` — same shape, but with the best hit's raw
+     `%identity` value instead of 1/0 (blank if no hit at all was found
+     for that pair, even below threshold). Useful for judging borderline
+     calls that the binary matrix would otherwise hide.
+
+7. **Merges both matrices back onto the full original plasmid table**
+   (`accession_mapping.csv`, from the earlier Excel-extraction step), so
+   the final output has one row per original table entry — including any
+   duplicate accessions — rather than being limited to only the unique
+   accessions that were actually BLASTed. The join tolerates version-suffix
+   mismatches (e.g. `.1` vs `.2`) by matching on the accession's base ID.
+
+### Inputs required
+
+| File | Description |
+|---|---|
+| `results/tblastn_results.tsv` | Raw `tblastn` output from `run_tblastn.sbatch` |
+| `accession_mapping.csv` | Full plasmid table with accessions, from the Excel-extraction step |
+
+### Outputs
+
+| File | Description |
+|---|---|
+| `best_hits.tsv` | One row per gene x plasmid pair, best HSP only, unfiltered |
+| `presence_absence.csv` | Binary gene presence/absence, merged onto full original table |
+| `identity_matrix.csv` | Raw %identity per gene x plasmid, merged onto full original table |
+
+### Adjusting thresholds
+
+Edit these two lines near the top of the script, then re-run — no need to
+redo the BLAST search itself, since `best_hits.tsv` is generated
+independently of the thresholds:
+
+```python
+PIDENT_THRESHOLD = 80    # minimum % identity to call a gene "present"
+QCOV_THRESHOLD = 80      # minimum % query coverage to call "present"
+```
