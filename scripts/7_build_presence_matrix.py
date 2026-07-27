@@ -24,8 +24,8 @@ import re
 # ----------------------------------------------------------------
 # INPUTS -- adjust paths as needed
 # ----------------------------------------------------------------
-BLAST_RESULTS = "results/tblastn_results.tsv"
-ACCESSION_MAPPING = "accession_mapping.csv"   # from the extraction step
+BLAST_RESULTS = "output/tblastn_results.tsv"
+ACCESSION_MAPPING = "input/accession_mapping.csv"   # from the extraction step
 
 # ----------------------------------------------------------------
 # THRESHOLDS -- the only two knobs you should need to turn
