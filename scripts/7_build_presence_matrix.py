@@ -10,9 +10,11 @@ Parse tblastn results into:
                                 accession_mapping.csv) so every original
                                 row is represented.
   3. identity_matrix.csv    -- same shape as (2), but with raw %identity
-                                values instead of 1/0 (blank where no hit
-                                passed the e-value cutoff at all), useful
-                                for judging borderline cases.
+                                AND %query-coverage values instead of 1/0
+                                (blank where no hit passed the e-value
+                                cutoff), one column per gene per metric
+                                (e.g. "AKA33575.1_pident", "AKA33575.1_qcovs"),
+                                useful for judging borderline cases.
 
 Re-run just the matrix-building section (bottom) after changing
 PIDENT_THRESHOLD / QCOV_THRESHOLD -- no need to re-parse BLAST output.
@@ -24,8 +26,8 @@ import re
 # ----------------------------------------------------------------
 # INPUTS -- adjust paths as needed
 # ----------------------------------------------------------------
-BLAST_RESULTS = "output/tblastn_results.tsv"
-ACCESSION_MAPPING = "input/accession_mapping.csv"   # from the extraction step
+BLAST_RESULTS = "results/tblastn_results.tsv"
+ACCESSION_MAPPING = "accession_mapping.csv"   # from the extraction step
 
 # ----------------------------------------------------------------
 # THRESHOLDS -- the only two knobs you should need to turn
@@ -97,6 +99,13 @@ identity_matrix = best_hits.pivot_table(
     index="accession", columns="qseqid", values="pident", aggfunc="max"
 )
 
+# %query coverage matrix: same shape, using qcovs instead of pident -- lets
+# you distinguish "divergent but full-length" hits from "high-identity but
+# only a fragment aligned" hits, which a %identity-only view would hide
+coverage_matrix = best_hits.pivot_table(
+    index="accession", columns="qseqid", values="qcovs", aggfunc="max"
+)
+
 # --- Merge onto the full original table (all 839 rows, incl. duplicates) ---
 mapping = pd.read_csv(ACCESSION_MAPPING)
 
@@ -115,6 +124,11 @@ identity_matrix_reset["_base_acc"] = identity_matrix_reset["accession"].str.spli
 identity_matrix_reset = identity_matrix_reset.add_suffix("_pident")
 identity_matrix_reset = identity_matrix_reset.rename(columns={"_base_acc_pident": "_base_acc"})
 
+coverage_matrix_reset = coverage_matrix.reset_index()
+coverage_matrix_reset["_base_acc"] = coverage_matrix_reset["accession"].str.split(".").str[0]
+coverage_matrix_reset = coverage_matrix_reset.add_suffix("_qcovs")
+coverage_matrix_reset = coverage_matrix_reset.rename(columns={"_base_acc_qcovs": "_base_acc"})
+
 final_presence = mapping.merge(
     presence_binary_reset.drop(columns=["accession"]), on="_base_acc", how="left"
 )
@@ -125,11 +139,16 @@ final_identity = mapping.merge(
     identity_matrix_reset.drop(columns=["accession_pident"], errors="ignore"),
     on="_base_acc", how="left"
 )
+final_identity = final_identity.merge(
+    coverage_matrix_reset.drop(columns=["accession_qcovs"], errors="ignore"),
+    on="_base_acc", how="left"
+)
 
 final_presence.drop(columns=["_base_acc"]).to_csv("presence_absence.csv", index=False)
 final_identity.drop(columns=["_base_acc"]).to_csv("identity_matrix.csv", index=False)
 
-print(f"\nWrote presence_absence.csv and identity_matrix.csv "
-      f"({len(final_presence)} rows, matching original table row count)")
+print(f"\nWrote presence_absence.csv and identity_matrix.csv (with both %identity "
+      f"and %coverage columns per gene) -- {len(final_presence)} rows, "
+      f"matching original table row count")
 print(f"\nGene presence counts (current thresholds: pident>={PIDENT_THRESHOLD}, qcovs>={QCOV_THRESHOLD}):")
 print(final_presence[gene_cols].sum())

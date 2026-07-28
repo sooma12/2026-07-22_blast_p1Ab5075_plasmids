@@ -3,11 +3,11 @@
 ## Inputs:
 
 Search query genes:
-ABUW_4004
-ABUW_4005
-ABUW_4006
-ABUW_4007
-ABUW_4094
+ABUW_4004 = AKA33575.1
+ABUW_4005 = AKA33576.1
+ABUW_4006 = AKA33577.1
+ABUW_4007 = AKA33578.1
+ABUW_4094 = AKA33651.1
 
 Search subject plasmids:
 
@@ -128,3 +128,10 @@ independently of the thresholds:
 PIDENT_THRESHOLD = 80    # minimum % identity to call a gene "present"
 QCOV_THRESHOLD = 80      # minimum % query coverage to call "present"
 ```
+
+
+Methods writeup for paper
+
+Acinetobacter plasmids described in [CITE source] were retrieved from the NCBI Nucleotide Core database by accession number.
+tBLASTn was used to query the protein sequences corresponding to ABUW_4004 (AKA33575.1), ABUW_4005 (AKA33576.1), ABUW_4006 (AKA33577.1), ABUW_4007 (AKA33578.1), and ABUW_4094 (AKA33651.1) against the plasmids, and the top hit by bitscore was retained.
+Percent identity values from tBLASTn for each query gene were assigned to each plasmid and [custom scripts?] were used to generate a heatmap.
