@@ -1,0 +1,772 @@
+qseqid	sseqid	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	qlen	slen	qcovs	qcovhsp	stitle	accession
+AKA33575.1	gb|AEOY01000095.1|	100.0	421	0	0	1	421	2765	4027	0.0	874.0	421	63320	100	100	Acinetobacter baumannii 3990 plasmid p1ABST2, whole genome shotgun sequence	AEOY01000095.1
+AKA33575.1	gb|AFDB02000004.1|	100.0	421	0	0	1	421	47639	48901	0.0	874.0	421	67012	100	100	Acinetobacter baumannii Naval-81 plasmid pNaval81-67, complete sequence, whole genome shotgun sequence	AFDB02000004.1
+AKA33575.1	gb|AFDL01000006.1|	100.0	421	0	0	1	421	25798	24536	0.0	874.0	421	69518	100	100	Acinetobacter baumannii OIFC143 plasmid pOIFC143-70, whole genome shotgun sequence	AFDL01000006.1
+AKA33575.1	gb|ALII01000020.1|	100.0	421	0	0	1	421	9271	8009	0.0	874.0	421	67025	100	100	Acinetobacter baumannii IS-123 plasmid pIS123-67, complete sequence, whole genome shotgun sequence	ALII01000020.1
+AKA33575.1	dbj|AP023078.1|	100.0	421	0	0	1	421	63621	64883	0.0	874.0	421	73028	100	100	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_1 DNA, complete sequence	AP023078.1
+AKA33575.1	dbj|AP023079.1|	40.464	388	224	7	9	392	12103	13257	7.1e-89	295.0	421	41087	91	91	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_2 DNA, complete sequence	AP023079.1
+AKA33575.1	gb|AYOH01000010.2|	100.0	421	0	0	1	421	67316	68578	0.0	874.0	421	74089	100	100	Acinetobacter baumannii UH9907 plasmid pABUH1-74, whole genome shotgun sequence	AYOH01000010.2
+AKA33575.1	gb|CM009084.2|	100.0	421	0	0	1	421	43101	44363	0.0	874.0	421	62339	100	100	Acinetobacter baumannii strain ZQ9 plasmid p2ZQ9, complete sequence, whole genome shotgun sequence	CM009084.2
+AKA33575.1	gb|CM009650.1|	100.0	421	0	0	1	421	24237	22975	0.0	874.0	421	68115	100	100	Acinetobacter baumannii strain ZQ3 plasmid p4ZQ3, complete sequence, whole genome shotgun sequence	CM009650.1
+AKA33575.1	gb|CP000865.1|	100.0	421	0	0	1	421	2766	4028	0.0	874.0	421	64366	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP000865.1
+AKA33575.1	gb|CP001922.1|	100.0	421	0	0	1	421	53043	54305	0.0	874.0	421	74451	100	100	Acinetobacter baumannii 1656-2 plasmid ABKp1, complete sequence	CP001922.1
+AKA33575.1	gb|CP002524.1|	100.0	421	0	0	1	421	32880	34142	0.0	874.0	421	70894	100	100	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete sequence	CP002524.1
+AKA33575.1	gb|CP003501.1|	83.673	392	64	0	1	392	12781	11606	0.0	700.0	421	77528	93	93	Acinetobacter baumannii MDR-TJ plasmid pABTJ1, complete sequence	CP003501.1
+AKA33575.1	gb|CP003887.1|	83.673	392	64	0	1	392	20753	19578	0.0	700.0	421	70170	93	93	Acinetobacter baumannii BJAB07104 plasmid p1BJAB07104, complete sequence	CP003887.1
+AKA33575.1	gb|CP003888.1|	83.673	392	64	0	1	392	20753	19578	0.0	700.0	421	70167	93	93	Acinetobacter baumannii BJAB0868 plasmid p2BJAB0868, complete sequence	CP003888.1
+AKA33575.1	gb|CP007580.1|	100.0	421	0	0	1	421	47251	48513	0.0	874.0	421	71433	100	100	Acinetobacter baumannii AC30 plasmid pAC30c, complete sequence	CP007580.1
+AKA33575.1	gb|CP008707.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	83610	100	100	Acinetobacter baumannii strain AB5075-UW plasmid p1AB5075, complete sequence	CP008707.1
+AKA33575.1	gb|CP008851.1|	100.0	421	0	0	1	421	24297	23035	0.0	874.0	421	74749	100	100	Acinetobacter baumannii strain AC29 plasmid pAC29b, complete sequence	CP008851.1
+AKA33575.1	gb|CP010399.1|	40.464	388	224	7	9	392	40927	42081	7.12e-89	295.0	421	47274	91	91	Acinetobacter baumannii strain 6200 plasmid p6200-47.274kb, complete sequence	CP010399.1
+AKA33575.1	gb|CP012008.1|	100.0	421	0	0	1	421	4929	3667	0.0	874.0	421	87569	100	100	Acinetobacter baumannii Ab04-mff plasmid pAB04-2, complete sequence	CP012008.1
+AKA33575.1	gb|CP013925.1|	56.955	381	157	3	15	392	48248	47118	7.86e-144	453.0	421	52517	90	90	Acinetobacter baumannii strain KBN10P02143 plasmid pKBN10P02143, complete sequence	CP013925.1
+AKA33575.1	gb|CP014216.1|	100.0	421	0	0	1	421	58290	59552	0.0	874.0	421	74241	100	100	Acinetobacter baumannii strain YU-R612 plasmid unnamed1, complete sequence	CP014216.1
+AKA33575.1	gb|CP014292.1|	100.0	421	0	0	1	421	75976	74714	0.0	874.0	421	84967	100	100	Acinetobacter baumannii strain AB34299 plasmid unnamed1, complete sequence	CP014292.1
+AKA33575.1	gb|CP015366.1|	100.0	421	0	0	1	421	47992	46730	0.0	874.0	421	80546	100	100	Acinetobacter baumannii strain 3207 plasmid pAba3207b, complete sequence	CP015366.1
+AKA33575.1	gb|CP016297.1|	100.0	421	0	0	1	421	43289	44551	0.0	874.0	421	74090	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab4 plasmid pCMCVTAb2-Ab4, complete sequence	CP016297.1
+AKA33575.1	gb|CP016302.1|	100.0	421	0	0	1	421	42394	43656	0.0	874.0	421	73188	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab66 plasmid pCMCVTAb2-Ab66, complete sequence	CP016302.1
+AKA33575.1	gb|CP017645.1|	100.0	421	0	0	1	421	68232	66970	0.0	874.0	421	81227	100	100	Acinetobacter baumannii strain KAB02 plasmid, partial sequence	CP017645.1
+AKA33575.1	gb|CP017647.1|	99.762	421	1	0	1	421	21915	20653	0.0	873.0	421	73891	100	100	Acinetobacter baumannii strain KAB03 plasmid, complete sequence	CP017647.1
+AKA33575.1	gb|CP017649.1|	100.0	421	0	0	1	421	38517	39779	0.0	874.0	421	121485	100	100	Acinetobacter baumannii strain KAB04 plasmid, complete sequence	CP017649.1
+AKA33575.1	gb|CP017651.1|	100.0	421	0	0	1	421	49389	50651	0.0	874.0	421	70884	100	100	Acinetobacter baumannii strain KAB05 plasmid, complete sequence	CP017651.1
+AKA33575.1	gb|CP017653.1|	100.0	370	0	0	1	370	69774	70883	0.0	770.0	421	70884	99	88	Acinetobacter baumannii strain KAB06 plasmid, complete sequence	CP017653.1
+AKA33575.1	gb|CP017655.1|	100.0	421	0	0	1	421	30596	31858	0.0	874.0	421	72073	100	100	Acinetobacter baumannii strain KAB07 plasmid pKAB07, complete genome	CP017655.1
+AKA33575.1	gb|CP017657.1|	100.0	421	0	0	1	421	36920	38182	0.0	874.0	421	101406	100	100	Acinetobacter baumannii strain KAB08 plasmid, complete sequence	CP017657.1
+AKA33575.1	gb|CP018144.1|	83.673	392	64	0	1	392	28835	30010	0.0	700.0	421	77513	93	93	Acinetobacter baumannii strain HRAB-85 plasmid, complete sequence	CP018144.1
+AKA33575.1	gb|CP018422.1|	83.673	392	64	0	1	392	48689	47514	0.0	700.0	421	69069	93	93	Acinetobacter baumannii strain XDR-BJ83 plasmid pBJ83, complete genome	CP018422.1
+AKA33575.1	gb|CP019115.1|	100.0	421	0	0	1	421	48173	49435	0.0	874.0	421	75390	100	100	Acinetobacter baumannii strain MDR-CQ plasmid pMDR-CQ, complete sequence	CP019115.1
+AKA33575.1	gb|CP020573.1|	100.0	421	0	0	1	421	55894	54632	0.0	874.0	421	74241	100	100	Acinetobacter baumannii strain 15A5 plasmid p15A5_1, complete sequence	CP020573.1
+AKA33575.1	gb|CP020577.1|	100.0	421	0	0	1	421	54110	52848	0.0	874.0	421	73264	100	100	Acinetobacter baumannii strain SSA12 plasmid pSSA12_1, complete sequence	CP020577.1
+AKA33575.1	gb|CP020580.1|	100.0	421	0	0	1	421	75311	74049	0.0	874.0	421	90973	100	100	Acinetobacter baumannii strain SSMA17 plasmid pSSMA17_1, complete sequence	CP020580.1
+AKA33575.1	gb|CP020582.1|	100.0	421	0	0	1	421	36161	34899	0.0	874.0	421	90972	100	100	Acinetobacter baumannii strain JBA13 plasmid pJBA13_1, complete sequence	CP020582.1
+AKA33575.1	gb|CP020589.1|	100.0	421	0	0	1	421	24062	25324	0.0	874.0	421	72076	100	100	Acinetobacter baumannii strain 15A34 plasmid p15A34_1, complete sequence	CP020589.1
+AKA33575.1	gb|CP020593.1|	100.0	421	0	0	1	421	70235	71497	0.0	874.0	421	74241	100	100	Acinetobacter baumannii strain USA2 plasmid pUSA2_1, complete sequence	CP020593.1
+AKA33575.1	gb|CP020594.1|	100.0	421	0	0	1	421	30874	32136	0.0	874.0	421	98301	100	100	Acinetobacter baumannii strain USA15 plasmid pUSA15_1, complete sequence	CP020594.1
+AKA33575.1	gb|CP021322.1|	100.0	421	0	0	1	421	38848	40110	0.0	874.0	421	64557	100	100	Acinetobacter baumannii strain XH731 plasmid pXH731, complete sequence	CP021322.1
+AKA33575.1	gb|CP021787.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	86334	100	100	Acinetobacter baumannii strain A85 plasmid pA85-3, complete sequence	CP021787.1
+AKA33575.1	gb|CP023028.1|	100.0	421	0	0	1	421	103563	104825	0.0	874.0	421	110728	100	100	Acinetobacter baumannii strain 10042 plasmid pAba10042b, complete sequence	CP023028.1
+AKA33575.1	gb|CP023030.1|	100.0	421	0	0	1	421	14497	15759	0.0	874.0	421	95206	100	100	Acinetobacter baumannii strain 9102 plasmid pAba9102a, complete sequence	CP023030.1
+AKA33575.1	gb|CP023033.1|	100.0	421	0	0	1	421	47992	46730	0.0	874.0	421	80546	100	100	Acinetobacter baumannii strain 7847 plasmid pAba7847b, complete sequence	CP023033.1
+AKA33575.1	gb|CP024578.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	79335	100	100	Acinetobacter baumannii strain AbPK1 plasmid pAbPK1b, complete sequence	CP024578.1
+AKA33575.1	gb|CP025267.1|	100.0	421	0	0	1	421	17992	19254	0.0	874.0	421	74241	100	100	Acinetobacter baumannii isolate SMC_Paed_Ab_BL01 plasmid pSMC_AB_BL01_1, complete sequence	CP025267.1
+AKA33575.1	gb|CP026127.1|	40.464	388	224	7	9	392	18405	17251	7.09e-89	295.0	421	39359	91	91	Acinetobacter baumannii strain ABNIH28 plasmid pNDM-0285, complete sequence	CP026127.1
+AKA33575.1	gb|CP026706.1|	100.0	421	0	0	1	421	57265	56003	0.0	874.0	421	72105	100	100	Acinetobacter baumannii strain AR_0056 plasmid tig00000059_pilon, complete sequence	CP026706.1
+AKA33575.1	gb|CP026712.1|	100.0	421	0	0	1	421	28119	26857	0.0	874.0	421	72990	100	100	Acinetobacter baumannii strain AR_0063 plasmid unitig_2_pilon, complete sequence	CP026712.1
+AKA33575.1	gb|CP026946.1|	100.0	421	0	0	1	421	24411	25673	0.0	874.0	421	72204	100	100	Acinetobacter baumannii strain S1 plasmid pAbS1_03	CP026946.1
+AKA33575.1	gb|CP027243.1|	99.762	421	1	0	1	421	2572	3834	0.0	873.0	421	70796	100	100	Acinetobacter baumannii strain WCHAB005078 plasmid p1_005078, complete sequence	CP027243.1
+AKA33575.1	gb|CP027532.1|	40.464	388	224	7	9	392	33804	32650	7.1e-89	295.0	421	41087	91	91	Acinetobacter baumannii strain AR_0088 plasmid unnamed2, complete sequence	CP027532.1
+AKA33575.1	gb|CP029571.1|	100.0	421	0	0	1	421	3005	4267	0.0	874.0	421	71234	100	100	Acinetobacter baumannii strain DA33098 plasmid pDA33098-71, complete sequence	CP029571.1
+AKA33575.1	gb|CP030109.1|	100.0	421	0	0	1	421	46532	47794	0.0	874.0	421	84678	100	100	Acinetobacter baumannii strain DA33382 plasmid pDA33382-85, complete sequence	CP030109.1
+AKA33575.1	gb|CP031382.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70101	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP031382.1
+AKA33575.1	gb|CP033245.1|	100.0	421	0	0	1	421	47993	46731	0.0	874.0	421	80548	100	100	Acinetobacter baumannii strain 7835 plasmid pAba7835b, complete sequence	CP033245.1
+AKA33575.1	gb|CP035047.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	74091	100	100	Acinetobacter baumannii strain ABUH793 plasmid p74.1Kbp, complete sequence	CP035047.1
+AKA33575.1	gb|CP036286.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	71234	100	100	Acinetobacter baumannii strain TG60155 plasmid p60155_3, complete sequence	CP036286.1
+AKA33575.1	gb|CP038264.1|	100.0	421	0	0	1	421	62951	64213	0.0	874.0	421	76956	100	100	Acinetobacter baumannii strain EC plasmid pEC_gr6, complete sequence	CP038264.1
+AKA33575.1	gb|CP039994.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	71233	100	100	Acinetobacter baumannii strain TG22182 plasmid pTG22182_1, complete sequence	CP039994.1
+AKA33575.1	gb|CP040043.1|	100.0	421	0	0	1	421	3351	4613	0.0	874.0	421	82500	100	100	Acinetobacter baumannii strain VB958 plasmid unnamed3, complete sequence	CP040043.1
+AKA33575.1	gb|CP042842.1|	100.0	421	0	0	1	421	27896	29158	0.0	874.0	421	67023	100	100	Acinetobacter baumannii strain ATCC BAA-1790 plasmid unnamed, complete sequence	CP042842.1
+AKA33575.1	gb|CP048134.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	74916	100	100	Acinetobacter baumannii strain D46 plasmid pD46-3, complete sequence	CP048134.1
+AKA33575.1	gb|CP050392.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70712	100	100	Acinetobacter baumannii strain VB11737 plasmid pVB11737_1, complete sequence	CP050392.1
+AKA33575.1	gb|CP050404.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	99090	100	100	Acinetobacter baumannii strain VB2486 plasmid pVB2486_1, complete sequence	CP050404.1
+AKA33575.1	gb|CP050413.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70098	100	100	Acinetobacter baumannii strain PM192696 plasmid pPM192696_1, complete sequence	CP050413.1
+AKA33575.1	gb|CP050909.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	71194	100	100	Acinetobacter baumannii strain DT-Ab022 plasmid unnamed2, complete sequence	CP050909.1
+AKA33575.1	gb|CP050912.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	71194	100	100	Acinetobacter baumannii strain DT-Ab020 plasmid unnamed1, complete sequence	CP050912.1
+AKA33575.1	gb|CP050915.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	92021	100	100	Acinetobacter baumannii strain DT-Ab007 plasmid unnamed1, complete sequence	CP050915.1
+AKA33575.1	gb|CP050917.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	71194	100	100	Acinetobacter baumannii strain DT-Ab003 plasmid unnamed1, complete sequence	CP050917.1
+AKA33575.1	gb|CP061516.1|	100.0	421	0	0	1	421	17716	18978	0.0	874.0	421	83626	100	100	Acinetobacter baumannii strain CFSAN093710 plasmid pCFSAN093710_2, complete sequence	CP061516.1
+AKA33575.1	gb|CP062921.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	72831	100	100	Acinetobacter baumannii strain Res13-Abat-PEA21-P4-01-A plasmid unnamed1836, complete sequence	CP062921.1
+AKA33575.1	gb|CP066230.1|	100.0	421	0	0	1	421	68428	69690	0.0	874.0	421	73339	100	100	Acinetobacter baumannii strain G20AB011 plasmid pG20AB011-1, complete sequence	CP066230.1
+AKA33575.1	gb|CP066233.1|	100.0	421	0	0	1	421	52731	53993	0.0	874.0	421	73360	100	100	Acinetobacter baumannii strain G20AB010 plasmid pG20AB010-1, complete sequence	CP066233.1
+AKA33575.1	gb|CP066236.1|	100.0	421	0	0	1	421	50759	49497	0.0	874.0	421	73361	100	100	Acinetobacter baumannii strain G20AB009 plasmid pG20AB009-1, complete sequence	CP066236.1
+AKA33575.1	gb|CP066238.1|	100.0	421	0	0	1	421	23360	24622	0.0	874.0	421	73361	100	100	Acinetobacter baumannii strain G20AB007 plasmid pG20AB007-1, complete sequence	CP066238.1
+AKA33575.1	gb|CP069841.1|	100.0	421	0	0	1	421	23173	21911	0.0	874.0	421	76933	100	100	Acinetobacter baumannii strain FDAARGOS_1360 plasmid unnamed1, complete sequence	CP069841.1
+AKA33575.1	gb|CP072124.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	87529	100	100	Acinetobacter baumannii strain KSK1 plasmid p2KSK1, complete sequence	CP072124.1
+AKA33575.1	gb|CP072272.1|	100.0	421	0	0	1	421	44301	45563	0.0	874.0	421	68224	100	100	Acinetobacter baumannii strain KSK6 plasmid p2KSK6, complete sequence	CP072272.1
+AKA33575.1	gb|CP072277.1|	100.0	421	0	0	1	421	44301	45563	0.0	874.0	421	68225	100	100	Acinetobacter baumannii strain KSK7 plasmid p2KSK7, complete sequence	CP072277.1
+AKA33575.1	gb|CP072282.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	87529	100	100	Acinetobacter baumannii strain KSK10 plasmid p2KSK10, complete sequence	CP072282.1
+AKA33575.1	gb|CP072287.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	87529	100	100	Acinetobacter baumannii strain KSK11 plasmid p2KSK11, complete sequence	CP072287.1
+AKA33575.1	gb|CP072292.1|	100.0	421	0	0	1	421	44301	45563	0.0	874.0	421	68225	100	100	Acinetobacter baumannii strain KSK18 plasmid p2KSK18, complete sequence	CP072292.1
+AKA33575.1	gb|CP072297.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	87529	100	100	Acinetobacter baumannii strain KSK19 plasmid p2KSK19, complete sequence	CP072297.1
+AKA33575.1	gb|CP072302.1|	100.0	421	0	0	1	421	24146	22884	0.0	874.0	421	68309	100	100	Acinetobacter baumannii strain KSK20 plasmid p2KSK20, complete sequence	CP072302.1
+AKA33575.1	gb|CP072400.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	87529	100	100	Acinetobacter baumannii strain KSK2 plasmid p2KSK2, complete sequence	CP072400.1
+AKA33575.1	gb|CP076802.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	88371	100	100	Acinetobacter baumannii strain UC25604 plasmid p1UC25604, complete sequence	CP076802.1
+AKA33575.1	gb|CP076805.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	105056	100	100	Acinetobacter baumannii strain UC24371 plasmid p1UC24371, complete sequence	CP076805.1
+AKA33575.1	gb|CP076818.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	99399	100	100	Acinetobacter baumannii strain UC24137 plasmid p1UC24137, complete sequence	CP076818.1
+AKA33575.1	gb|CP077833.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	84262	100	100	Acinetobacter baumannii strain DETAB-P43 plasmid pDETAB7d, complete sequence	CP077833.1
+AKA33575.1	gb|CP077836.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	73444	100	100	Acinetobacter baumannii strain DETAB-P65 plasmid pDETAB7b, complete sequence	CP077836.1
+AKA33575.1	gb|CP077838.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	72258	100	100	Acinetobacter baumannii strain DETAB-E159 plasmid pDETAB7a, complete sequence	CP077838.1
+AKA33575.1	gb|CP077841.1|	99.762	421	1	0	1	421	2572	3834	0.0	873.0	421	70789	100	100	Acinetobacter baumannii strain DETAB-P90 plasmid pDETAB16, complete sequence	CP077841.1
+AKA33575.1	gb|CP077844.1|	38.889	378	225	6	18	392	4375	5499	1.27e-84	283.0	421	38952	89	89	Acinetobacter baumannii strain DETAB-E155 plasmid pDETAB14, complete sequence	CP077844.1
+AKA33575.1	gb|CP077847.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70426	100	100	Acinetobacter baumannii strain DETAB-P24 plasmid pDETAB8, complete sequence	CP077847.1
+AKA33575.1	gb|CP082219.1|	100.0	421	0	0	1	421	60665	61927	0.0	874.0	421	78023	100	100	Acinetobacter baumannii strain 2018BJAB2 plasmid p2018BJAB2, complete sequence	CP082219.1
+AKA33575.1	gb|CP082220.1|	100.0	421	0	0	1	421	61537	62799	0.0	874.0	421	78024	100	100	Acinetobacter baumannii strain 2018BJAB1 plasmid p2018BJAB1, complete sequence	CP082220.1
+AKA33575.1	gb|CP082221.1|	100.0	421	0	0	1	421	61536	62798	0.0	874.0	421	78022	100	100	Acinetobacter baumannii strain 2018TJAB1 plasmid p2018TJAB1, complete sequence	CP082221.1
+AKA33575.1	gb|CP082222.1|	83.673	392	64	0	1	392	64767	65942	0.0	700.0	421	77531	93	93	Acinetobacter baumannii strain 2014TJAB1 plasmid p2014TJAB1, complete sequence	CP082222.1
+AKA33575.1	gb|CP082225.1|	83.673	392	64	0	1	392	64781	65956	0.0	700.0	421	77530	93	93	Acinetobacter baumannii strain 2014BJAB1 plasmid p2014BJAB1, complete sequence	CP082225.1
+AKA33575.1	gb|CP082226.1|	99.371	159	1	0	45	203	61628	62104	0.0	328.0	421	77943	100	38	Acinetobacter baumannii strain 2016BJAB1 plasmid p2016BJAB1, complete sequence	CP082226.1
+AKA33575.1	gb|CP082228.1|	100.0	421	0	0	1	421	61601	62863	0.0	874.0	421	78030	100	100	Acinetobacter baumannii strain 2018HLJAB2 plasmid p2018HLJAB2, complete sequence	CP082228.1
+AKA33575.1	gb|CP082889.1|	83.673	392	64	0	1	392	64775	65950	0.0	700.0	421	77537	93	93	Acinetobacter baumannii strain 2014LNAB1 plasmid p2014LNAB1-2, complete sequence	CP082889.1
+AKA33575.1	gb|CP082892.1|	83.673	392	64	0	1	392	64771	65946	0.0	700.0	421	77530	93	93	Acinetobacter baumannii strain 2016LNAB1 plasmid p2016LNAB1-2, complete sequence	CP082892.1
+AKA33575.1	gb|CP082895.1|	100.0	421	0	0	1	421	61525	62787	0.0	874.0	421	78023	100	100	Acinetobacter baumannii strain 2018HBAB1 plasmid p2018HBAB1-2, complete sequence	CP082895.1
+AKA33575.1	gb|CP084723.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	69524	100	100	Acinetobacter baumannii strain HKU7 plasmid pHKU7b, complete sequence	CP084723.1
+AKA33575.1	gb|CP084726.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	69524	100	100	Acinetobacter baumannii strain HKU6 plasmid pHKU6b, complete sequence	CP084726.1
+AKA33575.1	gb|CP084729.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	69524	100	100	Acinetobacter baumannii strain HKU5 plasmid pHKU5b, complete sequence	CP084729.1
+AKA33575.1	gb|CP084732.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	69524	100	100	Acinetobacter baumannii strain HKU4 plasmid pHKU4b, complete sequence	CP084732.1
+AKA33575.1	gb|CP084735.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	69524	100	100	Acinetobacter baumannii strain HKU3 plasmid pHKU3b, complete sequence	CP084735.1
+AKA33575.1	gb|CP091595.1|	100.0	421	0	0	1	421	18877	17615	0.0	874.0	421	73145	100	100	Acinetobacter baumannii strain Nord4-2 plasmid pR32_2, complete sequence	CP091595.1
+AKA33575.1	gb|CP094285.1|	100.0	421	0	0	1	421	59598	60860	0.0	874.0	421	71194	100	100	Acinetobacter baumannii strain NY5301 plasmid pNY5301-2, complete sequence	CP094285.1
+AKA33575.1	gb|CP096689.1|	100.0	421	0	0	1	421	61536	62798	0.0	874.0	421	73209	100	100	Acinetobacter baumannii strain 5840 plasmid p5840, complete sequence	CP096689.1
+AKA33575.1	gb|CP096691.1|	100.0	421	0	0	1	421	59683	60945	0.0	874.0	421	71277	100	100	Acinetobacter baumannii strain 5839 plasmid p5839, complete sequence	CP096691.1
+AKA33575.1	gb|CP096695.1|	83.673	392	64	0	1	392	64766	65941	0.0	700.0	421	78842	93	93	Acinetobacter baumannii strain 5773 plasmid p5773_2, complete sequence	CP096695.1
+AKA33575.1	gb|CP096703.1|	83.673	392	64	0	1	392	57523	58698	0.0	700.0	421	70287	93	93	Acinetobacter baumannii strain 5767 plasmid p5767, complete sequence	CP096703.1
+AKA33575.1	gb|CP096706.1|	100.0	421	0	0	1	421	12566	11304	0.0	874.0	421	71277	100	100	Acinetobacter baumannii strain 5761 plasmid p5761, complete sequence	CP096706.1
+AKA33575.1	gb|CP096708.1|	83.673	392	64	0	1	392	64767	65942	0.0	700.0	421	77531	93	93	Acinetobacter baumannii strain 5760 plasmid p5760_1, complete sequence	CP096708.1
+AKA33575.1	gb|CP096712.1|	83.673	392	64	0	1	392	64779	65954	0.0	700.0	421	77531	93	93	Acinetobacter baumannii strain 5759 plasmid p5759_2, complete sequence	CP096712.1
+AKA33575.1	gb|CP096716.1|	83.673	392	64	0	1	392	64766	65941	0.0	700.0	421	77530	93	93	Acinetobacter baumannii strain 5745 plasmid p5745_2, complete sequence	CP096716.1
+AKA33575.1	gb|CP096719.1|	99.762	421	1	0	1	421	59634	60896	0.0	873.0	421	70793	100	100	Acinetobacter baumannii strain 5741 plasmid p5741_2, complete sequence	CP096719.1
+AKA33575.1	gb|CP096725.1|	83.673	392	64	0	1	392	64770	65945	0.0	700.0	421	77534	93	93	Acinetobacter baumannii strain 5734 plasmid p5734_1, complete sequence	CP096725.1
+AKA33575.1	gb|CP096730.1|	83.673	392	64	0	1	392	63915	65090	0.0	700.0	421	77542	93	93	Acinetobacter baumannii strain 5729 plasmid p5729, complete sequence	CP096730.1
+AKA33575.1	gb|CP096733.1|	83.673	392	64	0	1	392	58708	59883	0.0	700.0	421	71479	93	93	Acinetobacter baumannii strain 5689 plasmid p5689_2, complete sequence	CP096733.1
+AKA33575.1	gb|CP096736.1|	83.673	392	64	0	1	392	64761	65936	0.0	700.0	421	77540	93	93	Acinetobacter baumannii strain 5683 plasmid p5683_1, complete sequence	CP096736.1
+AKA33575.1	gb|CP096739.1|	100.0	421	0	0	1	421	61503	62765	0.0	874.0	421	73209	100	100	Acinetobacter baumannii strain 5679 plasmid p5679, complete sequence	CP096739.1
+AKA33575.1	gb|CP096744.1|	100.0	421	0	0	1	421	59634	60896	0.0	874.0	421	71278	100	100	Acinetobacter baumannii strain 5671 plasmid p5671_2, complete sequence	CP096744.1
+AKA33575.1	gb|CP096751.1|	83.673	392	64	0	1	392	64753	65928	0.0	700.0	421	77530	93	93	Acinetobacter baumannii strain 5666 plasmid p5666_2, complete sequence	CP096751.1
+AKA33575.1	gb|CP096754.1|	100.0	421	0	0	1	421	59194	60456	0.0	874.0	421	71044	100	100	Acinetobacter baumannii strain 5664 plasmid p5664, complete sequence	CP096754.1
+AKA33575.1	gb|CP096756.1|	100.0	421	0	0	1	421	59168	60430	0.0	874.0	421	71044	100	100	Acinetobacter baumannii strain 5663 plasmid p5663, complete sequence	CP096756.1
+AKA33575.1	gb|CP096763.1|	100.0	421	0	0	1	421	2838	4100	0.0	874.0	421	72248	100	100	Acinetobacter baumannii strain 5651 plasmid p5651, complete sequence	CP096763.1
+AKA33575.1	gb|CP096769.1|	83.673	392	64	0	1	392	3613	2438	0.0	700.0	421	77533	93	93	Acinetobacter baumannii strain 5388 plasmid p5388_1, complete sequence	CP096769.1
+AKA33575.1	gb|CP099785.1|	100.0	421	0	0	1	421	49252	50514	0.0	874.0	421	75310	100	100	Acinetobacter baumannii strain NCCP 15989 plasmid unnamed, complete sequence	CP099785.1
+AKA33575.1	gb|CP099787.1|	100.0	421	0	0	1	421	31097	29835	0.0	874.0	421	72095	100	100	Acinetobacter baumannii strain NCCP 15992 plasmid unnamed, complete sequence	CP099787.1
+AKA33575.1	gb|CP099791.1|	99.762	421	1	0	1	421	41723	42985	0.0	873.0	421	73034	100	100	Acinetobacter baumannii strain NCCP 15996 plasmid unnamed1, complete sequence	CP099791.1
+AKA33575.1	gb|CP100306.1|	100.0	421	0	0	1	421	18789	20051	0.0	874.0	421	74294	100	100	Acinetobacter baumannii strain KBN10P05679 plasmid unnamed1, complete sequence	CP100306.1
+AKA33575.1	emb|HG977523.1|	99.762	421	1	0	1	421	2764	4026	0.0	872.0	421	63720	100	100	Acinetobacter baumannii plasmid pCS01A, complete sequence	HG977523.1
+AKA33575.1	emb|HG977527.1|	99.762	421	1	0	1	421	2764	4026	0.0	872.0	421	63795	100	100	Acinetobacter baumannii plasmid pCR17A, complete sequence	HG977527.1
+AKA33575.1	gb|JAHPZP010000021.1|	99.762	421	1	0	1	421	7983	6721	0.0	873.0	421	70873	100	100	Acinetobacter baumannii plasmid pAci46a, whole genome shotgun sequence	JAHPZP010000021.1
+AKA33575.1	gb|JN377410.2|	40.464	388	224	7	9	392	3486	4640	7.13e-89	295.0	421	48368	91	91	Acinetobacter baumannii ZW85-1 plasmid pAbNDM-1, complete sequence	JN377410.2
+AKA33575.1	gb|KC503911.1|	40.464	388	224	7	9	392	3486	4640	7.12e-89	295.0	421	47098	91	91	Acinetobacter baumannii strain GF216 plasmid pNDM-AB, complete sequence	KC503911.1
+AKA33575.1	gb|KF669606.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70100	100	100	Acinetobacter baumannii strain G7 plasmid pAb-G7-2 transposon TnaphA6, complete sequence	KF669606.1
+AKA33575.1	gb|KF889012.1|	99.762	421	1	0	1	421	61047	62309	0.0	873.0	421	65890	100	100	Acinetobacter baumannii TYTH-1 plasmid pAB_CC, complete sequence	KF889012.1
+AKA33575.1	gb|KM051846.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70102	100	100	Acinetobacter baumannii strain D72 plasmid pD72-2, complete sequence	KM051846.1
+AKA33575.1	gb|KM922672.1|	83.673	392	64	0	1	392	20753	19578	0.0	700.0	421	77530	93	93	Acinetobacter baumannii strain A221 plasmid pAZJ221, complete sequence	KM922672.1
+AKA33575.1	gb|KR535992.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70098	100	100	Acinetobacter baumannii strain A105 plasmid pA105-1, complete sequence	KR535992.1
+AKA33575.1	gb|KU549175.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	103871	100	100	Acinetobacter baumannii strain C13 plasmid pC13-2, complete sequence	KU549175.1
+AKA33575.1	gb|KX230794.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	67025	100	100	Acinetobacter baumannii strain MAL plasmid pMAL-2, complete sequence	KX230794.1
+AKA33575.1	gb|KY022424.1|	100.0	421	0	0	1	421	30855	32117	0.0	874.0	421	82667	100	100	Acinetobacter baumannii strain Ab8098 plasmid pAb8098, complete sequence	KY022424.1
+AKA33575.1	emb|LT984690.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	79598	100	100	Acinetobacter baumannii isolate K50 genome assembly, plasmid: I	LT984690.1
+AKA33575.1	gb|MG954377.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	123432	100	100	Acinetobacter baumannii strain SGH9601 plasmid pS21-2, complete sequence	MG954377.1
+AKA33575.1	gb|MG954379.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	70833	100	100	Acinetobacter baumannii strain SGH0905 plasmid pS32-2, complete sequence	MG954379.1
+AKA33575.1	gb|MK053932.1|	40.464	388	224	7	9	392	3486	4640	7.12e-89	295.0	421	47283	91	91	Acinetobacter baumannii strain IEC383 plasmid pIEC383	MK053932.1
+AKA33575.1	gb|MK243454.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	66886	100	100	Acinetobacter baumannii strain 09A16CRGN0014 plasmid pCRA914-67, complete sequence	MK243454.1
+AKA33575.1	gb|MK386681.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	74241	100	100	Acinetobacter baumannii strain ABAY09008 plasmid pABAY09008_1B, complete sequence	MK386681.1
+AKA33575.1	gb|MK386682.1|	83.673	392	64	0	1	392	43989	45164	0.0	700.0	421	54627	93	93	Acinetobacter baumannii strain ABAY10001 plasmid pABAY10001_1C, complete sequence	MK386682.1
+AKA33575.1	gb|MK531538.1|	100.0	421	0	0	1	421	2572	3834	0.0	874.0	421	67441	100	100	Acinetobacter baumannii strain MC23 plasmid pMC23.1, complete sequence	MK531538.1
+AKA33575.1	gb|MT002974.1|	40.464	388	224	7	9	392	37602	36448	7.1e-89	295.0	421	41087	91	91	Acinetobacter baumannii strain AB17 plasmid pAB17, complete sequence	MT002974.1
+AKA33576.1	gb|AEOY01000095.1|	100.0	174	0	0	1	174	3996	4517	3.7799999999999997e-106	333.0	174	63320	100	100	Acinetobacter baumannii 3990 plasmid p1ABST2, whole genome shotgun sequence	AEOY01000095.1
+AKA33576.1	gb|AFDB02000004.1|	100.0	174	0	0	1	174	48870	49391	3.7799999999999997e-106	333.0	174	67012	100	100	Acinetobacter baumannii Naval-81 plasmid pNaval81-67, complete sequence, whole genome shotgun sequence	AFDB02000004.1
+AKA33576.1	gb|AFDL01000006.1|	100.0	174	0	0	1	174	24567	24046	3.7799999999999997e-106	333.0	174	69518	100	100	Acinetobacter baumannii OIFC143 plasmid pOIFC143-70, whole genome shotgun sequence	AFDL01000006.1
+AKA33576.1	gb|ALII01000020.1|	100.0	174	0	0	1	174	8040	7519	3.7799999999999997e-106	333.0	174	67025	100	100	Acinetobacter baumannii IS-123 plasmid pIS123-67, complete sequence, whole genome shotgun sequence	ALII01000020.1
+AKA33576.1	dbj|AP023078.1|	100.0	174	0	0	1	174	64852	65373	3.7799999999999997e-106	333.0	174	73028	100	100	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_1 DNA, complete sequence	AP023078.1
+AKA33576.1	gb|AYOH01000010.2|	100.0	174	0	0	1	174	68547	69068	3.7799999999999997e-106	333.0	174	74089	100	100	Acinetobacter baumannii UH9907 plasmid pABUH1-74, whole genome shotgun sequence	AYOH01000010.2
+AKA33576.1	gb|CM009084.2|	100.0	174	0	0	1	174	44332	44853	3.7799999999999997e-106	333.0	174	62339	100	100	Acinetobacter baumannii strain ZQ9 plasmid p2ZQ9, complete sequence, whole genome shotgun sequence	CM009084.2
+AKA33576.1	gb|CM009650.1|	100.0	174	0	0	1	174	23006	22485	3.7799999999999997e-106	333.0	174	68115	100	100	Acinetobacter baumannii strain ZQ3 plasmid p4ZQ3, complete sequence, whole genome shotgun sequence	CM009650.1
+AKA33576.1	gb|CP000865.1|	100.0	174	0	0	1	174	3997	4518	3.7799999999999997e-106	333.0	174	64366	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP000865.1
+AKA33576.1	gb|CP001922.1|	100.0	174	0	0	1	174	54274	54795	3.7799999999999997e-106	333.0	174	74451	100	100	Acinetobacter baumannii 1656-2 plasmid ABKp1, complete sequence	CP001922.1
+AKA33576.1	gb|CP002524.1|	100.0	174	0	0	1	174	34111	34632	3.7799999999999997e-106	333.0	174	70894	100	100	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete sequence	CP002524.1
+AKA33576.1	gb|CP003501.1|	55.975	159	68	1	1	157	11577	11101	9.55e-58	194.0	174	77528	90	90	Acinetobacter baumannii MDR-TJ plasmid pABTJ1, complete sequence	CP003501.1
+AKA33576.1	gb|CP003887.1|	55.975	159	68	1	1	157	19549	19073	9.55e-58	194.0	174	70170	90	90	Acinetobacter baumannii BJAB07104 plasmid p1BJAB07104, complete sequence	CP003887.1
+AKA33576.1	gb|CP003888.1|	55.975	159	68	1	1	157	19549	19073	9.55e-58	194.0	174	70167	90	90	Acinetobacter baumannii BJAB0868 plasmid p2BJAB0868, complete sequence	CP003888.1
+AKA33576.1	gb|CP007580.1|	100.0	174	0	0	1	174	48482	49003	3.7799999999999997e-106	333.0	174	71433	100	100	Acinetobacter baumannii AC30 plasmid pAC30c, complete sequence	CP007580.1
+AKA33576.1	gb|CP008707.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	83610	100	100	Acinetobacter baumannii strain AB5075-UW plasmid p1AB5075, complete sequence	CP008707.1
+AKA33576.1	gb|CP008851.1|	100.0	174	0	0	1	174	23066	22545	3.7799999999999997e-106	333.0	174	74749	100	100	Acinetobacter baumannii strain AC29 plasmid pAC29b, complete sequence	CP008851.1
+AKA33576.1	gb|CP012008.1|	100.0	174	0	0	1	174	3698	3177	3.7799999999999997e-106	333.0	174	87569	100	100	Acinetobacter baumannii Ab04-mff plasmid pAB04-2, complete sequence	CP012008.1
+AKA33576.1	gb|CP014216.1|	100.0	174	0	0	1	174	59521	60042	3.7799999999999997e-106	333.0	174	74241	100	100	Acinetobacter baumannii strain YU-R612 plasmid unnamed1, complete sequence	CP014216.1
+AKA33576.1	gb|CP014292.1|	100.0	174	0	0	1	174	74745	74224	3.7799999999999997e-106	333.0	174	84967	100	100	Acinetobacter baumannii strain AB34299 plasmid unnamed1, complete sequence	CP014292.1
+AKA33576.1	gb|CP015366.1|	100.0	174	0	0	1	174	46761	46240	3.7799999999999997e-106	333.0	174	80546	100	100	Acinetobacter baumannii strain 3207 plasmid pAba3207b, complete sequence	CP015366.1
+AKA33576.1	gb|CP016297.1|	100.0	174	0	0	1	174	44520	45041	3.7799999999999997e-106	333.0	174	74090	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab4 plasmid pCMCVTAb2-Ab4, complete sequence	CP016297.1
+AKA33576.1	gb|CP016302.1|	100.0	174	0	0	1	174	43625	44146	3.7799999999999997e-106	333.0	174	73188	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab66 plasmid pCMCVTAb2-Ab66, complete sequence	CP016302.1
+AKA33576.1	gb|CP017645.1|	100.0	174	0	0	1	174	67001	66480	3.7799999999999997e-106	333.0	174	81227	100	100	Acinetobacter baumannii strain KAB02 plasmid, partial sequence	CP017645.1
+AKA33576.1	gb|CP017647.1|	100.0	174	0	0	1	174	20684	20163	3.7799999999999997e-106	333.0	174	73891	100	100	Acinetobacter baumannii strain KAB03 plasmid, complete sequence	CP017647.1
+AKA33576.1	gb|CP017649.1|	100.0	174	0	0	1	174	39748	40269	3.7799999999999997e-106	333.0	174	121485	100	100	Acinetobacter baumannii strain KAB04 plasmid, complete sequence	CP017649.1
+AKA33576.1	gb|CP017651.1|	100.0	174	0	0	1	174	50620	51141	3.7799999999999997e-106	333.0	174	70884	100	100	Acinetobacter baumannii strain KAB05 plasmid, complete sequence	CP017651.1
+AKA33576.1	gb|CP017653.1|	100.0	174	0	0	1	174	121	642	3.7799999999999997e-106	333.0	174	70884	100	100	Acinetobacter baumannii strain KAB06 plasmid, complete sequence	CP017653.1
+AKA33576.1	gb|CP017655.1|	100.0	174	0	0	1	174	31827	32348	3.7799999999999997e-106	333.0	174	72073	100	100	Acinetobacter baumannii strain KAB07 plasmid pKAB07, complete genome	CP017655.1
+AKA33576.1	gb|CP017657.1|	100.0	174	0	0	1	174	38151	38672	3.7799999999999997e-106	333.0	174	101406	100	100	Acinetobacter baumannii strain KAB08 plasmid, complete sequence	CP017657.1
+AKA33576.1	gb|CP018144.1|	55.975	159	68	1	1	157	30039	30515	9.55e-58	194.0	174	77513	90	90	Acinetobacter baumannii strain HRAB-85 plasmid, complete sequence	CP018144.1
+AKA33576.1	gb|CP018422.1|	55.975	159	68	1	1	157	47485	47009	9.55e-58	194.0	174	69069	90	90	Acinetobacter baumannii strain XDR-BJ83 plasmid pBJ83, complete genome	CP018422.1
+AKA33576.1	gb|CP019115.1|	100.0	174	0	0	1	174	49404	49925	3.7799999999999997e-106	333.0	174	75390	100	100	Acinetobacter baumannii strain MDR-CQ plasmid pMDR-CQ, complete sequence	CP019115.1
+AKA33576.1	gb|CP020573.1|	100.0	174	0	0	1	174	54663	54142	3.7799999999999997e-106	333.0	174	74241	100	100	Acinetobacter baumannii strain 15A5 plasmid p15A5_1, complete sequence	CP020573.1
+AKA33576.1	gb|CP020577.1|	100.0	174	0	0	1	174	52879	52358	3.7799999999999997e-106	333.0	174	73264	100	100	Acinetobacter baumannii strain SSA12 plasmid pSSA12_1, complete sequence	CP020577.1
+AKA33576.1	gb|CP020580.1|	100.0	174	0	0	1	174	74080	73559	3.7799999999999997e-106	333.0	174	90973	100	100	Acinetobacter baumannii strain SSMA17 plasmid pSSMA17_1, complete sequence	CP020580.1
+AKA33576.1	gb|CP020582.1|	100.0	174	0	0	1	174	34930	34409	3.7799999999999997e-106	333.0	174	90972	100	100	Acinetobacter baumannii strain JBA13 plasmid pJBA13_1, complete sequence	CP020582.1
+AKA33576.1	gb|CP020589.1|	100.0	174	0	0	1	174	25293	25814	3.7799999999999997e-106	333.0	174	72076	100	100	Acinetobacter baumannii strain 15A34 plasmid p15A34_1, complete sequence	CP020589.1
+AKA33576.1	gb|CP020593.1|	100.0	174	0	0	1	174	71466	71987	3.7799999999999997e-106	333.0	174	74241	100	100	Acinetobacter baumannii strain USA2 plasmid pUSA2_1, complete sequence	CP020593.1
+AKA33576.1	gb|CP020594.1|	100.0	174	0	0	1	174	32105	32626	3.7799999999999997e-106	333.0	174	98301	100	100	Acinetobacter baumannii strain USA15 plasmid pUSA15_1, complete sequence	CP020594.1
+AKA33576.1	gb|CP021322.1|	100.0	174	0	0	1	174	40079	40600	3.7799999999999997e-106	333.0	174	64557	100	100	Acinetobacter baumannii strain XH731 plasmid pXH731, complete sequence	CP021322.1
+AKA33576.1	gb|CP021787.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	86334	100	100	Acinetobacter baumannii strain A85 plasmid pA85-3, complete sequence	CP021787.1
+AKA33576.1	gb|CP023028.1|	100.0	174	0	0	1	174	104794	105315	3.7799999999999997e-106	333.0	174	110728	100	100	Acinetobacter baumannii strain 10042 plasmid pAba10042b, complete sequence	CP023028.1
+AKA33576.1	gb|CP023030.1|	100.0	174	0	0	1	174	15728	16249	3.7799999999999997e-106	333.0	174	95206	100	100	Acinetobacter baumannii strain 9102 plasmid pAba9102a, complete sequence	CP023030.1
+AKA33576.1	gb|CP023033.1|	100.0	174	0	0	1	174	46761	46240	3.7799999999999997e-106	333.0	174	80546	100	100	Acinetobacter baumannii strain 7847 plasmid pAba7847b, complete sequence	CP023033.1
+AKA33576.1	gb|CP024578.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	79335	100	100	Acinetobacter baumannii strain AbPK1 plasmid pAbPK1b, complete sequence	CP024578.1
+AKA33576.1	gb|CP025267.1|	100.0	174	0	0	1	174	19223	19744	3.7799999999999997e-106	333.0	174	74241	100	100	Acinetobacter baumannii isolate SMC_Paed_Ab_BL01 plasmid pSMC_AB_BL01_1, complete sequence	CP025267.1
+AKA33576.1	gb|CP026706.1|	100.0	174	0	0	1	174	56034	55513	3.7799999999999997e-106	333.0	174	72105	100	100	Acinetobacter baumannii strain AR_0056 plasmid tig00000059_pilon, complete sequence	CP026706.1
+AKA33576.1	gb|CP026712.1|	100.0	174	0	0	1	174	26888	26367	3.7799999999999997e-106	333.0	174	72990	100	100	Acinetobacter baumannii strain AR_0063 plasmid unitig_2_pilon, complete sequence	CP026712.1
+AKA33576.1	gb|CP026946.1|	100.0	174	0	0	1	174	25642	26163	3.7799999999999997e-106	333.0	174	72204	100	100	Acinetobacter baumannii strain S1 plasmid pAbS1_03	CP026946.1
+AKA33576.1	gb|CP027243.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70796	100	100	Acinetobacter baumannii strain WCHAB005078 plasmid p1_005078, complete sequence	CP027243.1
+AKA33576.1	gb|CP029571.1|	100.0	174	0	0	1	174	4236	4757	3.7799999999999997e-106	333.0	174	71234	100	100	Acinetobacter baumannii strain DA33098 plasmid pDA33098-71, complete sequence	CP029571.1
+AKA33576.1	gb|CP030109.1|	100.0	174	0	0	1	174	47763	48284	3.7799999999999997e-106	333.0	174	84678	100	100	Acinetobacter baumannii strain DA33382 plasmid pDA33382-85, complete sequence	CP030109.1
+AKA33576.1	gb|CP031382.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70101	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP031382.1
+AKA33576.1	gb|CP033245.1|	100.0	174	0	0	1	174	46762	46241	3.7799999999999997e-106	333.0	174	80548	100	100	Acinetobacter baumannii strain 7835 plasmid pAba7835b, complete sequence	CP033245.1
+AKA33576.1	gb|CP035047.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	74091	100	100	Acinetobacter baumannii strain ABUH793 plasmid p74.1Kbp, complete sequence	CP035047.1
+AKA33576.1	gb|CP036286.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	71234	100	100	Acinetobacter baumannii strain TG60155 plasmid p60155_3, complete sequence	CP036286.1
+AKA33576.1	gb|CP038264.1|	100.0	174	0	0	1	174	64182	64703	3.7799999999999997e-106	333.0	174	76956	100	100	Acinetobacter baumannii strain EC plasmid pEC_gr6, complete sequence	CP038264.1
+AKA33576.1	gb|CP039994.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	71233	100	100	Acinetobacter baumannii strain TG22182 plasmid pTG22182_1, complete sequence	CP039994.1
+AKA33576.1	gb|CP040043.1|	100.0	174	0	0	1	174	4582	5103	3.7799999999999997e-106	333.0	174	82500	100	100	Acinetobacter baumannii strain VB958 plasmid unnamed3, complete sequence	CP040043.1
+AKA33576.1	gb|CP042842.1|	100.0	174	0	0	1	174	29127	29648	3.7799999999999997e-106	333.0	174	67023	100	100	Acinetobacter baumannii strain ATCC BAA-1790 plasmid unnamed, complete sequence	CP042842.1
+AKA33576.1	gb|CP048134.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	74916	100	100	Acinetobacter baumannii strain D46 plasmid pD46-3, complete sequence	CP048134.1
+AKA33576.1	gb|CP050392.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	70712	100	100	Acinetobacter baumannii strain VB11737 plasmid pVB11737_1, complete sequence	CP050392.1
+AKA33576.1	gb|CP050404.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	99090	100	100	Acinetobacter baumannii strain VB2486 plasmid pVB2486_1, complete sequence	CP050404.1
+AKA33576.1	gb|CP050413.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70098	100	100	Acinetobacter baumannii strain PM192696 plasmid pPM192696_1, complete sequence	CP050413.1
+AKA33576.1	gb|CP050909.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	71194	100	100	Acinetobacter baumannii strain DT-Ab022 plasmid unnamed2, complete sequence	CP050909.1
+AKA33576.1	gb|CP050912.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	71194	100	100	Acinetobacter baumannii strain DT-Ab020 plasmid unnamed1, complete sequence	CP050912.1
+AKA33576.1	gb|CP050915.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	92021	100	100	Acinetobacter baumannii strain DT-Ab007 plasmid unnamed1, complete sequence	CP050915.1
+AKA33576.1	gb|CP050917.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	71194	100	100	Acinetobacter baumannii strain DT-Ab003 plasmid unnamed1, complete sequence	CP050917.1
+AKA33576.1	gb|CP061516.1|	100.0	174	0	0	1	174	18947	19468	3.7799999999999997e-106	333.0	174	83626	100	100	Acinetobacter baumannii strain CFSAN093710 plasmid pCFSAN093710_2, complete sequence	CP061516.1
+AKA33576.1	gb|CP062921.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	72831	100	100	Acinetobacter baumannii strain Res13-Abat-PEA21-P4-01-A plasmid unnamed1836, complete sequence	CP062921.1
+AKA33576.1	gb|CP066230.1|	100.0	174	0	0	1	174	69659	70180	3.7799999999999997e-106	333.0	174	73339	100	100	Acinetobacter baumannii strain G20AB011 plasmid pG20AB011-1, complete sequence	CP066230.1
+AKA33576.1	gb|CP066233.1|	100.0	174	0	0	1	174	53962	54483	3.7799999999999997e-106	333.0	174	73360	100	100	Acinetobacter baumannii strain G20AB010 plasmid pG20AB010-1, complete sequence	CP066233.1
+AKA33576.1	gb|CP066236.1|	100.0	174	0	0	1	174	49528	49007	3.7799999999999997e-106	333.0	174	73361	100	100	Acinetobacter baumannii strain G20AB009 plasmid pG20AB009-1, complete sequence	CP066236.1
+AKA33576.1	gb|CP066238.1|	100.0	174	0	0	1	174	24591	25112	3.7799999999999997e-106	333.0	174	73361	100	100	Acinetobacter baumannii strain G20AB007 plasmid pG20AB007-1, complete sequence	CP066238.1
+AKA33576.1	gb|CP069841.1|	100.0	174	0	0	1	174	21942	21421	3.7799999999999997e-106	333.0	174	76933	100	100	Acinetobacter baumannii strain FDAARGOS_1360 plasmid unnamed1, complete sequence	CP069841.1
+AKA33576.1	gb|CP072124.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	87529	100	100	Acinetobacter baumannii strain KSK1 plasmid p2KSK1, complete sequence	CP072124.1
+AKA33576.1	gb|CP072272.1|	99.425	174	1	0	1	174	45532	46053	4.21e-105	330.0	174	68224	100	100	Acinetobacter baumannii strain KSK6 plasmid p2KSK6, complete sequence	CP072272.1
+AKA33576.1	gb|CP072277.1|	99.425	174	1	0	1	174	45532	46053	4.21e-105	330.0	174	68225	100	100	Acinetobacter baumannii strain KSK7 plasmid p2KSK7, complete sequence	CP072277.1
+AKA33576.1	gb|CP072282.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	87529	100	100	Acinetobacter baumannii strain KSK10 plasmid p2KSK10, complete sequence	CP072282.1
+AKA33576.1	gb|CP072287.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	87529	100	100	Acinetobacter baumannii strain KSK11 plasmid p2KSK11, complete sequence	CP072287.1
+AKA33576.1	gb|CP072292.1|	99.425	174	1	0	1	174	45532	46053	4.21e-105	330.0	174	68225	100	100	Acinetobacter baumannii strain KSK18 plasmid p2KSK18, complete sequence	CP072292.1
+AKA33576.1	gb|CP072297.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	87529	100	100	Acinetobacter baumannii strain KSK19 plasmid p2KSK19, complete sequence	CP072297.1
+AKA33576.1	gb|CP072302.1|	99.425	174	1	0	1	174	22915	22394	4.21e-105	330.0	174	68309	100	100	Acinetobacter baumannii strain KSK20 plasmid p2KSK20, complete sequence	CP072302.1
+AKA33576.1	gb|CP072400.1|	99.425	174	1	0	1	174	3803	4324	4.21e-105	330.0	174	87529	100	100	Acinetobacter baumannii strain KSK2 plasmid p2KSK2, complete sequence	CP072400.1
+AKA33576.1	gb|CP076802.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	88371	100	100	Acinetobacter baumannii strain UC25604 plasmid p1UC25604, complete sequence	CP076802.1
+AKA33576.1	gb|CP076805.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	105056	100	100	Acinetobacter baumannii strain UC24371 plasmid p1UC24371, complete sequence	CP076805.1
+AKA33576.1	gb|CP076818.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	99399	100	100	Acinetobacter baumannii strain UC24137 plasmid p1UC24137, complete sequence	CP076818.1
+AKA33576.1	gb|CP077833.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	84262	100	100	Acinetobacter baumannii strain DETAB-P43 plasmid pDETAB7d, complete sequence	CP077833.1
+AKA33576.1	gb|CP077836.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	73444	100	100	Acinetobacter baumannii strain DETAB-P65 plasmid pDETAB7b, complete sequence	CP077836.1
+AKA33576.1	gb|CP077838.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	72258	100	100	Acinetobacter baumannii strain DETAB-E159 plasmid pDETAB7a, complete sequence	CP077838.1
+AKA33576.1	gb|CP077841.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70789	100	100	Acinetobacter baumannii strain DETAB-P90 plasmid pDETAB16, complete sequence	CP077841.1
+AKA33576.1	gb|CP077847.1|	99.425	174	1	0	1	174	3803	4324	4.5e-106	333.0	174	70426	100	100	Acinetobacter baumannii strain DETAB-P24 plasmid pDETAB8, complete sequence	CP077847.1
+AKA33576.1	gb|CP082219.1|	100.0	174	0	0	1	174	61896	62417	3.7799999999999997e-106	333.0	174	78023	100	100	Acinetobacter baumannii strain 2018BJAB2 plasmid p2018BJAB2, complete sequence	CP082219.1
+AKA33576.1	gb|CP082220.1|	100.0	174	0	0	1	174	62768	63289	3.7799999999999997e-106	333.0	174	78024	100	100	Acinetobacter baumannii strain 2018BJAB1 plasmid p2018BJAB1, complete sequence	CP082220.1
+AKA33576.1	gb|CP082221.1|	100.0	174	0	0	1	174	62767	63288	3.7799999999999997e-106	333.0	174	78022	100	100	Acinetobacter baumannii strain 2018TJAB1 plasmid p2018TJAB1, complete sequence	CP082221.1
+AKA33576.1	gb|CP082222.1|	55.975	159	68	1	1	157	65971	66447	9.55e-58	194.0	174	77531	90	90	Acinetobacter baumannii strain 2014TJAB1 plasmid p2014TJAB1, complete sequence	CP082222.1
+AKA33576.1	gb|CP082225.1|	55.975	159	68	1	1	157	65985	66461	9.55e-58	194.0	174	77530	90	90	Acinetobacter baumannii strain 2014BJAB1 plasmid p2014BJAB1, complete sequence	CP082225.1
+AKA33576.1	gb|CP082226.1|	100.0	119	0	0	1	119	62728	63084	1e-86	248.0	174	77943	100	68	Acinetobacter baumannii strain 2016BJAB1 plasmid p2016BJAB1, complete sequence	CP082226.1
+AKA33576.1	gb|CP082228.1|	100.0	174	0	0	1	174	62832	63353	3.7799999999999997e-106	333.0	174	78030	100	100	Acinetobacter baumannii strain 2018HLJAB2 plasmid p2018HLJAB2, complete sequence	CP082228.1
+AKA33576.1	gb|CP082889.1|	55.975	159	68	1	1	157	65979	66455	9.55e-58	194.0	174	77537	90	90	Acinetobacter baumannii strain 2014LNAB1 plasmid p2014LNAB1-2, complete sequence	CP082889.1
+AKA33576.1	gb|CP082892.1|	55.975	159	68	1	1	157	65975	66451	9.55e-58	194.0	174	77530	90	90	Acinetobacter baumannii strain 2016LNAB1 plasmid p2016LNAB1-2, complete sequence	CP082892.1
+AKA33576.1	gb|CP082895.1|	100.0	174	0	0	1	174	62756	63277	3.7799999999999997e-106	333.0	174	78023	100	100	Acinetobacter baumannii strain 2018HBAB1 plasmid p2018HBAB1-2, complete sequence	CP082895.1
+AKA33576.1	gb|CP084723.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	69524	100	100	Acinetobacter baumannii strain HKU7 plasmid pHKU7b, complete sequence	CP084723.1
+AKA33576.1	gb|CP084726.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	69524	100	100	Acinetobacter baumannii strain HKU6 plasmid pHKU6b, complete sequence	CP084726.1
+AKA33576.1	gb|CP084729.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	69524	100	100	Acinetobacter baumannii strain HKU5 plasmid pHKU5b, complete sequence	CP084729.1
+AKA33576.1	gb|CP084732.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	69524	100	100	Acinetobacter baumannii strain HKU4 plasmid pHKU4b, complete sequence	CP084732.1
+AKA33576.1	gb|CP084735.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	69524	100	100	Acinetobacter baumannii strain HKU3 plasmid pHKU3b, complete sequence	CP084735.1
+AKA33576.1	gb|CP091595.1|	100.0	174	0	0	1	174	17646	17125	3.7799999999999997e-106	333.0	174	73145	100	100	Acinetobacter baumannii strain Nord4-2 plasmid pR32_2, complete sequence	CP091595.1
+AKA33576.1	gb|CP094285.1|	100.0	174	0	0	1	174	60829	61350	3.7799999999999997e-106	333.0	174	71194	100	100	Acinetobacter baumannii strain NY5301 plasmid pNY5301-2, complete sequence	CP094285.1
+AKA33576.1	gb|CP096689.1|	100.0	174	0	0	1	174	62767	63288	3.7799999999999997e-106	333.0	174	73209	100	100	Acinetobacter baumannii strain 5840 plasmid p5840, complete sequence	CP096689.1
+AKA33576.1	gb|CP096691.1|	100.0	174	0	0	1	174	60914	61435	3.7799999999999997e-106	333.0	174	71277	100	100	Acinetobacter baumannii strain 5839 plasmid p5839, complete sequence	CP096691.1
+AKA33576.1	gb|CP096695.1|	55.975	159	68	1	1	157	65970	66446	9.55e-58	194.0	174	78842	90	90	Acinetobacter baumannii strain 5773 plasmid p5773_2, complete sequence	CP096695.1
+AKA33576.1	gb|CP096703.1|	55.975	159	68	1	1	157	58727	59203	9.55e-58	194.0	174	70287	90	90	Acinetobacter baumannii strain 5767 plasmid p5767, complete sequence	CP096703.1
+AKA33576.1	gb|CP096706.1|	100.0	174	0	0	1	174	11335	10814	3.7799999999999997e-106	333.0	174	71277	100	100	Acinetobacter baumannii strain 5761 plasmid p5761, complete sequence	CP096706.1
+AKA33576.1	gb|CP096708.1|	55.975	159	68	1	1	157	65971	66447	9.55e-58	194.0	174	77531	90	90	Acinetobacter baumannii strain 5760 plasmid p5760_1, complete sequence	CP096708.1
+AKA33576.1	gb|CP096712.1|	55.975	159	68	1	1	157	65983	66459	9.55e-58	194.0	174	77531	90	90	Acinetobacter baumannii strain 5759 plasmid p5759_2, complete sequence	CP096712.1
+AKA33576.1	gb|CP096716.1|	55.975	159	68	1	1	157	65970	66446	9.55e-58	194.0	174	77530	90	90	Acinetobacter baumannii strain 5745 plasmid p5745_2, complete sequence	CP096716.1
+AKA33576.1	gb|CP096719.1|	100.0	174	0	0	1	174	60865	61386	3.7799999999999997e-106	333.0	174	70793	100	100	Acinetobacter baumannii strain 5741 plasmid p5741_2, complete sequence	CP096719.1
+AKA33576.1	gb|CP096725.1|	55.975	159	68	1	1	157	65974	66450	9.55e-58	194.0	174	77534	90	90	Acinetobacter baumannii strain 5734 plasmid p5734_1, complete sequence	CP096725.1
+AKA33576.1	gb|CP096730.1|	55.975	159	68	1	1	157	65119	65595	9.55e-58	194.0	174	77542	90	90	Acinetobacter baumannii strain 5729 plasmid p5729, complete sequence	CP096730.1
+AKA33576.1	gb|CP096733.1|	55.975	159	68	1	1	157	59912	60388	9.55e-58	194.0	174	71479	90	90	Acinetobacter baumannii strain 5689 plasmid p5689_2, complete sequence	CP096733.1
+AKA33576.1	gb|CP096736.1|	55.975	159	68	1	1	157	65965	66441	9.55e-58	194.0	174	77540	90	90	Acinetobacter baumannii strain 5683 plasmid p5683_1, complete sequence	CP096736.1
+AKA33576.1	gb|CP096739.1|	100.0	174	0	0	1	174	62734	63255	3.7799999999999997e-106	333.0	174	73209	100	100	Acinetobacter baumannii strain 5679 plasmid p5679, complete sequence	CP096739.1
+AKA33576.1	gb|CP096744.1|	100.0	174	0	0	1	174	60865	61386	3.7799999999999997e-106	333.0	174	71278	100	100	Acinetobacter baumannii strain 5671 plasmid p5671_2, complete sequence	CP096744.1
+AKA33576.1	gb|CP096751.1|	55.975	159	68	1	1	157	65957	66433	9.55e-58	194.0	174	77530	90	90	Acinetobacter baumannii strain 5666 plasmid p5666_2, complete sequence	CP096751.1
+AKA33576.1	gb|CP096754.1|	100.0	174	0	0	1	174	60425	60946	3.7799999999999997e-106	333.0	174	71044	100	100	Acinetobacter baumannii strain 5664 plasmid p5664, complete sequence	CP096754.1
+AKA33576.1	gb|CP096756.1|	100.0	174	0	0	1	174	60399	60920	3.7799999999999997e-106	333.0	174	71044	100	100	Acinetobacter baumannii strain 5663 plasmid p5663, complete sequence	CP096756.1
+AKA33576.1	gb|CP096763.1|	95.283	106	5	0	1	106	4069	4386	1.32e-64	214.0	174	72248	100	61	Acinetobacter baumannii strain 5651 plasmid p5651, complete sequence	CP096763.1
+AKA33576.1	gb|CP096769.1|	55.975	159	68	1	1	157	2409	1933	9.55e-58	194.0	174	77533	90	90	Acinetobacter baumannii strain 5388 plasmid p5388_1, complete sequence	CP096769.1
+AKA33576.1	gb|CP099785.1|	100.0	174	0	0	1	174	50483	51004	3.7799999999999997e-106	333.0	174	75310	100	100	Acinetobacter baumannii strain NCCP 15989 plasmid unnamed, complete sequence	CP099785.1
+AKA33576.1	gb|CP099787.1|	100.0	174	0	0	1	174	29866	29345	3.7799999999999997e-106	333.0	174	72095	100	100	Acinetobacter baumannii strain NCCP 15992 plasmid unnamed, complete sequence	CP099787.1
+AKA33576.1	gb|CP099791.1|	100.0	174	0	0	1	174	42954	43475	3.7799999999999997e-106	333.0	174	73034	100	100	Acinetobacter baumannii strain NCCP 15996 plasmid unnamed1, complete sequence	CP099791.1
+AKA33576.1	gb|CP100306.1|	100.0	174	0	0	1	174	20020	20541	3.7799999999999997e-106	333.0	174	74294	100	100	Acinetobacter baumannii strain KBN10P05679 plasmid unnamed1, complete sequence	CP100306.1
+AKA33576.1	emb|HG977523.1|	100.0	174	0	0	1	174	3995	4516	3.7799999999999997e-106	333.0	174	63720	100	100	Acinetobacter baumannii plasmid pCS01A, complete sequence	HG977523.1
+AKA33576.1	emb|HG977527.1|	100.0	174	0	0	1	174	3995	4516	3.7799999999999997e-106	333.0	174	63795	100	100	Acinetobacter baumannii plasmid pCR17A, complete sequence	HG977527.1
+AKA33576.1	gb|JAHPZP010000021.1|	100.0	174	0	0	1	174	6752	6231	3.7799999999999997e-106	333.0	174	70873	100	100	Acinetobacter baumannii plasmid pAci46a, whole genome shotgun sequence	JAHPZP010000021.1
+AKA33576.1	gb|KF669606.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70100	100	100	Acinetobacter baumannii strain G7 plasmid pAb-G7-2 transposon TnaphA6, complete sequence	KF669606.1
+AKA33576.1	gb|KF889012.1|	100.0	174	0	0	1	174	62278	62799	3.7799999999999997e-106	333.0	174	65890	100	100	Acinetobacter baumannii TYTH-1 plasmid pAB_CC, complete sequence	KF889012.1
+AKA33576.1	gb|KM051846.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70102	100	100	Acinetobacter baumannii strain D72 plasmid pD72-2, complete sequence	KM051846.1
+AKA33576.1	gb|KM922672.1|	55.975	159	68	1	1	157	19549	19073	9.55e-58	194.0	174	77530	90	90	Acinetobacter baumannii strain A221 plasmid pAZJ221, complete sequence	KM922672.1
+AKA33576.1	gb|KR535992.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70098	100	100	Acinetobacter baumannii strain A105 plasmid pA105-1, complete sequence	KR535992.1
+AKA33576.1	gb|KU549175.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	103871	100	100	Acinetobacter baumannii strain C13 plasmid pC13-2, complete sequence	KU549175.1
+AKA33576.1	gb|KX230794.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	67025	100	100	Acinetobacter baumannii strain MAL plasmid pMAL-2, complete sequence	KX230794.1
+AKA33576.1	gb|KY022424.1|	100.0	174	0	0	1	174	32086	32607	3.7799999999999997e-106	333.0	174	82667	100	100	Acinetobacter baumannii strain Ab8098 plasmid pAb8098, complete sequence	KY022424.1
+AKA33576.1	emb|LT984690.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	79598	100	100	Acinetobacter baumannii isolate K50 genome assembly, plasmid: I	LT984690.1
+AKA33576.1	gb|MG954377.1|	100.0	174	0	0	1	174	3803	4324	3.79e-106	333.0	174	123432	100	100	Acinetobacter baumannii strain SGH9601 plasmid pS21-2, complete sequence	MG954377.1
+AKA33576.1	gb|MG954379.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	70833	100	100	Acinetobacter baumannii strain SGH0905 plasmid pS32-2, complete sequence	MG954379.1
+AKA33576.1	gb|MK243454.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	66886	100	100	Acinetobacter baumannii strain 09A16CRGN0014 plasmid pCRA914-67, complete sequence	MK243454.1
+AKA33576.1	gb|MK386681.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	74241	100	100	Acinetobacter baumannii strain ABAY09008 plasmid pABAY09008_1B, complete sequence	MK386681.1
+AKA33576.1	gb|MK386682.1|	55.975	159	68	1	1	157	45193	45669	9.54e-58	194.0	174	54627	90	90	Acinetobacter baumannii strain ABAY10001 plasmid pABAY10001_1C, complete sequence	MK386682.1
+AKA33576.1	gb|MK531538.1|	100.0	174	0	0	1	174	3803	4324	3.7799999999999997e-106	333.0	174	67441	100	100	Acinetobacter baumannii strain MC23 plasmid pMC23.1, complete sequence	MK531538.1
+AKA33577.1	gb|AEOY01000095.1|	99.206	126	1	0	1	126	4566	4943	2.23e-80	256.0	126	63320	100	100	Acinetobacter baumannii 3990 plasmid p1ABST2, whole genome shotgun sequence	AEOY01000095.1
+AKA33577.1	gb|AFDB02000004.1|	99.206	126	1	0	1	126	49440	49817	2.23e-80	256.0	126	67012	100	100	Acinetobacter baumannii Naval-81 plasmid pNaval81-67, complete sequence, whole genome shotgun sequence	AFDB02000004.1
+AKA33577.1	gb|AFDL01000006.1|	99.206	126	1	0	1	126	23997	23620	2.23e-80	256.0	126	69518	100	100	Acinetobacter baumannii OIFC143 plasmid pOIFC143-70, whole genome shotgun sequence	AFDL01000006.1
+AKA33577.1	gb|ALII01000020.1|	99.206	126	1	0	1	126	7470	7093	2.23e-80	256.0	126	67025	100	100	Acinetobacter baumannii IS-123 plasmid pIS123-67, complete sequence, whole genome shotgun sequence	ALII01000020.1
+AKA33577.1	dbj|AP023078.1|	98.413	126	2	0	1	126	65422	65799	1.1800000000000002e-79	254.0	126	73028	100	100	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_1 DNA, complete sequence	AP023078.1
+AKA33577.1	gb|AYOH01000010.2|	100.0	126	0	0	1	126	69117	69494	2e-81	259.0	126	74089	100	100	Acinetobacter baumannii UH9907 plasmid pABUH1-74, whole genome shotgun sequence	AYOH01000010.2
+AKA33577.1	gb|CM009084.2|	99.206	126	1	0	1	126	44902	45279	2.23e-80	256.0	126	62339	100	100	Acinetobacter baumannii strain ZQ9 plasmid p2ZQ9, complete sequence, whole genome shotgun sequence	CM009084.2
+AKA33577.1	gb|CM009650.1|	100.0	126	0	0	1	126	22436	22059	2e-81	259.0	126	68115	100	100	Acinetobacter baumannii strain ZQ3 plasmid p4ZQ3, complete sequence, whole genome shotgun sequence	CM009650.1
+AKA33577.1	gb|CP000865.1|	99.206	126	1	0	1	126	4566	4943	2.23e-80	256.0	126	64366	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP000865.1
+AKA33577.1	gb|CP001922.1|	98.413	126	2	0	1	126	54844	55221	1.1800000000000002e-79	254.0	126	74451	100	100	Acinetobacter baumannii 1656-2 plasmid ABKp1, complete sequence	CP001922.1
+AKA33577.1	gb|CP002524.1|	98.413	126	2	0	1	126	34681	35058	1.1800000000000002e-79	254.0	126	70894	100	100	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete sequence	CP002524.1
+AKA33577.1	gb|CP003501.1|	51.24	121	59	0	1	121	11002	10640	1.2599999999999999e-34	126.0	126	77528	96	96	Acinetobacter baumannii MDR-TJ plasmid pABTJ1, complete sequence	CP003501.1
+AKA33577.1	gb|CP003887.1|	51.24	121	59	0	1	121	18974	18612	1.2599999999999999e-34	126.0	126	70170	96	96	Acinetobacter baumannii BJAB07104 plasmid p1BJAB07104, complete sequence	CP003887.1
+AKA33577.1	gb|CP003888.1|	51.24	121	59	0	1	121	18974	18612	1.2599999999999999e-34	126.0	126	70167	96	96	Acinetobacter baumannii BJAB0868 plasmid p2BJAB0868, complete sequence	CP003888.1
+AKA33577.1	gb|CP007580.1|	98.413	126	2	0	1	126	49052	49429	1.1800000000000002e-79	254.0	126	71433	100	100	Acinetobacter baumannii AC30 plasmid pAC30c, complete sequence	CP007580.1
+AKA33577.1	gb|CP008707.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	83610	100	100	Acinetobacter baumannii strain AB5075-UW plasmid p1AB5075, complete sequence	CP008707.1
+AKA33577.1	gb|CP008851.1|	98.413	126	2	0	1	126	22496	22119	1.1800000000000002e-79	254.0	126	74749	100	100	Acinetobacter baumannii strain AC29 plasmid pAC29b, complete sequence	CP008851.1
+AKA33577.1	gb|CP012008.1|	98.413	126	2	0	1	126	3128	2751	1.1800000000000002e-79	254.0	126	87569	100	100	Acinetobacter baumannii Ab04-mff plasmid pAB04-2, complete sequence	CP012008.1
+AKA33577.1	gb|CP014216.1|	98.413	126	2	0	1	126	60091	60468	1.1800000000000002e-79	254.0	126	74241	100	100	Acinetobacter baumannii strain YU-R612 plasmid unnamed1, complete sequence	CP014216.1
+AKA33577.1	gb|CP014292.1|	99.206	126	1	0	1	126	2896	2519	2.23e-80	256.0	126	84967	100	100	Acinetobacter baumannii strain AB34299 plasmid unnamed1, complete sequence	CP014292.1
+AKA33577.1	gb|CP015366.1|	99.206	126	1	0	1	126	46191	45814	2.23e-80	256.0	126	80546	100	100	Acinetobacter baumannii strain 3207 plasmid pAba3207b, complete sequence	CP015366.1
+AKA33577.1	gb|CP016297.1|	100.0	126	0	0	1	126	45090	45467	2e-81	259.0	126	74090	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab4 plasmid pCMCVTAb2-Ab4, complete sequence	CP016297.1
+AKA33577.1	gb|CP016302.1|	100.0	126	0	0	1	126	44195	44572	2e-81	259.0	126	73188	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab66 plasmid pCMCVTAb2-Ab66, complete sequence	CP016302.1
+AKA33577.1	gb|CP017645.1|	98.413	126	2	0	1	126	66431	66054	1.1800000000000002e-79	254.0	126	81227	100	100	Acinetobacter baumannii strain KAB02 plasmid, partial sequence	CP017645.1
+AKA33577.1	gb|CP017647.1|	99.206	126	1	0	1	126	20114	19737	2.23e-80	256.0	126	73891	100	100	Acinetobacter baumannii strain KAB03 plasmid, complete sequence	CP017647.1
+AKA33577.1	gb|CP017649.1|	98.413	126	2	0	1	126	40318	40695	1.1800000000000002e-79	254.0	126	121485	100	100	Acinetobacter baumannii strain KAB04 plasmid, complete sequence	CP017649.1
+AKA33577.1	gb|CP017651.1|	98.413	126	2	0	1	126	51190	51567	1.1800000000000002e-79	254.0	126	70884	100	100	Acinetobacter baumannii strain KAB05 plasmid, complete sequence	CP017651.1
+AKA33577.1	gb|CP017653.1|	98.413	126	2	0	1	126	691	1068	1.1800000000000002e-79	254.0	126	70884	100	100	Acinetobacter baumannii strain KAB06 plasmid, complete sequence	CP017653.1
+AKA33577.1	gb|CP017655.1|	98.413	126	2	0	1	126	32397	32774	1.1800000000000002e-79	254.0	126	72073	100	100	Acinetobacter baumannii strain KAB07 plasmid pKAB07, complete genome	CP017655.1
+AKA33577.1	gb|CP017657.1|	98.413	126	2	0	1	126	38721	39098	1.1800000000000002e-79	254.0	126	101406	100	100	Acinetobacter baumannii strain KAB08 plasmid, complete sequence	CP017657.1
+AKA33577.1	gb|CP018144.1|	51.24	121	59	0	1	121	30614	30976	1.2599999999999999e-34	126.0	126	77513	96	96	Acinetobacter baumannii strain HRAB-85 plasmid, complete sequence	CP018144.1
+AKA33577.1	gb|CP018422.1|	51.24	121	59	0	1	121	46910	46548	1.2599999999999999e-34	126.0	126	69069	96	96	Acinetobacter baumannii strain XDR-BJ83 plasmid pBJ83, complete genome	CP018422.1
+AKA33577.1	gb|CP019115.1|	98.413	126	2	0	1	126	49974	50351	1.1800000000000002e-79	254.0	126	75390	100	100	Acinetobacter baumannii strain MDR-CQ plasmid pMDR-CQ, complete sequence	CP019115.1
+AKA33577.1	gb|CP020573.1|	98.413	126	2	0	1	126	54093	53716	1.1800000000000002e-79	254.0	126	74241	100	100	Acinetobacter baumannii strain 15A5 plasmid p15A5_1, complete sequence	CP020573.1
+AKA33577.1	gb|CP020577.1|	98.413	126	2	0	1	126	52309	51932	1.1800000000000002e-79	254.0	126	73264	100	100	Acinetobacter baumannii strain SSA12 plasmid pSSA12_1, complete sequence	CP020577.1
+AKA33577.1	gb|CP020580.1|	98.413	126	2	0	1	126	73510	73133	1.1800000000000002e-79	254.0	126	90973	100	100	Acinetobacter baumannii strain SSMA17 plasmid pSSMA17_1, complete sequence	CP020580.1
+AKA33577.1	gb|CP020582.1|	98.413	126	2	0	1	126	34360	33983	1.1800000000000002e-79	254.0	126	90972	100	100	Acinetobacter baumannii strain JBA13 plasmid pJBA13_1, complete sequence	CP020582.1
+AKA33577.1	gb|CP020589.1|	98.413	126	2	0	1	126	25863	26240	1.1800000000000002e-79	254.0	126	72076	100	100	Acinetobacter baumannii strain 15A34 plasmid p15A34_1, complete sequence	CP020589.1
+AKA33577.1	gb|CP020593.1|	98.413	126	2	0	1	126	72036	72413	1.1800000000000002e-79	254.0	126	74241	100	100	Acinetobacter baumannii strain USA2 plasmid pUSA2_1, complete sequence	CP020593.1
+AKA33577.1	gb|CP020594.1|	100.0	126	0	0	1	126	32675	33052	2e-81	259.0	126	98301	100	100	Acinetobacter baumannii strain USA15 plasmid pUSA15_1, complete sequence	CP020594.1
+AKA33577.1	gb|CP021322.1|	98.413	126	2	0	1	126	40649	41026	1.1800000000000002e-79	254.0	126	64557	100	100	Acinetobacter baumannii strain XH731 plasmid pXH731, complete sequence	CP021322.1
+AKA33577.1	gb|CP021787.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	86334	100	100	Acinetobacter baumannii strain A85 plasmid pA85-3, complete sequence	CP021787.1
+AKA33577.1	gb|CP023028.1|	99.206	126	1	0	1	126	105364	105741	2.23e-80	256.0	126	110728	100	100	Acinetobacter baumannii strain 10042 plasmid pAba10042b, complete sequence	CP023028.1
+AKA33577.1	gb|CP023030.1|	99.206	126	1	0	1	126	16298	16675	2.23e-80	256.0	126	95206	100	100	Acinetobacter baumannii strain 9102 plasmid pAba9102a, complete sequence	CP023030.1
+AKA33577.1	gb|CP023033.1|	99.206	126	1	0	1	126	46191	45814	2.23e-80	256.0	126	80546	100	100	Acinetobacter baumannii strain 7847 plasmid pAba7847b, complete sequence	CP023033.1
+AKA33577.1	gb|CP024578.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	79335	100	100	Acinetobacter baumannii strain AbPK1 plasmid pAbPK1b, complete sequence	CP024578.1
+AKA33577.1	gb|CP025267.1|	98.413	126	2	0	1	126	19793	20170	1.1800000000000002e-79	254.0	126	74241	100	100	Acinetobacter baumannii isolate SMC_Paed_Ab_BL01 plasmid pSMC_AB_BL01_1, complete sequence	CP025267.1
+AKA33577.1	gb|CP026706.1|	100.0	126	0	0	1	126	55464	55087	2e-81	259.0	126	72105	100	100	Acinetobacter baumannii strain AR_0056 plasmid tig00000059_pilon, complete sequence	CP026706.1
+AKA33577.1	gb|CP026712.1|	100.0	126	0	0	1	126	26318	25941	2e-81	259.0	126	72990	100	100	Acinetobacter baumannii strain AR_0063 plasmid unitig_2_pilon, complete sequence	CP026712.1
+AKA33577.1	gb|CP026946.1|	100.0	126	0	0	1	126	26212	26589	2e-81	259.0	126	72204	100	100	Acinetobacter baumannii strain S1 plasmid pAbS1_03	CP026946.1
+AKA33577.1	gb|CP027243.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70796	100	100	Acinetobacter baumannii strain WCHAB005078 plasmid p1_005078, complete sequence	CP027243.1
+AKA33577.1	gb|CP029571.1|	99.206	126	1	0	1	126	4806	5183	2.23e-80	256.0	126	71234	100	100	Acinetobacter baumannii strain DA33098 plasmid pDA33098-71, complete sequence	CP029571.1
+AKA33577.1	gb|CP030109.1|	99.206	126	1	0	1	126	48333	48710	2.23e-80	256.0	126	84678	100	100	Acinetobacter baumannii strain DA33382 plasmid pDA33382-85, complete sequence	CP030109.1
+AKA33577.1	gb|CP031382.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70101	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP031382.1
+AKA33577.1	gb|CP033245.1|	99.206	126	1	0	1	126	46192	45815	2.23e-80	256.0	126	80548	100	100	Acinetobacter baumannii strain 7835 plasmid pAba7835b, complete sequence	CP033245.1
+AKA33577.1	gb|CP035047.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	74091	100	100	Acinetobacter baumannii strain ABUH793 plasmid p74.1Kbp, complete sequence	CP035047.1
+AKA33577.1	gb|CP036286.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	71234	100	100	Acinetobacter baumannii strain TG60155 plasmid p60155_3, complete sequence	CP036286.1
+AKA33577.1	gb|CP038264.1|	98.413	126	2	0	1	126	64752	65129	1.1800000000000002e-79	254.0	126	76956	100	100	Acinetobacter baumannii strain EC plasmid pEC_gr6, complete sequence	CP038264.1
+AKA33577.1	gb|CP039994.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	71233	100	100	Acinetobacter baumannii strain TG22182 plasmid pTG22182_1, complete sequence	CP039994.1
+AKA33577.1	gb|CP040043.1|	98.413	126	2	0	1	126	5152	5529	1.1800000000000002e-79	254.0	126	82500	100	100	Acinetobacter baumannii strain VB958 plasmid unnamed3, complete sequence	CP040043.1
+AKA33577.1	gb|CP042842.1|	99.206	126	1	0	1	126	29697	30074	2.23e-80	256.0	126	67023	100	100	Acinetobacter baumannii strain ATCC BAA-1790 plasmid unnamed, complete sequence	CP042842.1
+AKA33577.1	gb|CP048134.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	74916	100	100	Acinetobacter baumannii strain D46 plasmid pD46-3, complete sequence	CP048134.1
+AKA33577.1	gb|CP050392.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70712	100	100	Acinetobacter baumannii strain VB11737 plasmid pVB11737_1, complete sequence	CP050392.1
+AKA33577.1	gb|CP050404.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	99090	100	100	Acinetobacter baumannii strain VB2486 plasmid pVB2486_1, complete sequence	CP050404.1
+AKA33577.1	gb|CP050413.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70098	100	100	Acinetobacter baumannii strain PM192696 plasmid pPM192696_1, complete sequence	CP050413.1
+AKA33577.1	gb|CP050909.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	71194	100	100	Acinetobacter baumannii strain DT-Ab022 plasmid unnamed2, complete sequence	CP050909.1
+AKA33577.1	gb|CP050912.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	71194	100	100	Acinetobacter baumannii strain DT-Ab020 plasmid unnamed1, complete sequence	CP050912.1
+AKA33577.1	gb|CP050915.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	92021	100	100	Acinetobacter baumannii strain DT-Ab007 plasmid unnamed1, complete sequence	CP050915.1
+AKA33577.1	gb|CP050917.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	71194	100	100	Acinetobacter baumannii strain DT-Ab003 plasmid unnamed1, complete sequence	CP050917.1
+AKA33577.1	gb|CP061516.1|	99.206	126	1	0	1	126	19517	19894	2.23e-80	256.0	126	83626	100	100	Acinetobacter baumannii strain CFSAN093710 plasmid pCFSAN093710_2, complete sequence	CP061516.1
+AKA33577.1	gb|CP062921.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	72831	100	100	Acinetobacter baumannii strain Res13-Abat-PEA21-P4-01-A plasmid unnamed1836, complete sequence	CP062921.1
+AKA33577.1	gb|CP066230.1|	98.413	126	2	0	1	126	70229	70606	1.1800000000000002e-79	254.0	126	73339	100	100	Acinetobacter baumannii strain G20AB011 plasmid pG20AB011-1, complete sequence	CP066230.1
+AKA33577.1	gb|CP066233.1|	98.413	126	2	0	1	126	54532	54909	1.1800000000000002e-79	254.0	126	73360	100	100	Acinetobacter baumannii strain G20AB010 plasmid pG20AB010-1, complete sequence	CP066233.1
+AKA33577.1	gb|CP066236.1|	98.413	126	2	0	1	126	48958	48581	1.1800000000000002e-79	254.0	126	73361	100	100	Acinetobacter baumannii strain G20AB009 plasmid pG20AB009-1, complete sequence	CP066236.1
+AKA33577.1	gb|CP066238.1|	98.413	126	2	0	1	126	25161	25538	1.1800000000000002e-79	254.0	126	73361	100	100	Acinetobacter baumannii strain G20AB007 plasmid pG20AB007-1, complete sequence	CP066238.1
+AKA33577.1	gb|CP069841.1|	98.413	126	2	0	1	126	21372	20995	1.1800000000000002e-79	254.0	126	76933	100	100	Acinetobacter baumannii strain FDAARGOS_1360 plasmid unnamed1, complete sequence	CP069841.1
+AKA33577.1	gb|CP072124.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	87529	100	100	Acinetobacter baumannii strain KSK1 plasmid p2KSK1, complete sequence	CP072124.1
+AKA33577.1	gb|CP072272.1|	99.206	126	1	0	1	126	46102	46479	2.23e-80	256.0	126	68224	100	100	Acinetobacter baumannii strain KSK6 plasmid p2KSK6, complete sequence	CP072272.1
+AKA33577.1	gb|CP072277.1|	99.206	126	1	0	1	126	46102	46479	2.23e-80	256.0	126	68225	100	100	Acinetobacter baumannii strain KSK7 plasmid p2KSK7, complete sequence	CP072277.1
+AKA33577.1	gb|CP072282.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	87529	100	100	Acinetobacter baumannii strain KSK10 plasmid p2KSK10, complete sequence	CP072282.1
+AKA33577.1	gb|CP072287.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	87529	100	100	Acinetobacter baumannii strain KSK11 plasmid p2KSK11, complete sequence	CP072287.1
+AKA33577.1	gb|CP072292.1|	99.206	126	1	0	1	126	46102	46479	2.23e-80	256.0	126	68225	100	100	Acinetobacter baumannii strain KSK18 plasmid p2KSK18, complete sequence	CP072292.1
+AKA33577.1	gb|CP072297.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	87529	100	100	Acinetobacter baumannii strain KSK19 plasmid p2KSK19, complete sequence	CP072297.1
+AKA33577.1	gb|CP072302.1|	99.206	126	1	0	1	126	22345	21968	2.23e-80	256.0	126	68309	100	100	Acinetobacter baumannii strain KSK20 plasmid p2KSK20, complete sequence	CP072302.1
+AKA33577.1	gb|CP072400.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	87529	100	100	Acinetobacter baumannii strain KSK2 plasmid p2KSK2, complete sequence	CP072400.1
+AKA33577.1	gb|CP076802.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	88371	100	100	Acinetobacter baumannii strain UC25604 plasmid p1UC25604, complete sequence	CP076802.1
+AKA33577.1	gb|CP076805.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	105056	100	100	Acinetobacter baumannii strain UC24371 plasmid p1UC24371, complete sequence	CP076805.1
+AKA33577.1	gb|CP076818.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	99399	100	100	Acinetobacter baumannii strain UC24137 plasmid p1UC24137, complete sequence	CP076818.1
+AKA33577.1	gb|CP077833.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	84262	100	100	Acinetobacter baumannii strain DETAB-P43 plasmid pDETAB7d, complete sequence	CP077833.1
+AKA33577.1	gb|CP077836.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	73444	100	100	Acinetobacter baumannii strain DETAB-P65 plasmid pDETAB7b, complete sequence	CP077836.1
+AKA33577.1	gb|CP077838.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	72258	100	100	Acinetobacter baumannii strain DETAB-E159 plasmid pDETAB7a, complete sequence	CP077838.1
+AKA33577.1	gb|CP077841.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70789	100	100	Acinetobacter baumannii strain DETAB-P90 plasmid pDETAB16, complete sequence	CP077841.1
+AKA33577.1	gb|CP077847.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	70426	100	100	Acinetobacter baumannii strain DETAB-P24 plasmid pDETAB8, complete sequence	CP077847.1
+AKA33577.1	gb|CP082219.1|	98.413	126	2	0	1	126	62466	62843	1.1800000000000002e-79	254.0	126	78023	100	100	Acinetobacter baumannii strain 2018BJAB2 plasmid p2018BJAB2, complete sequence	CP082219.1
+AKA33577.1	gb|CP082220.1|	98.413	126	2	0	1	126	63338	63715	1.1800000000000002e-79	254.0	126	78024	100	100	Acinetobacter baumannii strain 2018BJAB1 plasmid p2018BJAB1, complete sequence	CP082220.1
+AKA33577.1	gb|CP082221.1|	98.413	126	2	0	1	126	63337	63714	1.1800000000000002e-79	254.0	126	78022	100	100	Acinetobacter baumannii strain 2018TJAB1 plasmid p2018TJAB1, complete sequence	CP082221.1
+AKA33577.1	gb|CP082222.1|	51.24	121	59	0	1	121	66546	66908	1.2599999999999999e-34	126.0	126	77531	96	96	Acinetobacter baumannii strain 2014TJAB1 plasmid p2014TJAB1, complete sequence	CP082222.1
+AKA33577.1	gb|CP082225.1|	51.24	121	59	0	1	121	66560	66922	1.2599999999999999e-34	126.0	126	77530	96	96	Acinetobacter baumannii strain 2014BJAB1 plasmid p2014BJAB1, complete sequence	CP082225.1
+AKA33577.1	gb|CP082226.1|	98.413	126	2	0	1	126	63297	63674	1.1800000000000002e-79	254.0	126	77943	100	100	Acinetobacter baumannii strain 2016BJAB1 plasmid p2016BJAB1, complete sequence	CP082226.1
+AKA33577.1	gb|CP082228.1|	98.413	126	2	0	1	126	63402	63779	1.1800000000000002e-79	254.0	126	78030	100	100	Acinetobacter baumannii strain 2018HLJAB2 plasmid p2018HLJAB2, complete sequence	CP082228.1
+AKA33577.1	gb|CP082889.1|	51.24	121	59	0	1	121	66554	66916	1.2599999999999999e-34	126.0	126	77537	96	96	Acinetobacter baumannii strain 2014LNAB1 plasmid p2014LNAB1-2, complete sequence	CP082889.1
+AKA33577.1	gb|CP082892.1|	51.24	121	59	0	1	121	66550	66912	1.2599999999999999e-34	126.0	126	77530	96	96	Acinetobacter baumannii strain 2016LNAB1 plasmid p2016LNAB1-2, complete sequence	CP082892.1
+AKA33577.1	gb|CP082895.1|	98.413	126	2	0	1	126	63326	63703	1.1800000000000002e-79	254.0	126	78023	100	100	Acinetobacter baumannii strain 2018HBAB1 plasmid p2018HBAB1-2, complete sequence	CP082895.1
+AKA33577.1	gb|CP084723.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	69524	100	100	Acinetobacter baumannii strain HKU7 plasmid pHKU7b, complete sequence	CP084723.1
+AKA33577.1	gb|CP084726.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	69524	100	100	Acinetobacter baumannii strain HKU6 plasmid pHKU6b, complete sequence	CP084726.1
+AKA33577.1	gb|CP084729.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	69524	100	100	Acinetobacter baumannii strain HKU5 plasmid pHKU5b, complete sequence	CP084729.1
+AKA33577.1	gb|CP084732.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	69524	100	100	Acinetobacter baumannii strain HKU4 plasmid pHKU4b, complete sequence	CP084732.1
+AKA33577.1	gb|CP084735.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	69524	100	100	Acinetobacter baumannii strain HKU3 plasmid pHKU3b, complete sequence	CP084735.1
+AKA33577.1	gb|CP091595.1|	99.206	126	1	0	1	126	17076	16699	2.23e-80	256.0	126	73145	100	100	Acinetobacter baumannii strain Nord4-2 plasmid pR32_2, complete sequence	CP091595.1
+AKA33577.1	gb|CP094285.1|	98.413	126	2	0	1	126	61399	61776	1.1800000000000002e-79	254.0	126	71194	100	100	Acinetobacter baumannii strain NY5301 plasmid pNY5301-2, complete sequence	CP094285.1
+AKA33577.1	gb|CP096689.1|	98.413	126	2	0	1	126	63337	63714	1.1800000000000002e-79	254.0	126	73209	100	100	Acinetobacter baumannii strain 5840 plasmid p5840, complete sequence	CP096689.1
+AKA33577.1	gb|CP096691.1|	98.413	126	2	0	1	126	61484	61861	1.1800000000000002e-79	254.0	126	71277	100	100	Acinetobacter baumannii strain 5839 plasmid p5839, complete sequence	CP096691.1
+AKA33577.1	gb|CP096695.1|	51.24	121	59	0	1	121	66545	66907	1.2599999999999999e-34	126.0	126	78842	96	96	Acinetobacter baumannii strain 5773 plasmid p5773_2, complete sequence	CP096695.1
+AKA33577.1	gb|CP096703.1|	51.24	121	59	0	1	121	59302	59664	1.2599999999999999e-34	126.0	126	70287	96	96	Acinetobacter baumannii strain 5767 plasmid p5767, complete sequence	CP096703.1
+AKA33577.1	gb|CP096706.1|	98.413	126	2	0	1	126	10765	10388	1.1800000000000002e-79	254.0	126	71277	100	100	Acinetobacter baumannii strain 5761 plasmid p5761, complete sequence	CP096706.1
+AKA33577.1	gb|CP096708.1|	51.24	121	59	0	1	121	66546	66908	1.2599999999999999e-34	126.0	126	77531	96	96	Acinetobacter baumannii strain 5760 plasmid p5760_1, complete sequence	CP096708.1
+AKA33577.1	gb|CP096712.1|	51.24	121	59	0	1	121	66558	66920	1.2599999999999999e-34	126.0	126	77531	96	96	Acinetobacter baumannii strain 5759 plasmid p5759_2, complete sequence	CP096712.1
+AKA33577.1	gb|CP096716.1|	51.24	121	59	0	1	121	66545	66907	1.2599999999999999e-34	126.0	126	77530	96	96	Acinetobacter baumannii strain 5745 plasmid p5745_2, complete sequence	CP096716.1
+AKA33577.1	gb|CP096719.1|	99.206	126	1	0	1	126	61435	61812	2.23e-80	256.0	126	70793	100	100	Acinetobacter baumannii strain 5741 plasmid p5741_2, complete sequence	CP096719.1
+AKA33577.1	gb|CP096725.1|	51.24	121	59	0	1	121	66549	66911	1.2599999999999999e-34	126.0	126	77534	96	96	Acinetobacter baumannii strain 5734 plasmid p5734_1, complete sequence	CP096725.1
+AKA33577.1	gb|CP096730.1|	51.24	121	59	0	1	121	65694	66056	1.2599999999999999e-34	126.0	126	77542	96	96	Acinetobacter baumannii strain 5729 plasmid p5729, complete sequence	CP096730.1
+AKA33577.1	gb|CP096733.1|	51.24	121	59	0	1	121	60487	60849	1.2599999999999999e-34	126.0	126	71479	96	96	Acinetobacter baumannii strain 5689 plasmid p5689_2, complete sequence	CP096733.1
+AKA33577.1	gb|CP096736.1|	51.24	121	59	0	1	121	66540	66902	1.2599999999999999e-34	126.0	126	77540	96	96	Acinetobacter baumannii strain 5683 plasmid p5683_1, complete sequence	CP096736.1
+AKA33577.1	gb|CP096739.1|	98.413	126	2	0	1	126	63304	63681	1.1800000000000002e-79	254.0	126	73209	100	100	Acinetobacter baumannii strain 5679 plasmid p5679, complete sequence	CP096739.1
+AKA33577.1	gb|CP096744.1|	98.413	126	2	0	1	126	61435	61812	1.1800000000000002e-79	254.0	126	71278	100	100	Acinetobacter baumannii strain 5671 plasmid p5671_2, complete sequence	CP096744.1
+AKA33577.1	gb|CP096751.1|	51.24	121	59	0	1	121	66532	66894	1.2599999999999999e-34	126.0	126	77530	96	96	Acinetobacter baumannii strain 5666 plasmid p5666_2, complete sequence	CP096751.1
+AKA33577.1	gb|CP096754.1|	98.413	126	2	0	1	126	60995	61372	1.1800000000000002e-79	254.0	126	71044	100	100	Acinetobacter baumannii strain 5664 plasmid p5664, complete sequence	CP096754.1
+AKA33577.1	gb|CP096756.1|	98.413	126	2	0	1	126	60969	61346	1.1800000000000002e-79	254.0	126	71044	100	100	Acinetobacter baumannii strain 5663 plasmid p5663, complete sequence	CP096756.1
+AKA33577.1	gb|CP096763.1|	98.413	126	2	0	1	126	4638	5015	1.1800000000000002e-79	254.0	126	72248	100	100	Acinetobacter baumannii strain 5651 plasmid p5651, complete sequence	CP096763.1
+AKA33577.1	gb|CP096769.1|	51.24	121	59	0	1	121	1834	1472	1.2599999999999999e-34	126.0	126	77533	96	96	Acinetobacter baumannii strain 5388 plasmid p5388_1, complete sequence	CP096769.1
+AKA33577.1	gb|CP099785.1|	98.413	126	2	0	1	126	51053	51430	1.1800000000000002e-79	254.0	126	75310	100	100	Acinetobacter baumannii strain NCCP 15989 plasmid unnamed, complete sequence	CP099785.1
+AKA33577.1	gb|CP099787.1|	98.413	126	2	0	1	126	29296	28919	1.1800000000000002e-79	254.0	126	72095	100	100	Acinetobacter baumannii strain NCCP 15992 plasmid unnamed, complete sequence	CP099787.1
+AKA33577.1	gb|CP099791.1|	99.206	126	1	0	1	126	43524	43901	2.23e-80	256.0	126	73034	100	100	Acinetobacter baumannii strain NCCP 15996 plasmid unnamed1, complete sequence	CP099791.1
+AKA33577.1	gb|CP100306.1|	98.413	126	2	0	1	126	20590	20967	1.1800000000000002e-79	254.0	126	74294	100	100	Acinetobacter baumannii strain KBN10P05679 plasmid unnamed1, complete sequence	CP100306.1
+AKA33577.1	emb|HG977523.1|	99.206	126	1	0	1	126	4564	4941	2.23e-80	256.0	126	63720	100	100	Acinetobacter baumannii plasmid pCS01A, complete sequence	HG977523.1
+AKA33577.1	emb|HG977527.1|	99.206	126	1	0	1	126	4564	4941	2.23e-80	256.0	126	63795	100	100	Acinetobacter baumannii plasmid pCR17A, complete sequence	HG977527.1
+AKA33577.1	gb|JAHPZP010000021.1|	99.206	126	1	0	1	126	6182	5805	2.23e-80	256.0	126	70873	100	100	Acinetobacter baumannii plasmid pAci46a, whole genome shotgun sequence	JAHPZP010000021.1
+AKA33577.1	gb|KF669606.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	70100	100	100	Acinetobacter baumannii strain G7 plasmid pAb-G7-2 transposon TnaphA6, complete sequence	KF669606.1
+AKA33577.1	gb|KF889012.1|	99.206	126	1	0	1	126	62848	63225	2.23e-80	256.0	126	65890	100	100	Acinetobacter baumannii TYTH-1 plasmid pAB_CC, complete sequence	KF889012.1
+AKA33577.1	gb|KM051846.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70102	100	100	Acinetobacter baumannii strain D72 plasmid pD72-2, complete sequence	KM051846.1
+AKA33577.1	gb|KM922672.1|	51.24	121	59	0	1	121	18974	18612	1.2599999999999999e-34	126.0	126	77530	96	96	Acinetobacter baumannii strain A221 plasmid pAZJ221, complete sequence	KM922672.1
+AKA33577.1	gb|KR535992.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	70098	100	100	Acinetobacter baumannii strain A105 plasmid pA105-1, complete sequence	KR535992.1
+AKA33577.1	gb|KU549175.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	103871	100	100	Acinetobacter baumannii strain C13 plasmid pC13-2, complete sequence	KU549175.1
+AKA33577.1	gb|KX230794.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	67025	100	100	Acinetobacter baumannii strain MAL plasmid pMAL-2, complete sequence	KX230794.1
+AKA33577.1	gb|KY022424.1|	100.0	126	0	0	1	126	32656	33033	2e-81	259.0	126	82667	100	100	Acinetobacter baumannii strain Ab8098 plasmid pAb8098, complete sequence	KY022424.1
+AKA33577.1	emb|LT984690.1|	100.0	126	0	0	1	126	4373	4750	2e-81	259.0	126	79598	100	100	Acinetobacter baumannii isolate K50 genome assembly, plasmid: I	LT984690.1
+AKA33577.1	gb|MG954377.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	123432	100	100	Acinetobacter baumannii strain SGH9601 plasmid pS21-2, complete sequence	MG954377.1
+AKA33577.1	gb|MG954379.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	70833	100	100	Acinetobacter baumannii strain SGH0905 plasmid pS32-2, complete sequence	MG954379.1
+AKA33577.1	gb|MK243454.1|	99.206	126	1	0	1	126	4373	4750	2.23e-80	256.0	126	66886	100	100	Acinetobacter baumannii strain 09A16CRGN0014 plasmid pCRA914-67, complete sequence	MK243454.1
+AKA33577.1	gb|MK386681.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	74241	100	100	Acinetobacter baumannii strain ABAY09008 plasmid pABAY09008_1B, complete sequence	MK386681.1
+AKA33577.1	gb|MK386682.1|	51.24	121	59	0	1	121	45768	46130	1.2599999999999999e-34	126.0	126	54627	96	96	Acinetobacter baumannii strain ABAY10001 plasmid pABAY10001_1C, complete sequence	MK386682.1
+AKA33577.1	gb|MK531538.1|	98.413	126	2	0	1	126	4373	4750	1.1800000000000002e-79	254.0	126	67441	100	100	Acinetobacter baumannii strain MC23 plasmid pMC23.1, complete sequence	MK531538.1
+AKA33578.1	gb|AEOY01000095.1|	100.0	130	0	0	1	130	5083	5472	4.95e-83	265.0	130	63320	100	100	Acinetobacter baumannii 3990 plasmid p1ABST2, whole genome shotgun sequence	AEOY01000095.1
+AKA33578.1	gb|AFDB02000004.1|	100.0	130	0	0	1	130	49955	50344	4.96e-83	265.0	130	67012	100	100	Acinetobacter baumannii Naval-81 plasmid pNaval81-67, complete sequence, whole genome shotgun sequence	AFDB02000004.1
+AKA33578.1	gb|AFDL01000006.1|	100.0	130	0	0	1	130	23481	23092	4.96e-83	265.0	130	69518	100	100	Acinetobacter baumannii OIFC143 plasmid pOIFC143-70, whole genome shotgun sequence	AFDL01000006.1
+AKA33578.1	gb|ALII01000020.1|	100.0	130	0	0	1	130	6954	6565	4.96e-83	265.0	130	67025	100	100	Acinetobacter baumannii IS-123 plasmid pIS123-67, complete sequence, whole genome shotgun sequence	ALII01000020.1
+AKA33578.1	dbj|AP023078.1|	98.462	130	2	0	1	130	65938	66327	6.209999999999999e-82	261.0	130	73028	100	100	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_1 DNA, complete sequence	AP023078.1
+AKA33578.1	gb|AYOH01000010.2|	100.0	130	0	0	1	130	69634	70023	4.96e-83	265.0	130	74089	100	100	Acinetobacter baumannii UH9907 plasmid pABUH1-74, whole genome shotgun sequence	AYOH01000010.2
+AKA33578.1	gb|CM009084.2|	100.0	130	0	0	1	130	45418	45807	4.95e-83	265.0	130	62339	100	100	Acinetobacter baumannii strain ZQ9 plasmid p2ZQ9, complete sequence, whole genome shotgun sequence	CM009084.2
+AKA33578.1	gb|CM009650.1|	100.0	130	0	0	1	130	21919	21530	4.96e-83	265.0	130	68115	100	100	Acinetobacter baumannii strain ZQ3 plasmid p4ZQ3, complete sequence, whole genome shotgun sequence	CM009650.1
+AKA33578.1	gb|CP000865.1|	100.0	130	0	0	1	130	5082	5471	4.96e-83	265.0	130	64366	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP000865.1
+AKA33578.1	gb|CP001922.1|	98.462	130	2	0	1	130	55360	55749	6.209999999999999e-82	261.0	130	74451	100	100	Acinetobacter baumannii 1656-2 plasmid ABKp1, complete sequence	CP001922.1
+AKA33578.1	gb|CP002524.1|	100.0	130	0	0	1	130	35197	35586	4.96e-83	265.0	130	70894	100	100	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete sequence	CP002524.1
+AKA33578.1	gb|CP003501.1|	46.774	124	65	1	6	128	10499	10128	2.7199999999999998e-34	125.0	130	77528	95	95	Acinetobacter baumannii MDR-TJ plasmid pABTJ1, complete sequence	CP003501.1
+AKA33578.1	gb|CP003887.1|	46.774	124	65	1	6	128	18471	18100	2.7199999999999998e-34	125.0	130	70170	95	95	Acinetobacter baumannii BJAB07104 plasmid p1BJAB07104, complete sequence	CP003887.1
+AKA33578.1	gb|CP003888.1|	46.774	124	65	1	6	128	18471	18100	2.7199999999999998e-34	125.0	130	70167	95	95	Acinetobacter baumannii BJAB0868 plasmid p2BJAB0868, complete sequence	CP003888.1
+AKA33578.1	gb|CP007580.1|	99.231	130	1	0	1	130	49568	49957	2.16e-82	263.0	130	71433	100	100	Acinetobacter baumannii AC30 plasmid pAC30c, complete sequence	CP007580.1
+AKA33578.1	gb|CP008707.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	83610	100	100	Acinetobacter baumannii strain AB5075-UW plasmid p1AB5075, complete sequence	CP008707.1
+AKA33578.1	gb|CP008851.1|	99.231	130	1	0	1	130	21980	21591	2.16e-82	263.0	130	74749	100	100	Acinetobacter baumannii strain AC29 plasmid pAC29b, complete sequence	CP008851.1
+AKA33578.1	gb|CP012008.1|	98.462	130	2	0	1	130	2612	2223	6.209999999999999e-82	261.0	130	87569	100	100	Acinetobacter baumannii Ab04-mff plasmid pAB04-2, complete sequence	CP012008.1
+AKA33578.1	gb|CP014216.1|	98.462	130	2	0	1	130	60607	60996	6.209999999999999e-82	261.0	130	74241	100	100	Acinetobacter baumannii strain YU-R612 plasmid unnamed1, complete sequence	CP014216.1
+AKA33578.1	gb|CP014292.1|	100.0	130	0	0	1	130	73658	73269	4.96e-83	265.0	130	84967	100	100	Acinetobacter baumannii strain AB34299 plasmid unnamed1, complete sequence	CP014292.1
+AKA33578.1	gb|CP015366.1|	100.0	130	0	0	1	130	45675	45286	4.96e-83	265.0	130	80546	100	100	Acinetobacter baumannii strain 3207 plasmid pAba3207b, complete sequence	CP015366.1
+AKA33578.1	gb|CP016297.1|	100.0	130	0	0	1	130	45607	45996	4.96e-83	265.0	130	74090	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab4 plasmid pCMCVTAb2-Ab4, complete sequence	CP016297.1
+AKA33578.1	gb|CP016302.1|	100.0	130	0	0	1	130	44712	45101	4.96e-83	265.0	130	73188	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab66 plasmid pCMCVTAb2-Ab66, complete sequence	CP016302.1
+AKA33578.1	gb|CP017645.1|	98.462	130	2	0	1	130	65915	65526	6.209999999999999e-82	261.0	130	81227	100	100	Acinetobacter baumannii strain KAB02 plasmid, partial sequence	CP017645.1
+AKA33578.1	gb|CP017647.1|	100.0	130	0	0	1	130	19598	19209	4.96e-83	265.0	130	73891	100	100	Acinetobacter baumannii strain KAB03 plasmid, complete sequence	CP017647.1
+AKA33578.1	gb|CP017649.1|	100.0	130	0	0	1	130	40834	41223	4.96e-83	265.0	130	121485	100	100	Acinetobacter baumannii strain KAB04 plasmid, complete sequence	CP017649.1
+AKA33578.1	gb|CP017651.1|	98.462	130	2	0	1	130	51706	52095	6.209999999999999e-82	261.0	130	70884	100	100	Acinetobacter baumannii strain KAB05 plasmid, complete sequence	CP017651.1
+AKA33578.1	gb|CP017653.1|	98.462	130	2	0	1	130	1207	1596	6.209999999999999e-82	261.0	130	70884	100	100	Acinetobacter baumannii strain KAB06 plasmid, complete sequence	CP017653.1
+AKA33578.1	gb|CP017655.1|	98.462	130	2	0	1	130	32913	33302	6.209999999999999e-82	261.0	130	72073	100	100	Acinetobacter baumannii strain KAB07 plasmid pKAB07, complete genome	CP017655.1
+AKA33578.1	gb|CP017657.1|	98.462	130	2	0	1	130	39237	39626	6.22e-82	261.0	130	101406	100	100	Acinetobacter baumannii strain KAB08 plasmid, complete sequence	CP017657.1
+AKA33578.1	gb|CP018144.1|	46.774	124	65	1	6	128	31117	31488	2.7199999999999998e-34	125.0	130	77513	95	95	Acinetobacter baumannii strain HRAB-85 plasmid, complete sequence	CP018144.1
+AKA33578.1	gb|CP018422.1|	46.774	124	65	1	6	128	46407	46036	2.7199999999999998e-34	125.0	130	69069	95	95	Acinetobacter baumannii strain XDR-BJ83 plasmid pBJ83, complete genome	CP018422.1
+AKA33578.1	gb|CP019115.1|	98.462	130	2	0	1	130	50490	50879	6.209999999999999e-82	261.0	130	75390	100	100	Acinetobacter baumannii strain MDR-CQ plasmid pMDR-CQ, complete sequence	CP019115.1
+AKA33578.1	gb|CP020573.1|	98.462	130	2	0	1	130	53577	53188	6.209999999999999e-82	261.0	130	74241	100	100	Acinetobacter baumannii strain 15A5 plasmid p15A5_1, complete sequence	CP020573.1
+AKA33578.1	gb|CP020577.1|	98.462	130	2	0	1	130	51793	51404	6.209999999999999e-82	261.0	130	73264	100	100	Acinetobacter baumannii strain SSA12 plasmid pSSA12_1, complete sequence	CP020577.1
+AKA33578.1	gb|CP020580.1|	100.0	130	0	0	1	130	72994	72605	4.96e-83	265.0	130	90973	100	100	Acinetobacter baumannii strain SSMA17 plasmid pSSMA17_1, complete sequence	CP020580.1
+AKA33578.1	gb|CP020582.1|	100.0	130	0	0	1	130	33844	33455	4.96e-83	265.0	130	90972	100	100	Acinetobacter baumannii strain JBA13 plasmid pJBA13_1, complete sequence	CP020582.1
+AKA33578.1	gb|CP020589.1|	98.462	130	2	0	1	130	26379	26768	6.209999999999999e-82	261.0	130	72076	100	100	Acinetobacter baumannii strain 15A34 plasmid p15A34_1, complete sequence	CP020589.1
+AKA33578.1	gb|CP020593.1|	98.462	130	2	0	1	130	72552	72941	6.209999999999999e-82	261.0	130	74241	100	100	Acinetobacter baumannii strain USA2 plasmid pUSA2_1, complete sequence	CP020593.1
+AKA33578.1	gb|CP020594.1|	100.0	130	0	0	1	130	33192	33581	4.96e-83	265.0	130	98301	100	100	Acinetobacter baumannii strain USA15 plasmid pUSA15_1, complete sequence	CP020594.1
+AKA33578.1	gb|CP021322.1|	97.692	130	3	0	1	130	41165	41554	7.78e-81	258.0	130	64557	100	100	Acinetobacter baumannii strain XH731 plasmid pXH731, complete sequence	CP021322.1
+AKA33578.1	gb|CP021787.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	86334	100	100	Acinetobacter baumannii strain A85 plasmid pA85-3, complete sequence	CP021787.1
+AKA33578.1	gb|CP023028.1|	100.0	130	0	0	1	130	13330	13719	4.96e-83	265.0	130	110728	100	100	Acinetobacter baumannii strain 10042 plasmid pAba10042b, complete sequence	CP023028.1
+AKA33578.1	gb|CP023030.1|	100.0	130	0	0	1	130	16814	17203	4.96e-83	265.0	130	95206	100	100	Acinetobacter baumannii strain 9102 plasmid pAba9102a, complete sequence	CP023030.1
+AKA33578.1	gb|CP023033.1|	100.0	130	0	0	1	130	45675	45286	4.96e-83	265.0	130	80546	100	100	Acinetobacter baumannii strain 7847 plasmid pAba7847b, complete sequence	CP023033.1
+AKA33578.1	gb|CP024578.1|	97.692	130	3	0	1	130	4889	5278	4.27e-81	259.0	130	79335	100	100	Acinetobacter baumannii strain AbPK1 plasmid pAbPK1b, complete sequence	CP024578.1
+AKA33578.1	gb|CP025267.1|	98.462	130	2	0	1	130	20309	20698	6.209999999999999e-82	261.0	130	74241	100	100	Acinetobacter baumannii isolate SMC_Paed_Ab_BL01 plasmid pSMC_AB_BL01_1, complete sequence	CP025267.1
+AKA33578.1	gb|CP026706.1|	100.0	130	0	0	1	130	54947	54558	4.96e-83	265.0	130	72105	100	100	Acinetobacter baumannii strain AR_0056 plasmid tig00000059_pilon, complete sequence	CP026706.1
+AKA33578.1	gb|CP026712.1|	100.0	130	0	0	1	130	25801	25412	4.96e-83	265.0	130	72990	100	100	Acinetobacter baumannii strain AR_0063 plasmid unitig_2_pilon, complete sequence	CP026712.1
+AKA33578.1	gb|CP026946.1|	100.0	130	0	0	1	130	26729	27118	4.96e-83	265.0	130	72204	100	100	Acinetobacter baumannii strain S1 plasmid pAbS1_03	CP026946.1
+AKA33578.1	gb|CP027243.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70796	100	100	Acinetobacter baumannii strain WCHAB005078 plasmid p1_005078, complete sequence	CP027243.1
+AKA33578.1	gb|CP029571.1|	100.0	130	0	0	1	130	5322	5711	4.96e-83	265.0	130	71234	100	100	Acinetobacter baumannii strain DA33098 plasmid pDA33098-71, complete sequence	CP029571.1
+AKA33578.1	gb|CP030109.1|	100.0	130	0	0	1	130	48849	49238	4.96e-83	265.0	130	84678	100	100	Acinetobacter baumannii strain DA33382 plasmid pDA33382-85, complete sequence	CP030109.1
+AKA33578.1	gb|CP031382.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	70101	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP031382.1
+AKA33578.1	gb|CP033245.1|	100.0	130	0	0	1	130	45676	45287	4.96e-83	265.0	130	80548	100	100	Acinetobacter baumannii strain 7835 plasmid pAba7835b, complete sequence	CP033245.1
+AKA33578.1	gb|CP035047.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	74091	100	100	Acinetobacter baumannii strain ABUH793 plasmid p74.1Kbp, complete sequence	CP035047.1
+AKA33578.1	gb|CP036286.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	71234	100	100	Acinetobacter baumannii strain TG60155 plasmid p60155_3, complete sequence	CP036286.1
+AKA33578.1	gb|CP038264.1|	98.462	130	2	0	1	130	65268	65657	6.209999999999999e-82	261.0	130	76956	100	100	Acinetobacter baumannii strain EC plasmid pEC_gr6, complete sequence	CP038264.1
+AKA33578.1	gb|CP039994.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	71233	100	100	Acinetobacter baumannii strain TG22182 plasmid pTG22182_1, complete sequence	CP039994.1
+AKA33578.1	gb|CP040043.1|	98.462	130	2	0	1	130	5668	6057	6.209999999999999e-82	261.0	130	82500	100	100	Acinetobacter baumannii strain VB958 plasmid unnamed3, complete sequence	CP040043.1
+AKA33578.1	gb|CP042842.1|	100.0	130	0	0	1	130	30213	30602	4.96e-83	265.0	130	67023	100	100	Acinetobacter baumannii strain ATCC BAA-1790 plasmid unnamed, complete sequence	CP042842.1
+AKA33578.1	gb|CP048134.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	74916	100	100	Acinetobacter baumannii strain D46 plasmid pD46-3, complete sequence	CP048134.1
+AKA33578.1	gb|CP050392.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70712	100	100	Acinetobacter baumannii strain VB11737 plasmid pVB11737_1, complete sequence	CP050392.1
+AKA33578.1	gb|CP050404.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	99090	100	100	Acinetobacter baumannii strain VB2486 plasmid pVB2486_1, complete sequence	CP050404.1
+AKA33578.1	gb|CP050413.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70098	100	100	Acinetobacter baumannii strain PM192696 plasmid pPM192696_1, complete sequence	CP050413.1
+AKA33578.1	gb|CP050909.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	71194	100	100	Acinetobacter baumannii strain DT-Ab022 plasmid unnamed2, complete sequence	CP050909.1
+AKA33578.1	gb|CP050912.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	71194	100	100	Acinetobacter baumannii strain DT-Ab020 plasmid unnamed1, complete sequence	CP050912.1
+AKA33578.1	gb|CP050915.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	92021	100	100	Acinetobacter baumannii strain DT-Ab007 plasmid unnamed1, complete sequence	CP050915.1
+AKA33578.1	gb|CP050917.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	71194	100	100	Acinetobacter baumannii strain DT-Ab003 plasmid unnamed1, complete sequence	CP050917.1
+AKA33578.1	gb|CP061516.1|	100.0	130	0	0	1	130	20033	20422	4.96e-83	265.0	130	83626	100	100	Acinetobacter baumannii strain CFSAN093710 plasmid pCFSAN093710_2, complete sequence	CP061516.1
+AKA33578.1	gb|CP062921.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	72831	100	100	Acinetobacter baumannii strain Res13-Abat-PEA21-P4-01-A plasmid unnamed1836, complete sequence	CP062921.1
+AKA33578.1	gb|CP066230.1|	98.462	130	2	0	1	130	70745	71134	6.209999999999999e-82	261.0	130	73339	100	100	Acinetobacter baumannii strain G20AB011 plasmid pG20AB011-1, complete sequence	CP066230.1
+AKA33578.1	gb|CP066233.1|	98.462	130	2	0	1	130	55048	55437	6.209999999999999e-82	261.0	130	73360	100	100	Acinetobacter baumannii strain G20AB010 plasmid pG20AB010-1, complete sequence	CP066233.1
+AKA33578.1	gb|CP066236.1|	98.462	130	2	0	1	130	48442	48053	6.209999999999999e-82	261.0	130	73361	100	100	Acinetobacter baumannii strain G20AB009 plasmid pG20AB009-1, complete sequence	CP066236.1
+AKA33578.1	gb|CP066238.1|	98.462	130	2	0	1	130	25677	26066	6.209999999999999e-82	261.0	130	73361	100	100	Acinetobacter baumannii strain G20AB007 plasmid pG20AB007-1, complete sequence	CP066238.1
+AKA33578.1	gb|CP069841.1|	97.692	130	3	0	1	130	20856	20467	4.27e-81	259.0	130	76933	100	100	Acinetobacter baumannii strain FDAARGOS_1360 plasmid unnamed1, complete sequence	CP069841.1
+AKA33578.1	gb|CP072124.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	87529	100	100	Acinetobacter baumannii strain KSK1 plasmid p2KSK1, complete sequence	CP072124.1
+AKA33578.1	gb|CP072272.1|	100.0	130	0	0	1	130	46618	47007	4.96e-83	265.0	130	68224	100	100	Acinetobacter baumannii strain KSK6 plasmid p2KSK6, complete sequence	CP072272.1
+AKA33578.1	gb|CP072277.1|	100.0	130	0	0	1	130	46618	47007	4.96e-83	265.0	130	68225	100	100	Acinetobacter baumannii strain KSK7 plasmid p2KSK7, complete sequence	CP072277.1
+AKA33578.1	gb|CP072282.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	87529	100	100	Acinetobacter baumannii strain KSK10 plasmid p2KSK10, complete sequence	CP072282.1
+AKA33578.1	gb|CP072287.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	87529	100	100	Acinetobacter baumannii strain KSK11 plasmid p2KSK11, complete sequence	CP072287.1
+AKA33578.1	gb|CP072292.1|	100.0	130	0	0	1	130	46618	47007	4.96e-83	265.0	130	68225	100	100	Acinetobacter baumannii strain KSK18 plasmid p2KSK18, complete sequence	CP072292.1
+AKA33578.1	gb|CP072297.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	87529	100	100	Acinetobacter baumannii strain KSK19 plasmid p2KSK19, complete sequence	CP072297.1
+AKA33578.1	gb|CP072302.1|	100.0	130	0	0	1	130	21829	21440	4.96e-83	265.0	130	68309	100	100	Acinetobacter baumannii strain KSK20 plasmid p2KSK20, complete sequence	CP072302.1
+AKA33578.1	gb|CP072400.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	87529	100	100	Acinetobacter baumannii strain KSK2 plasmid p2KSK2, complete sequence	CP072400.1
+AKA33578.1	gb|CP076802.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	88371	100	100	Acinetobacter baumannii strain UC25604 plasmid p1UC25604, complete sequence	CP076802.1
+AKA33578.1	gb|CP076805.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	105056	100	100	Acinetobacter baumannii strain UC24371 plasmid p1UC24371, complete sequence	CP076805.1
+AKA33578.1	gb|CP076818.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	99399	100	100	Acinetobacter baumannii strain UC24137 plasmid p1UC24137, complete sequence	CP076818.1
+AKA33578.1	gb|CP077833.1|	97.692	130	3	0	1	130	4889	5278	7.79e-81	258.0	130	84262	100	100	Acinetobacter baumannii strain DETAB-P43 plasmid pDETAB7d, complete sequence	CP077833.1
+AKA33578.1	gb|CP077836.1|	97.692	130	3	0	1	130	4889	5278	7.78e-81	258.0	130	73444	100	100	Acinetobacter baumannii strain DETAB-P65 plasmid pDETAB7b, complete sequence	CP077836.1
+AKA33578.1	gb|CP077838.1|	97.692	130	3	0	1	130	4889	5278	7.78e-81	258.0	130	72258	100	100	Acinetobacter baumannii strain DETAB-E159 plasmid pDETAB7a, complete sequence	CP077838.1
+AKA33578.1	gb|CP077841.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70789	100	100	Acinetobacter baumannii strain DETAB-P90 plasmid pDETAB16, complete sequence	CP077841.1
+AKA33578.1	gb|CP077847.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	70426	100	100	Acinetobacter baumannii strain DETAB-P24 plasmid pDETAB8, complete sequence	CP077847.1
+AKA33578.1	gb|CP082219.1|	98.462	130	2	0	1	130	62982	63371	6.209999999999999e-82	261.0	130	78023	100	100	Acinetobacter baumannii strain 2018BJAB2 plasmid p2018BJAB2, complete sequence	CP082219.1
+AKA33578.1	gb|CP082220.1|	98.462	130	2	0	1	130	63854	64243	6.209999999999999e-82	261.0	130	78024	100	100	Acinetobacter baumannii strain 2018BJAB1 plasmid p2018BJAB1, complete sequence	CP082220.1
+AKA33578.1	gb|CP082221.1|	98.462	130	2	0	1	130	63853	64242	6.209999999999999e-82	261.0	130	78022	100	100	Acinetobacter baumannii strain 2018TJAB1 plasmid p2018TJAB1, complete sequence	CP082221.1
+AKA33578.1	gb|CP082222.1|	46.774	124	65	1	6	128	67049	67420	2.7199999999999998e-34	125.0	130	77531	95	95	Acinetobacter baumannii strain 2014TJAB1 plasmid p2014TJAB1, complete sequence	CP082222.1
+AKA33578.1	gb|CP082225.1|	46.774	124	65	1	6	128	67063	67434	2.7199999999999998e-34	125.0	130	77530	95	95	Acinetobacter baumannii strain 2014BJAB1 plasmid p2014BJAB1, complete sequence	CP082225.1
+AKA33578.1	gb|CP082226.1|	92.0	75	5	1	1	74	63812	64036	1.33e-64	138.0	130	77943	100	57	Acinetobacter baumannii strain 2016BJAB1 plasmid p2016BJAB1, complete sequence	CP082226.1
+AKA33578.1	gb|CP082228.1|	98.462	130	2	0	1	130	63918	64307	6.209999999999999e-82	261.0	130	78030	100	100	Acinetobacter baumannii strain 2018HLJAB2 plasmid p2018HLJAB2, complete sequence	CP082228.1
+AKA33578.1	gb|CP082889.1|	46.774	124	65	1	6	128	67057	67428	2.7199999999999998e-34	125.0	130	77537	95	95	Acinetobacter baumannii strain 2014LNAB1 plasmid p2014LNAB1-2, complete sequence	CP082889.1
+AKA33578.1	gb|CP082892.1|	46.774	124	65	1	6	128	67053	67424	2.7199999999999998e-34	125.0	130	77530	95	95	Acinetobacter baumannii strain 2016LNAB1 plasmid p2016LNAB1-2, complete sequence	CP082892.1
+AKA33578.1	gb|CP082895.1|	98.462	130	2	0	1	130	63842	64231	6.209999999999999e-82	261.0	130	78023	100	100	Acinetobacter baumannii strain 2018HBAB1 plasmid p2018HBAB1-2, complete sequence	CP082895.1
+AKA33578.1	gb|CP084723.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	69524	100	100	Acinetobacter baumannii strain HKU7 plasmid pHKU7b, complete sequence	CP084723.1
+AKA33578.1	gb|CP084726.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	69524	100	100	Acinetobacter baumannii strain HKU6 plasmid pHKU6b, complete sequence	CP084726.1
+AKA33578.1	gb|CP084729.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	69524	100	100	Acinetobacter baumannii strain HKU5 plasmid pHKU5b, complete sequence	CP084729.1
+AKA33578.1	gb|CP084732.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	69524	100	100	Acinetobacter baumannii strain HKU4 plasmid pHKU4b, complete sequence	CP084732.1
+AKA33578.1	gb|CP084735.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	69524	100	100	Acinetobacter baumannii strain HKU3 plasmid pHKU3b, complete sequence	CP084735.1
+AKA33578.1	gb|CP091595.1|	100.0	130	0	0	1	130	16560	16171	4.96e-83	265.0	130	73145	100	100	Acinetobacter baumannii strain Nord4-2 plasmid pR32_2, complete sequence	CP091595.1
+AKA33578.1	gb|CP094285.1|	98.462	130	2	0	1	130	61915	62304	6.209999999999999e-82	261.0	130	71194	100	100	Acinetobacter baumannii strain NY5301 plasmid pNY5301-2, complete sequence	CP094285.1
+AKA33578.1	gb|CP096689.1|	98.462	130	2	0	1	130	63853	64242	6.209999999999999e-82	261.0	130	73209	100	100	Acinetobacter baumannii strain 5840 plasmid p5840, complete sequence	CP096689.1
+AKA33578.1	gb|CP096691.1|	98.462	130	2	0	1	130	62000	62389	6.209999999999999e-82	261.0	130	71277	100	100	Acinetobacter baumannii strain 5839 plasmid p5839, complete sequence	CP096691.1
+AKA33578.1	gb|CP096695.1|	46.774	124	65	1	6	128	67048	67419	2.7199999999999998e-34	125.0	130	78842	95	95	Acinetobacter baumannii strain 5773 plasmid p5773_2, complete sequence	CP096695.1
+AKA33578.1	gb|CP096703.1|	46.774	124	65	1	6	128	59805	60176	2.7199999999999998e-34	125.0	130	70287	95	95	Acinetobacter baumannii strain 5767 plasmid p5767, complete sequence	CP096703.1
+AKA33578.1	gb|CP096706.1|	98.462	130	2	0	1	130	10249	9860	6.209999999999999e-82	261.0	130	71277	100	100	Acinetobacter baumannii strain 5761 plasmid p5761, complete sequence	CP096706.1
+AKA33578.1	gb|CP096708.1|	46.774	124	65	1	6	128	67049	67420	2.7199999999999998e-34	125.0	130	77531	95	95	Acinetobacter baumannii strain 5760 plasmid p5760_1, complete sequence	CP096708.1
+AKA33578.1	gb|CP096712.1|	46.774	124	65	1	6	128	67061	67432	2.7199999999999998e-34	125.0	130	77531	95	95	Acinetobacter baumannii strain 5759 plasmid p5759_2, complete sequence	CP096712.1
+AKA33578.1	gb|CP096716.1|	46.774	124	65	1	6	128	67048	67419	2.7199999999999998e-34	125.0	130	77530	95	95	Acinetobacter baumannii strain 5745 plasmid p5745_2, complete sequence	CP096716.1
+AKA33578.1	gb|CP096719.1|	100.0	130	0	0	1	130	61951	62340	4.96e-83	265.0	130	70793	100	100	Acinetobacter baumannii strain 5741 plasmid p5741_2, complete sequence	CP096719.1
+AKA33578.1	gb|CP096725.1|	46.774	124	65	1	6	128	67052	67423	2.7199999999999998e-34	125.0	130	77534	95	95	Acinetobacter baumannii strain 5734 plasmid p5734_1, complete sequence	CP096725.1
+AKA33578.1	gb|CP096730.1|	46.774	124	65	1	6	128	66197	66568	2.7199999999999998e-34	125.0	130	77542	95	95	Acinetobacter baumannii strain 5729 plasmid p5729, complete sequence	CP096730.1
+AKA33578.1	gb|CP096733.1|	46.774	124	65	1	6	128	60990	61361	2.7199999999999998e-34	125.0	130	71479	95	95	Acinetobacter baumannii strain 5689 plasmid p5689_2, complete sequence	CP096733.1
+AKA33578.1	gb|CP096736.1|	46.774	124	65	1	6	128	67043	67414	2.7199999999999998e-34	125.0	130	77540	95	95	Acinetobacter baumannii strain 5683 plasmid p5683_1, complete sequence	CP096736.1
+AKA33578.1	gb|CP096739.1|	98.462	130	2	0	1	130	63820	64209	6.209999999999999e-82	261.0	130	73209	100	100	Acinetobacter baumannii strain 5679 plasmid p5679, complete sequence	CP096739.1
+AKA33578.1	gb|CP096744.1|	98.462	130	2	0	1	130	61951	62340	6.209999999999999e-82	261.0	130	71278	100	100	Acinetobacter baumannii strain 5671 plasmid p5671_2, complete sequence	CP096744.1
+AKA33578.1	gb|CP096751.1|	46.774	124	65	1	6	128	67035	67406	2.7199999999999998e-34	125.0	130	77530	95	95	Acinetobacter baumannii strain 5666 plasmid p5666_2, complete sequence	CP096751.1
+AKA33578.1	gb|CP096754.1|	99.231	130	1	0	1	130	61511	61900	1.4199999999999998e-82	263.0	130	71044	100	100	Acinetobacter baumannii strain 5664 plasmid p5664, complete sequence	CP096754.1
+AKA33578.1	gb|CP096756.1|	99.231	130	1	0	1	130	61485	61874	1.4199999999999998e-82	263.0	130	71044	100	100	Acinetobacter baumannii strain 5663 plasmid p5663, complete sequence	CP096756.1
+AKA33578.1	gb|CP096763.1|	97.692	130	3	0	1	130	5154	5543	7.78e-81	258.0	130	72248	100	100	Acinetobacter baumannii strain 5651 plasmid p5651, complete sequence	CP096763.1
+AKA33578.1	gb|CP096769.1|	46.774	124	65	1	6	128	1331	960	2.7199999999999998e-34	125.0	130	77533	95	95	Acinetobacter baumannii strain 5388 plasmid p5388_1, complete sequence	CP096769.1
+AKA33578.1	gb|CP099785.1|	98.462	130	2	0	1	130	51569	51958	6.209999999999999e-82	261.0	130	75310	100	100	Acinetobacter baumannii strain NCCP 15989 plasmid unnamed, complete sequence	CP099785.1
+AKA33578.1	gb|CP099787.1|	98.462	130	2	0	1	130	28780	28391	6.209999999999999e-82	261.0	130	72095	100	100	Acinetobacter baumannii strain NCCP 15992 plasmid unnamed, complete sequence	CP099787.1
+AKA33578.1	gb|CP099791.1|	100.0	130	0	0	1	130	44040	44429	4.96e-83	265.0	130	73034	100	100	Acinetobacter baumannii strain NCCP 15996 plasmid unnamed1, complete sequence	CP099791.1
+AKA33578.1	gb|CP100306.1|	98.462	130	2	0	1	130	21106	21495	6.209999999999999e-82	261.0	130	74294	100	100	Acinetobacter baumannii strain KBN10P05679 plasmid unnamed1, complete sequence	CP100306.1
+AKA33578.1	emb|HG977523.1|	100.0	130	0	0	1	130	5080	5469	4.96e-83	265.0	130	63720	100	100	Acinetobacter baumannii plasmid pCS01A, complete sequence	HG977523.1
+AKA33578.1	emb|HG977527.1|	100.0	130	0	0	1	130	5080	5469	4.96e-83	265.0	130	63795	100	100	Acinetobacter baumannii plasmid pCR17A, complete sequence	HG977527.1
+AKA33578.1	gb|JAHPZP010000021.1|	100.0	130	0	0	1	130	5666	5277	4.96e-83	265.0	130	70873	100	100	Acinetobacter baumannii plasmid pAci46a, whole genome shotgun sequence	JAHPZP010000021.1
+AKA33578.1	gb|KF669606.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	70100	100	100	Acinetobacter baumannii strain G7 plasmid pAb-G7-2 transposon TnaphA6, complete sequence	KF669606.1
+AKA33578.1	gb|KF889012.1|	100.0	130	0	0	1	130	63364	63753	4.96e-83	265.0	130	65890	100	100	Acinetobacter baumannii TYTH-1 plasmid pAB_CC, complete sequence	KF889012.1
+AKA33578.1	gb|KM051846.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70102	100	100	Acinetobacter baumannii strain D72 plasmid pD72-2, complete sequence	KM051846.1
+AKA33578.1	gb|KM922672.1|	46.774	124	65	1	6	128	18471	18100	2.7199999999999998e-34	125.0	130	77530	95	95	Acinetobacter baumannii strain A221 plasmid pAZJ221, complete sequence	KM922672.1
+AKA33578.1	gb|KR535992.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70098	100	100	Acinetobacter baumannii strain A105 plasmid pA105-1, complete sequence	KR535992.1
+AKA33578.1	gb|KU549175.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	103871	100	100	Acinetobacter baumannii strain C13 plasmid pC13-2, complete sequence	KU549175.1
+AKA33578.1	gb|KX230794.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	67025	100	100	Acinetobacter baumannii strain MAL plasmid pMAL-2, complete sequence	KX230794.1
+AKA33578.1	gb|KY022424.1|	100.0	130	0	0	1	130	33173	33562	4.96e-83	265.0	130	82667	100	100	Acinetobacter baumannii strain Ab8098 plasmid pAb8098, complete sequence	KY022424.1
+AKA33578.1	emb|LT984690.1|	100.0	130	0	0	1	130	4890	5279	4.96e-83	265.0	130	79598	100	100	Acinetobacter baumannii isolate K50 genome assembly, plasmid: I	LT984690.1
+AKA33578.1	gb|MG954377.1|	99.231	130	1	0	1	130	4889	5278	1.43e-82	263.0	130	123432	100	100	Acinetobacter baumannii strain SGH9601 plasmid pS21-2, complete sequence	MG954377.1
+AKA33578.1	gb|MG954379.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	70833	100	100	Acinetobacter baumannii strain SGH0905 plasmid pS32-2, complete sequence	MG954379.1
+AKA33578.1	gb|MK243454.1|	100.0	130	0	0	1	130	4889	5278	4.96e-83	265.0	130	66886	100	100	Acinetobacter baumannii strain 09A16CRGN0014 plasmid pCRA914-67, complete sequence	MK243454.1
+AKA33578.1	gb|MK386681.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	74241	100	100	Acinetobacter baumannii strain ABAY09008 plasmid pABAY09008_1B, complete sequence	MK386681.1
+AKA33578.1	gb|MK386682.1|	46.774	124	65	1	6	128	46271	46642	2.7199999999999998e-34	125.0	130	54627	95	95	Acinetobacter baumannii strain ABAY10001 plasmid pABAY10001_1C, complete sequence	MK386682.1
+AKA33578.1	gb|MK531538.1|	98.462	130	2	0	1	130	4889	5278	6.209999999999999e-82	261.0	130	67441	100	100	Acinetobacter baumannii strain MC23 plasmid pMC23.1, complete sequence	MK531538.1
+AKA33651.1	gb|AEOY01000095.1|	100.0	111	0	0	1	111	37960	37628	1.0499999999999998e-68	223.0	111	63320	100	100	Acinetobacter baumannii 3990 plasmid p1ABST2, whole genome shotgun sequence	AEOY01000095.1
+AKA33651.1	gb|AFDB02000004.1|	99.099	111	1	0	1	111	19515	19183	3.25e-68	221.0	111	67012	100	100	Acinetobacter baumannii Naval-81 plasmid pNaval81-67, complete sequence, whole genome shotgun sequence	AFDB02000004.1
+AKA33651.1	gb|AFDL01000006.1|	99.099	111	1	0	1	111	53924	54256	3.25e-68	221.0	111	69518	100	100	Acinetobacter baumannii OIFC143 plasmid pOIFC143-70, whole genome shotgun sequence	AFDL01000006.1
+AKA33651.1	gb|ALII01000020.1|	99.099	111	1	0	1	111	37395	37727	3.25e-68	221.0	111	67025	100	100	Acinetobacter baumannii IS-123 plasmid pIS123-67, complete sequence, whole genome shotgun sequence	ALII01000020.1
+AKA33651.1	dbj|AP023078.1|	100.0	111	0	0	1	111	34215	33883	1.0499999999999998e-68	223.0	111	73028	100	100	Acinetobacter baumannii OCU_Ac16a plasmid pOCU_Ac16a_1 DNA, complete sequence	AP023078.1
+AKA33651.1	gb|AYOH01000010.2|	100.0	111	0	0	1	111	39190	38858	1.0499999999999998e-68	223.0	111	74089	100	100	Acinetobacter baumannii UH9907 plasmid pABUH1-74, whole genome shotgun sequence	AYOH01000010.2
+AKA33651.1	gb|CM009084.2|	99.099	111	1	0	1	111	14975	14643	3.25e-68	221.0	111	62339	100	100	Acinetobacter baumannii strain ZQ9 plasmid p2ZQ9, complete sequence, whole genome shotgun sequence	CM009084.2
+AKA33651.1	gb|CM009650.1|	99.099	111	1	0	1	111	52363	52695	3.25e-68	221.0	111	68115	100	100	Acinetobacter baumannii strain ZQ3 plasmid p4ZQ3, complete sequence, whole genome shotgun sequence	CM009650.1
+AKA33651.1	gb|CP000865.1|	100.0	111	0	0	1	111	39005	38673	1.0499999999999998e-68	223.0	111	64366	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP000865.1
+AKA33651.1	gb|CP001922.1|	100.0	111	0	0	1	111	22032	21700	1.0499999999999998e-68	223.0	111	74451	100	100	Acinetobacter baumannii 1656-2 plasmid ABKp1, complete sequence	CP001922.1
+AKA33651.1	gb|CP002524.1|	100.0	111	0	0	1	111	4761	4429	1.0499999999999998e-68	223.0	111	70894	100	100	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete sequence	CP002524.1
+AKA33651.1	gb|CP003501.1|	46.591	88	47	0	24	111	39898	40161	2.66e-19	81.6	111	77528	79	79	Acinetobacter baumannii MDR-TJ plasmid pABTJ1, complete sequence	CP003501.1
+AKA33651.1	gb|CP003887.1|	46.591	88	47	0	24	111	47870	48133	2.66e-19	81.6	111	70170	79	79	Acinetobacter baumannii BJAB07104 plasmid p1BJAB07104, complete sequence	CP003887.1
+AKA33651.1	gb|CP003888.1|	46.591	88	47	0	24	111	47870	48133	2.66e-19	81.6	111	70167	79	79	Acinetobacter baumannii BJAB0868 plasmid p2BJAB0868, complete sequence	CP003888.1
+AKA33651.1	gb|CP007580.1|	100.0	111	0	0	1	111	19132	18800	1.0499999999999998e-68	223.0	111	71433	100	100	Acinetobacter baumannii AC30 plasmid pAC30c, complete sequence	CP007580.1
+AKA33651.1	gb|CP008707.1|	100.0	111	0	0	1	111	58056	57724	1.0499999999999998e-68	223.0	111	83610	100	100	Acinetobacter baumannii strain AB5075-UW plasmid p1AB5075, complete sequence	CP008707.1
+AKA33651.1	gb|CP008851.1|	100.0	111	0	0	1	111	52416	52748	1.0499999999999998e-68	223.0	111	74749	100	100	Acinetobacter baumannii strain AC29 plasmid pAC29b, complete sequence	CP008851.1
+AKA33651.1	gb|CP012008.1|	100.0	111	0	0	1	111	34750	35082	1.0499999999999998e-68	223.0	111	87569	100	100	Acinetobacter baumannii Ab04-mff plasmid pAB04-2, complete sequence	CP012008.1
+AKA33651.1	gb|CP014216.1|	100.0	111	0	0	1	111	28468	28136	1.0499999999999998e-68	223.0	111	74241	100	100	Acinetobacter baumannii strain YU-R612 plasmid unnamed1, complete sequence	CP014216.1
+AKA33651.1	gb|CP014292.1|	100.0	111	0	0	1	111	34005	34337	1.0499999999999998e-68	223.0	111	84967	100	100	Acinetobacter baumannii strain AB34299 plasmid unnamed1, complete sequence	CP014292.1
+AKA33651.1	gb|CP015366.1|	100.0	111	0	0	1	111	76118	76450	1.0499999999999998e-68	223.0	111	80546	100	100	Acinetobacter baumannii strain 3207 plasmid pAba3207b, complete sequence	CP015366.1
+AKA33651.1	gb|CP016297.1|	100.0	111	0	0	1	111	15163	14831	1.0499999999999998e-68	223.0	111	74090	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab4 plasmid pCMCVTAb2-Ab4, complete sequence	CP016297.1
+AKA33651.1	gb|CP016302.1|	100.0	111	0	0	1	111	12598	12930	1.0499999999999998e-68	223.0	111	73188	100	100	Acinetobacter baumannii strain CMC-CR-MDR-Ab66 plasmid pCMCVTAb2-Ab66, complete sequence	CP016302.1
+AKA33651.1	gb|CP017645.1|	100.0	111	0	0	1	111	25980	26312	1.0499999999999998e-68	223.0	111	81227	100	100	Acinetobacter baumannii strain KAB02 plasmid, partial sequence	CP017645.1
+AKA33651.1	gb|CP017647.1|	100.0	111	0	0	1	111	52767	53099	1.0499999999999998e-68	223.0	111	73891	100	100	Acinetobacter baumannii strain KAB03 plasmid, complete sequence	CP017647.1
+AKA33651.1	gb|CP017649.1|	100.0	111	0	0	1	111	10397	10065	1.0499999999999998e-68	223.0	111	121485	100	100	Acinetobacter baumannii strain KAB04 plasmid, complete sequence	CP017649.1
+AKA33651.1	gb|CP017651.1|	100.0	111	0	0	1	111	19569	19237	1.0499999999999998e-68	223.0	111	70884	100	100	Acinetobacter baumannii strain KAB05 plasmid, complete sequence	CP017651.1
+AKA33651.1	gb|CP017653.1|	100.0	111	0	0	1	111	39954	39622	1.0499999999999998e-68	223.0	111	70884	100	100	Acinetobacter baumannii strain KAB06 plasmid, complete sequence	CP017653.1
+AKA33651.1	gb|CP017655.1|	100.0	111	0	0	1	111	774	442	1.0499999999999998e-68	223.0	111	72073	100	100	Acinetobacter baumannii strain KAB07 plasmid pKAB07, complete genome	CP017655.1
+AKA33651.1	gb|CP017657.1|	100.0	111	0	0	1	111	8264	7932	1.0499999999999998e-68	223.0	111	101406	100	100	Acinetobacter baumannii strain KAB08 plasmid, complete sequence	CP017657.1
+AKA33651.1	gb|CP018144.1|	46.591	88	47	0	24	111	1736	1473	2.66e-19	81.6	111	77513	79	79	Acinetobacter baumannii strain HRAB-85 plasmid, complete sequence	CP018144.1
+AKA33651.1	gb|CP018422.1|	45.714	70	36	1	23	92	6729	6932	8.48e-13	63.2	111	69069	63	63	Acinetobacter baumannii strain XDR-BJ83 plasmid pBJ83, complete genome	CP018422.1
+AKA33651.1	gb|CP019115.1|	100.0	111	0	0	1	111	18351	18019	1.0499999999999998e-68	223.0	111	75390	100	100	Acinetobacter baumannii strain MDR-CQ plasmid pMDR-CQ, complete sequence	CP019115.1
+AKA33651.1	gb|CP020573.1|	100.0	111	0	0	1	111	11475	11807	1.0499999999999998e-68	223.0	111	74241	100	100	Acinetobacter baumannii strain 15A5 plasmid p15A5_1, complete sequence	CP020573.1
+AKA33651.1	gb|CP020577.1|	100.0	111	0	0	1	111	11857	12189	1.0499999999999998e-68	223.0	111	73264	100	100	Acinetobacter baumannii strain SSA12 plasmid pSSA12_1, complete sequence	CP020577.1
+AKA33651.1	gb|CP020580.1|	100.0	111	0	0	1	111	12458	12790	1.0499999999999998e-68	223.0	111	90973	100	100	Acinetobacter baumannii strain SSMA17 plasmid pSSMA17_1, complete sequence	CP020580.1
+AKA33651.1	gb|CP020582.1|	100.0	111	0	0	1	111	64280	64612	1.0499999999999998e-68	223.0	111	90972	100	100	Acinetobacter baumannii strain JBA13 plasmid pJBA13_1, complete sequence	CP020582.1
+AKA33651.1	gb|CP020589.1|	100.0	111	0	0	1	111	66316	65984	1.0499999999999998e-68	223.0	111	72076	100	100	Acinetobacter baumannii strain 15A34 plasmid p15A34_1, complete sequence	CP020589.1
+AKA33651.1	gb|CP020593.1|	100.0	111	0	0	1	111	40413	40081	1.0499999999999998e-68	223.0	111	74241	100	100	Acinetobacter baumannii strain USA2 plasmid pUSA2_1, complete sequence	CP020593.1
+AKA33651.1	gb|CP020594.1|	100.0	111	0	0	1	111	2748	2416	1.0499999999999998e-68	223.0	111	98301	100	100	Acinetobacter baumannii strain USA15 plasmid pUSA15_1, complete sequence	CP020594.1
+AKA33651.1	gb|CP021322.1|	100.0	111	0	0	1	111	9027	8695	1.0499999999999998e-68	223.0	111	64557	100	100	Acinetobacter baumannii strain XH731 plasmid pXH731, complete sequence	CP021322.1
+AKA33651.1	gb|CP021787.1|	100.0	111	0	0	1	111	60787	60455	1.0499999999999998e-68	223.0	111	86334	100	100	Acinetobacter baumannii strain A85 plasmid pA85-3, complete sequence	CP021787.1
+AKA33651.1	gb|CP023028.1|	100.0	111	0	0	1	111	63434	63102	1.0499999999999998e-68	223.0	111	110728	100	100	Acinetobacter baumannii strain 10042 plasmid pAba10042b, complete sequence	CP023028.1
+AKA33651.1	gb|CP023030.1|	100.0	111	0	0	1	111	64985	64653	1.0499999999999998e-68	223.0	111	95206	100	100	Acinetobacter baumannii strain 9102 plasmid pAba9102a, complete sequence	CP023030.1
+AKA33651.1	gb|CP023033.1|	100.0	111	0	0	1	111	76118	76450	1.0499999999999998e-68	223.0	111	80546	100	100	Acinetobacter baumannii strain 7847 plasmid pAba7847b, complete sequence	CP023033.1
+AKA33651.1	gb|CP024578.1|	100.0	111	0	0	1	111	53773	53441	1.0499999999999998e-68	223.0	111	79335	100	100	Acinetobacter baumannii strain AbPK1 plasmid pAbPK1b, complete sequence	CP024578.1
+AKA33651.1	gb|CP025267.1|	100.0	111	0	0	1	111	62411	62079	1.0499999999999998e-68	223.0	111	74241	100	100	Acinetobacter baumannii isolate SMC_Paed_Ab_BL01 plasmid pSMC_AB_BL01_1, complete sequence	CP025267.1
+AKA33651.1	gb|CP026706.1|	100.0	111	0	0	1	111	13286	13618	1.0499999999999998e-68	223.0	111	72105	100	100	Acinetobacter baumannii strain AR_0056 plasmid tig00000059_pilon, complete sequence	CP026706.1
+AKA33651.1	gb|CP026712.1|	100.0	111	0	0	1	111	56245	56577	1.0499999999999998e-68	223.0	111	72990	100	100	Acinetobacter baumannii strain AR_0063 plasmid unitig_2_pilon, complete sequence	CP026712.1
+AKA33651.1	gb|CP026946.1|	100.0	111	0	0	1	111	68390	68058	1.0499999999999998e-68	223.0	111	72204	100	100	Acinetobacter baumannii strain S1 plasmid pAbS1_03	CP026946.1
+AKA33651.1	gb|CP027243.1|	100.0	111	0	0	1	111	43547	43215	1.0499999999999998e-68	223.0	111	70796	100	100	Acinetobacter baumannii strain WCHAB005078 plasmid p1_005078, complete sequence	CP027243.1
+AKA33651.1	gb|CP029571.1|	99.099	111	1	0	1	111	46113	45781	3.25e-68	221.0	111	71234	100	100	Acinetobacter baumannii strain DA33098 plasmid pDA33098-71, complete sequence	CP029571.1
+AKA33651.1	gb|CP030109.1|	100.0	111	0	0	1	111	18406	18074	1.0499999999999998e-68	223.0	111	84678	100	100	Acinetobacter baumannii strain DA33382 plasmid pDA33382-85, complete sequence	CP030109.1
+AKA33651.1	gb|CP031382.1|	100.0	111	0	0	1	111	44547	44215	1.0499999999999998e-68	223.0	111	70101	100	100	Acinetobacter baumannii ACICU plasmid pACICU2, complete sequence	CP031382.1
+AKA33651.1	gb|CP032742.1|	57.391	115	41	3	1	111	22903	23235	6.06e-26	100.0	111	28674	100	100	Acinetobacter baumannii strain C25 plasmid unnamed2	CP032742.1
+AKA33651.1	gb|CP033245.1|	100.0	111	0	0	1	111	76119	76451	1.0499999999999998e-68	223.0	111	80548	100	100	Acinetobacter baumannii strain 7835 plasmid pAba7835b, complete sequence	CP033245.1
+AKA33651.1	gb|CP035047.1|	100.0	111	0	0	1	111	48536	48204	1.0499999999999998e-68	223.0	111	74091	100	100	Acinetobacter baumannii strain ABUH793 plasmid p74.1Kbp, complete sequence	CP035047.1
+AKA33651.1	gb|CP036286.1|	100.0	111	0	0	1	111	43984	43652	1.0499999999999998e-68	223.0	111	71234	100	100	Acinetobacter baumannii strain TG60155 plasmid p60155_3, complete sequence	CP036286.1
+AKA33651.1	gb|CP038264.1|	100.0	111	0	0	1	111	32241	31909	1.0499999999999998e-68	223.0	111	76956	100	100	Acinetobacter baumannii strain EC plasmid pEC_gr6, complete sequence	CP038264.1
+AKA33651.1	gb|CP039994.1|	100.0	111	0	0	1	111	43983	43651	1.0499999999999998e-68	223.0	111	71233	100	100	Acinetobacter baumannii strain TG22182 plasmid pTG22182_1, complete sequence	CP039994.1
+AKA33651.1	gb|CP040043.1|	100.0	111	0	0	1	111	56027	55695	1.0499999999999998e-68	223.0	111	82500	100	100	Acinetobacter baumannii strain VB958 plasmid unnamed3, complete sequence	CP040043.1
+AKA33651.1	gb|CP042842.1|	99.099	111	1	0	1	111	66793	66461	8.09e-68	220.0	111	67023	100	100	Acinetobacter baumannii strain ATCC BAA-1790 plasmid unnamed, complete sequence	CP042842.1
+AKA33651.1	gb|CP048134.1|	100.0	111	0	0	1	111	49362	49030	1.0499999999999998e-68	223.0	111	74916	100	100	Acinetobacter baumannii strain D46 plasmid pD46-3, complete sequence	CP048134.1
+AKA33651.1	gb|CP050392.1|	99.099	111	1	0	1	111	44546	44214	3.25e-68	221.0	111	70712	100	100	Acinetobacter baumannii strain VB11737 plasmid pVB11737_1, complete sequence	CP050392.1
+AKA33651.1	gb|CP050404.1|	100.0	111	0	0	1	111	73536	73204	1.0499999999999998e-68	223.0	111	99090	100	100	Acinetobacter baumannii strain VB2486 plasmid pVB2486_1, complete sequence	CP050404.1
+AKA33651.1	gb|CP050413.1|	99.099	111	1	0	1	111	44544	44212	3.25e-68	221.0	111	70098	100	100	Acinetobacter baumannii strain PM192696 plasmid pPM192696_1, complete sequence	CP050413.1
+AKA33651.1	gb|CP050909.1|	100.0	111	0	0	1	111	45640	45308	1.0499999999999998e-68	223.0	111	71194	100	100	Acinetobacter baumannii strain DT-Ab022 plasmid unnamed2, complete sequence	CP050909.1
+AKA33651.1	gb|CP050912.1|	100.0	111	0	0	1	111	45640	45308	1.0499999999999998e-68	223.0	111	71194	100	100	Acinetobacter baumannii strain DT-Ab020 plasmid unnamed1, complete sequence	CP050912.1
+AKA33651.1	gb|CP050915.1|	100.0	111	0	0	1	111	66473	66141	1.0499999999999998e-68	223.0	111	92021	100	100	Acinetobacter baumannii strain DT-Ab007 plasmid unnamed1, complete sequence	CP050915.1
+AKA33651.1	gb|CP050917.1|	100.0	111	0	0	1	111	45640	45308	1.0499999999999998e-68	223.0	111	71194	100	100	Acinetobacter baumannii strain DT-Ab003 plasmid unnamed1, complete sequence	CP050917.1
+AKA33651.1	gb|CP061516.1|	99.099	111	1	0	1	111	73216	72884	3.25e-68	221.0	111	83626	100	100	Acinetobacter baumannii strain CFSAN093710 plasmid pCFSAN093710_2, complete sequence	CP061516.1
+AKA33651.1	gb|CP062921.1|	100.0	111	0	0	1	111	37124	36792	1.0499999999999998e-68	223.0	111	72831	100	100	Acinetobacter baumannii strain Res13-Abat-PEA21-P4-01-A plasmid unnamed1836, complete sequence	CP062921.1
+AKA33651.1	gb|CP066230.1|	100.0	111	0	0	1	111	38606	38274	1.0499999999999998e-68	223.0	111	73339	100	100	Acinetobacter baumannii strain G20AB011 plasmid pG20AB011-1, complete sequence	CP066230.1
+AKA33651.1	gb|CP066233.1|	100.0	111	0	0	1	111	22909	22577	1.0499999999999998e-68	223.0	111	73360	100	100	Acinetobacter baumannii strain G20AB010 plasmid pG20AB010-1, complete sequence	CP066233.1
+AKA33651.1	gb|CP066236.1|	100.0	111	0	0	1	111	7220	7552	1.0499999999999998e-68	223.0	111	73361	100	100	Acinetobacter baumannii strain G20AB009 plasmid pG20AB009-1, complete sequence	CP066236.1
+AKA33651.1	gb|CP066238.1|	100.0	111	0	0	1	111	66899	66567	1.0499999999999998e-68	223.0	111	73361	100	100	Acinetobacter baumannii strain G20AB007 plasmid pG20AB007-1, complete sequence	CP066238.1
+AKA33651.1	gb|CP069841.1|	100.0	111	0	0	1	111	51307	51639	1.0499999999999998e-68	223.0	111	76933	100	100	Acinetobacter baumannii strain FDAARGOS_1360 plasmid unnamed1, complete sequence	CP069841.1
+AKA33651.1	gb|CP072124.1|	99.099	111	1	0	1	111	61363	61031	3.2599999999999996e-68	221.0	111	87529	100	100	Acinetobacter baumannii strain KSK1 plasmid p2KSK1, complete sequence	CP072124.1
+AKA33651.1	gb|CP072272.1|	99.099	111	1	0	1	111	15563	15231	3.25e-68	221.0	111	68224	100	100	Acinetobacter baumannii strain KSK6 plasmid p2KSK6, complete sequence	CP072272.1
+AKA33651.1	gb|CP072277.1|	99.099	111	1	0	1	111	15563	15231	3.25e-68	221.0	111	68225	100	100	Acinetobacter baumannii strain KSK7 plasmid p2KSK7, complete sequence	CP072277.1
+AKA33651.1	gb|CP072282.1|	99.099	111	1	0	1	111	61363	61031	3.2599999999999996e-68	221.0	111	87529	100	100	Acinetobacter baumannii strain KSK10 plasmid p2KSK10, complete sequence	CP072282.1
+AKA33651.1	gb|CP072287.1|	99.099	111	1	0	1	111	61363	61031	3.2599999999999996e-68	221.0	111	87529	100	100	Acinetobacter baumannii strain KSK11 plasmid p2KSK11, complete sequence	CP072287.1
+AKA33651.1	gb|CP072292.1|	99.099	111	1	0	1	111	15563	15231	3.25e-68	221.0	111	68225	100	100	Acinetobacter baumannii strain KSK18 plasmid p2KSK18, complete sequence	CP072292.1
+AKA33651.1	gb|CP072297.1|	99.099	111	1	0	1	111	61363	61031	3.2599999999999996e-68	221.0	111	87529	100	100	Acinetobacter baumannii strain KSK19 plasmid p2KSK19, complete sequence	CP072297.1
+AKA33651.1	gb|CP072302.1|	99.099	111	1	0	1	111	52884	53216	3.25e-68	221.0	111	68309	100	100	Acinetobacter baumannii strain KSK20 plasmid p2KSK20, complete sequence	CP072302.1
+AKA33651.1	gb|CP072400.1|	99.099	111	1	0	1	111	61363	61031	3.2599999999999996e-68	221.0	111	87529	100	100	Acinetobacter baumannii strain KSK2 plasmid p2KSK2, complete sequence	CP072400.1
+AKA33651.1	gb|CP076802.1|	99.099	111	1	0	1	111	61730	61398	4.35e-68	221.0	111	88371	100	100	Acinetobacter baumannii strain UC25604 plasmid p1UC25604, complete sequence	CP076802.1
+AKA33651.1	gb|CP076805.1|	99.099	111	1	0	1	111	65084	64752	4.35e-68	221.0	111	105056	100	100	Acinetobacter baumannii strain UC24371 plasmid p1UC24371, complete sequence	CP076805.1
+AKA33651.1	gb|CP076818.1|	99.099	111	1	0	1	111	72758	72426	4.35e-68	221.0	111	99399	100	100	Acinetobacter baumannii strain UC24137 plasmid p1UC24137, complete sequence	CP076818.1
+AKA33651.1	gb|CP077833.1|	100.0	111	0	0	1	111	57013	56681	1.0499999999999998e-68	223.0	111	84262	100	100	Acinetobacter baumannii strain DETAB-P43 plasmid pDETAB7d, complete sequence	CP077833.1
+AKA33651.1	gb|CP077836.1|	100.0	111	0	0	1	111	46195	45863	1.0499999999999998e-68	223.0	111	73444	100	100	Acinetobacter baumannii strain DETAB-P65 plasmid pDETAB7b, complete sequence	CP077836.1
+AKA33651.1	gb|CP077838.1|	100.0	111	0	0	1	111	45009	44677	1.0499999999999998e-68	223.0	111	72258	100	100	Acinetobacter baumannii strain DETAB-E159 plasmid pDETAB7a, complete sequence	CP077838.1
+AKA33651.1	gb|CP077841.1|	100.0	111	0	0	1	111	43540	43208	1.0499999999999998e-68	223.0	111	70789	100	100	Acinetobacter baumannii strain DETAB-P90 plasmid pDETAB16, complete sequence	CP077841.1
+AKA33651.1	gb|CP077847.1|	100.0	111	0	0	1	111	44978	44646	1.0499999999999998e-68	223.0	111	70426	100	100	Acinetobacter baumannii strain DETAB-P24 plasmid pDETAB8, complete sequence	CP077847.1
+AKA33651.1	gb|CP082219.1|	100.0	111	0	0	1	111	30843	30511	1.0499999999999998e-68	223.0	111	78023	100	100	Acinetobacter baumannii strain 2018BJAB2 plasmid p2018BJAB2, complete sequence	CP082219.1
+AKA33651.1	gb|CP082220.1|	100.0	111	0	0	1	111	31715	31383	1.0499999999999998e-68	223.0	111	78024	100	100	Acinetobacter baumannii strain 2018BJAB1 plasmid p2018BJAB1, complete sequence	CP082220.1
+AKA33651.1	gb|CP082221.1|	100.0	111	0	0	1	111	31714	31382	1.0499999999999998e-68	223.0	111	78022	100	100	Acinetobacter baumannii strain 2018TJAB1 plasmid p2018TJAB1, complete sequence	CP082221.1
+AKA33651.1	gb|CP082222.1|	46.591	88	47	0	24	111	37650	37387	2.66e-19	81.6	111	77531	79	79	Acinetobacter baumannii strain 2014TJAB1 plasmid p2014TJAB1, complete sequence	CP082222.1
+AKA33651.1	gb|CP082225.1|	46.591	88	47	0	24	111	37665	37402	2.66e-19	81.6	111	77530	79	79	Acinetobacter baumannii strain 2014BJAB1 plasmid p2014BJAB1, complete sequence	CP082225.1
+AKA33651.1	gb|CP082226.1|	100.0	111	0	0	1	111	31688	31356	1.0499999999999998e-68	223.0	111	77943	100	100	Acinetobacter baumannii strain 2016BJAB1 plasmid p2016BJAB1, complete sequence	CP082226.1
+AKA33651.1	gb|CP082228.1|	100.0	111	0	0	1	111	31776	31444	1.0499999999999998e-68	223.0	111	78030	100	100	Acinetobacter baumannii strain 2018HLJAB2 plasmid p2018HLJAB2, complete sequence	CP082228.1
+AKA33651.1	gb|CP082889.1|	46.591	88	47	0	24	111	37656	37393	2.66e-19	81.6	111	77537	79	79	Acinetobacter baumannii strain 2014LNAB1 plasmid p2014LNAB1-2, complete sequence	CP082889.1
+AKA33651.1	gb|CP082892.1|	46.591	88	47	0	24	111	37654	37391	2.66e-19	81.6	111	77530	79	79	Acinetobacter baumannii strain 2016LNAB1 plasmid p2016LNAB1-2, complete sequence	CP082892.1
+AKA33651.1	gb|CP082895.1|	100.0	111	0	0	1	111	31703	31371	1.0499999999999998e-68	223.0	111	78023	100	100	Acinetobacter baumannii strain 2018HBAB1 plasmid p2018HBAB1-2, complete sequence	CP082895.1
+AKA33651.1	gb|CP084723.1|	100.0	111	0	0	1	111	43976	43644	1.0499999999999998e-68	223.0	111	69524	100	100	Acinetobacter baumannii strain HKU7 plasmid pHKU7b, complete sequence	CP084723.1
+AKA33651.1	gb|CP084726.1|	100.0	111	0	0	1	111	43976	43644	1.0499999999999998e-68	223.0	111	69524	100	100	Acinetobacter baumannii strain HKU6 plasmid pHKU6b, complete sequence	CP084726.1
+AKA33651.1	gb|CP084729.1|	100.0	111	0	0	1	111	43976	43644	1.0499999999999998e-68	223.0	111	69524	100	100	Acinetobacter baumannii strain HKU5 plasmid pHKU5b, complete sequence	CP084729.1
+AKA33651.1	gb|CP084732.1|	100.0	111	0	0	1	111	43976	43644	1.0499999999999998e-68	223.0	111	69524	100	100	Acinetobacter baumannii strain HKU4 plasmid pHKU4b, complete sequence	CP084732.1
+AKA33651.1	gb|CP084735.1|	100.0	111	0	0	1	111	43976	43644	1.0499999999999998e-68	223.0	111	69524	100	100	Acinetobacter baumannii strain HKU3 plasmid pHKU3b, complete sequence	CP084735.1
+AKA33651.1	gb|CP091595.1|	99.099	111	1	0	1	111	47000	47332	3.25e-68	221.0	111	73145	100	100	Acinetobacter baumannii strain Nord4-2 plasmid pR32_2, complete sequence	CP091595.1
+AKA33651.1	gb|CP094285.1|	100.0	111	0	0	1	111	31472	31140	1.0499999999999998e-68	223.0	111	71194	100	100	Acinetobacter baumannii strain NY5301 plasmid pNY5301-2, complete sequence	CP094285.1
+AKA33651.1	gb|CP096689.1|	100.0	111	0	0	1	111	31714	31382	1.0499999999999998e-68	223.0	111	73209	100	100	Acinetobacter baumannii strain 5840 plasmid p5840, complete sequence	CP096689.1
+AKA33651.1	gb|CP096691.1|	100.0	111	0	0	1	111	29861	29529	1.0499999999999998e-68	223.0	111	71277	100	100	Acinetobacter baumannii strain 5839 plasmid p5839, complete sequence	CP096691.1
+AKA33651.1	gb|CP096695.1|	46.591	88	47	0	24	111	37649	37386	2.66e-19	81.6	111	78842	79	79	Acinetobacter baumannii strain 5773 plasmid p5773_2, complete sequence	CP096695.1
+AKA33651.1	gb|CP096703.1|	46.591	88	47	0	24	111	30406	30143	2.66e-19	81.6	111	70287	79	79	Acinetobacter baumannii strain 5767 plasmid p5767, complete sequence	CP096703.1
+AKA33651.1	gb|CP096706.1|	100.0	111	0	0	1	111	42388	42720	1.0499999999999998e-68	223.0	111	71277	100	100	Acinetobacter baumannii strain 5761 plasmid p5761, complete sequence	CP096706.1
+AKA33651.1	gb|CP096708.1|	46.591	88	47	0	24	111	37650	37387	2.66e-19	81.6	111	77531	79	79	Acinetobacter baumannii strain 5760 plasmid p5760_1, complete sequence	CP096708.1
+AKA33651.1	gb|CP096712.1|	46.591	88	47	0	24	111	37662	37399	2.66e-19	81.6	111	77531	79	79	Acinetobacter baumannii strain 5759 plasmid p5759_2, complete sequence	CP096712.1
+AKA33651.1	gb|CP096716.1|	46.591	88	47	0	24	111	37649	37386	2.66e-19	81.6	111	77530	79	79	Acinetobacter baumannii strain 5745 plasmid p5745_2, complete sequence	CP096716.1
+AKA33651.1	gb|CP096719.1|	100.0	111	0	0	1	111	29814	29482	1.0499999999999998e-68	223.0	111	70793	100	100	Acinetobacter baumannii strain 5741 plasmid p5741_2, complete sequence	CP096719.1
+AKA33651.1	gb|CP096725.1|	46.591	88	47	0	24	111	37651	37388	2.66e-19	81.6	111	77534	79	79	Acinetobacter baumannii strain 5734 plasmid p5734_1, complete sequence	CP096725.1
+AKA33651.1	gb|CP096730.1|	46.591	88	47	0	24	111	36798	36535	2.66e-19	81.6	111	77542	79	79	Acinetobacter baumannii strain 5729 plasmid p5729, complete sequence	CP096730.1
+AKA33651.1	gb|CP096733.1|	46.591	88	47	0	24	111	31591	31328	2.66e-19	81.6	111	71479	79	79	Acinetobacter baumannii strain 5689 plasmid p5689_2, complete sequence	CP096733.1
+AKA33651.1	gb|CP096736.1|	46.591	88	47	0	24	111	37635	37372	2.66e-19	81.6	111	77540	79	79	Acinetobacter baumannii strain 5683 plasmid p5683_1, complete sequence	CP096736.1
+AKA33651.1	gb|CP096739.1|	100.0	111	0	0	1	111	31681	31349	1.0499999999999998e-68	223.0	111	73209	100	100	Acinetobacter baumannii strain 5679 plasmid p5679, complete sequence	CP096739.1
+AKA33651.1	gb|CP096744.1|	100.0	111	0	0	1	111	29811	29479	1.0499999999999998e-68	223.0	111	71278	100	100	Acinetobacter baumannii strain 5671 plasmid p5671_2, complete sequence	CP096744.1
+AKA33651.1	gb|CP096751.1|	46.591	88	47	0	24	111	37636	37373	2.66e-19	81.6	111	77530	79	79	Acinetobacter baumannii strain 5666 plasmid p5666_2, complete sequence	CP096751.1
+AKA33651.1	gb|CP096754.1|	100.0	111	0	0	1	111	31072	30740	1.0499999999999998e-68	223.0	111	71044	100	100	Acinetobacter baumannii strain 5664 plasmid p5664, complete sequence	CP096754.1
+AKA33651.1	gb|CP096756.1|	100.0	111	0	0	1	111	31046	30714	1.0499999999999998e-68	223.0	111	71044	100	100	Acinetobacter baumannii strain 5663 plasmid p5663, complete sequence	CP096756.1
+AKA33651.1	gb|CP096763.1|	100.0	111	0	0	1	111	45268	44936	1.0499999999999998e-68	223.0	111	72248	100	100	Acinetobacter baumannii strain 5651 plasmid p5651, complete sequence	CP096763.1
+AKA33651.1	gb|CP096769.1|	46.591	88	47	0	24	111	30730	30993	2.66e-19	81.6	111	77533	79	79	Acinetobacter baumannii strain 5388 plasmid p5388_1, complete sequence	CP096769.1
+AKA33651.1	gb|CP099785.1|	100.0	111	0	0	1	111	19423	19091	1.0499999999999998e-68	223.0	111	75310	100	100	Acinetobacter baumannii strain NCCP 15989 plasmid unnamed, complete sequence	CP099785.1
+AKA33651.1	gb|CP099787.1|	100.0	111	0	0	1	111	60930	61262	1.0499999999999998e-68	223.0	111	72095	100	100	Acinetobacter baumannii strain NCCP 15992 plasmid unnamed, complete sequence	CP099787.1
+AKA33651.1	gb|CP099791.1|	82.558	86	15	0	1	86	9675	9418	8.02e-39	137.0	111	73034	100	77	Acinetobacter baumannii strain NCCP 15996 plasmid unnamed1, complete sequence	CP099791.1
+AKA33651.1	gb|CP100306.1|	100.0	111	0	0	1	111	62072	61740	1.0499999999999998e-68	223.0	111	74294	100	100	Acinetobacter baumannii strain KBN10P05679 plasmid unnamed1, complete sequence	CP100306.1
+AKA33651.1	emb|HG977523.1|	100.0	111	0	0	1	111	38373	38041	1.0499999999999998e-68	223.0	111	63720	100	100	Acinetobacter baumannii plasmid pCS01A, complete sequence	HG977523.1
+AKA33651.1	emb|HG977527.1|	100.0	111	0	0	1	111	38436	38104	1.0499999999999998e-68	223.0	111	63795	100	100	Acinetobacter baumannii plasmid pCR17A, complete sequence	HG977527.1
+AKA33651.1	gb|JAHPZP010000021.1|	100.0	111	0	0	1	111	37804	38136	1.0499999999999998e-68	223.0	111	70873	100	100	Acinetobacter baumannii plasmid pAci46a, whole genome shotgun sequence	JAHPZP010000021.1
+AKA33651.1	gb|KF669606.1|	100.0	111	0	0	1	111	44546	44214	1.0499999999999998e-68	223.0	111	70100	100	100	Acinetobacter baumannii strain G7 plasmid pAb-G7-2 transposon TnaphA6, complete sequence	KF669606.1
+AKA33651.1	gb|KF889012.1|	100.0	111	0	0	1	111	31226	30894	1.0499999999999998e-68	223.0	111	65890	100	100	Acinetobacter baumannii TYTH-1 plasmid pAB_CC, complete sequence	KF889012.1
+AKA33651.1	gb|KM051846.1|	100.0	111	0	0	1	111	44548	44216	1.0499999999999998e-68	223.0	111	70102	100	100	Acinetobacter baumannii strain D72 plasmid pD72-2, complete sequence	KM051846.1
+AKA33651.1	gb|KM922672.1|	46.591	88	47	0	24	111	47870	48133	2.66e-19	81.6	111	77530	79	79	Acinetobacter baumannii strain A221 plasmid pAZJ221, complete sequence	KM922672.1
+AKA33651.1	gb|KR535992.1|	99.099	111	1	0	1	111	44544	44212	3.25e-68	221.0	111	70098	100	100	Acinetobacter baumannii strain A105 plasmid pA105-1, complete sequence	KR535992.1
+AKA33651.1	gb|KU549175.1|	100.0	111	0	0	1	111	78317	77985	1.0499999999999998e-68	223.0	111	103871	100	100	Acinetobacter baumannii strain C13 plasmid pC13-2, complete sequence	KU549175.1
+AKA33651.1	gb|KX230794.1|	99.099	111	1	0	1	111	41471	41139	3.25e-68	221.0	111	67025	100	100	Acinetobacter baumannii strain MAL plasmid pMAL-2, complete sequence	KX230794.1
+AKA33651.1	gb|KY022424.1|	100.0	111	0	0	1	111	2729	2397	1.0499999999999998e-68	223.0	111	82667	100	100	Acinetobacter baumannii strain Ab8098 plasmid pAb8098, complete sequence	KY022424.1
+AKA33651.1	emb|LT984690.1|	100.0	111	0	0	1	111	54044	53712	1.0499999999999998e-68	223.0	111	79598	100	100	Acinetobacter baumannii isolate K50 genome assembly, plasmid: I	LT984690.1
+AKA33651.1	gb|MG954377.1|	100.0	111	0	0	1	111	45449	45117	1.0499999999999998e-68	223.0	111	123432	100	100	Acinetobacter baumannii strain SGH9601 plasmid pS21-2, complete sequence	MG954377.1
+AKA33651.1	gb|MG954379.1|	100.0	111	0	0	1	111	45285	44953	1.0499999999999998e-68	223.0	111	70833	100	100	Acinetobacter baumannii strain SGH0905 plasmid pS32-2, complete sequence	MG954379.1
+AKA33651.1	gb|MK243454.1|	100.0	111	0	0	1	111	41323	40991	1.0499999999999998e-68	223.0	111	66886	100	100	Acinetobacter baumannii strain 09A16CRGN0014 plasmid pCRA914-67, complete sequence	MK243454.1
+AKA33651.1	gb|MK386681.1|	100.0	111	0	0	1	111	46991	46659	1.0499999999999998e-68	223.0	111	74241	100	100	Acinetobacter baumannii strain ABAY09008 plasmid pABAY09008_1B, complete sequence	MK386681.1
+AKA33651.1	gb|MK386682.1|	46.591	88	47	0	24	111	16872	16609	2.65e-19	81.6	111	54627	79	79	Acinetobacter baumannii strain ABAY10001 plasmid pABAY10001_1C, complete sequence	MK386682.1
+AKA33651.1	gb|MK531538.1|	100.0	111	0	0	1	111	41889	41557	1.0499999999999998e-68	223.0	111	67441	100	100	Acinetobacter baumannii strain MC23 plasmid pMC23.1, complete sequence	MK531538.1

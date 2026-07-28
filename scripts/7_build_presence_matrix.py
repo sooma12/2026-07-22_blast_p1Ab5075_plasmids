@@ -26,7 +26,7 @@ import re
 # ----------------------------------------------------------------
 # INPUTS -- adjust paths as needed
 # ----------------------------------------------------------------
-BLAST_RESULTS = "results/tblastn_results.tsv"
+BLAST_RESULTS = "output/tblastn_results.tsv"
 ACCESSION_MAPPING = "accession_mapping.csv"   # from the extraction step
 
 # ----------------------------------------------------------------
