@@ -135,3 +135,53 @@ Methods writeup for paper
 Acinetobacter plasmids described in [CITE source] were retrieved from the NCBI Nucleotide Core database by accession number.
 tBLASTn was used to query the protein sequences corresponding to ABUW_4004 (AKA33575.1), ABUW_4005 (AKA33576.1), ABUW_4006 (AKA33577.1), ABUW_4007 (AKA33578.1), and ABUW_4094 (AKA33651.1) against the plasmids, and the top hit by bitscore was retained.
 Percent identity values from tBLASTn for each query gene were assigned to each plasmid and [custom scripts?] were used to generate a heatmap.
+
+
+
+## BLASTn version
+
+Acquired gene sequences for ABUW_4004, etc.:
+
+`conda activate /projects/geisingerlab/conda_env/blast_corr/
+gffread /projects/geisingerlab/REFERENCES/5075_fastas/CP008707.gff3 -g /projects/geisingerlab/REFERENCES/5075_fastas/CP008707.fa -w transcripts.fasta
+`
+
+Then, Biopython:
+
+```python
+from Bio import SeqIO
+
+genes_to_extract = {
+    "ABUW_4004",
+    "ABUW_4005",
+    "ABUW_4006",
+    "ABUW_4007",
+    "ABUW_4094",
+}
+
+input_file = "transcripts.fasta"
+output_file = "input/selected_genes.fasta"
+
+found = set()
+
+with open(output_file, "w") as out:
+    for record in SeqIO.parse(input_file, "fasta"):
+        # Header is available as record.description
+        # Example: "gene-ABUW_4004 CDS=1-1176"
+        if any(f"gene-{gene}" in record.description for gene in genes_to_extract):
+            SeqIO.write(record, out, "fasta")
+            
+            # Identify which requested gene was found
+            for gene in genes_to_extract:
+                if f"gene-{gene}" in record.description:
+                    found.add(gene)
+                    break
+
+missing = genes_to_extract - found
+
+print(f"Found {len(found)} genes: {sorted(found)}")
+
+if missing:
+    print(f"Not found: {sorted(missing)}")
+```
+
