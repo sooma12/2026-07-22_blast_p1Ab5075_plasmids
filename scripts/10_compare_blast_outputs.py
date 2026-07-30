@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Input files
-tblastn_file = "identity_matrix.csv"
-blastn_file = "blastn_identity_matrix.csv"
+tblastn_file = "presence_absence.csv"
+blastn_file = "blastn_presence_absence.csv"
 
 # Read spreadsheets
 tblastn = pd.read_csv(tblastn_file)
@@ -55,8 +55,6 @@ merged = tblastn.merge(
     indicator=True,
 )
 
-print(merged.columns.tolist()) # TODO
-exit()
 # Report rows present in only one file
 only_left = merged[merged["_merge"] == "left_only"]
 only_right = merged[merged["_merge"] == "right_only"]
